@@ -1,0 +1,11 @@
+[mission]
+requires_status=fr_zombie_search
+requires_not_status=fr_zombie_defeated
+mission_text=Defeat the zombies at the Pirate Strait
+
+[mission]
+requires_status=fr_zombie_search
+requires_status=fr_zombie_defeated
+requires_not_status=fr_zombie_reward
+mission_text=Pirate Strait cleared. Return to Sven with your victorious news.
+

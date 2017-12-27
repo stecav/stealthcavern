@@ -1,0 +1,21 @@
+
+[mission]
+requires_status=grave_search
+requires_not_status=grave_found
+mission_text=Search for a gravesite east of the Frontier Outpost.
+
+[mission]
+requires_status=grave_found
+requires_not_status=grave_inspected
+mission_text=Tell Weeping Mother theres no sign her son is still alive.
+
+[mission]
+requires_status=grave_inspected
+requires_not_status=grave_keepsake
+mission_text=The mother requests proof he's dead, so find the paw.
+
+[mission]
+requires_status=grave_keepsake
+requires_not_status=grave_reward
+mission_text=Return to Weeping Mother and show her the clues.
+

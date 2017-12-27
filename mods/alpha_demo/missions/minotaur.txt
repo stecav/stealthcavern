@@ -1,0 +1,19 @@
+[mission]
+requires_status=werebear_complete
+requires_not_status=bethan_missions_complete
+mission_text=Unlocked the 'Werewolf' skill. Go and report your findings to Bethan
+
+[mission]
+requires_status=bethan_missions_complete
+requires_not_status=minotaur_intro
+mission_text=Talk to Ieuan at the Northwood Cottage
+
+[mission]
+requires_status=minotaur_intro
+requires_not_status=progress_arrived_dungeon
+mission_text=Head west through the marshlands and look for the entrance to the ancient dungeon
+
+[mission]
+requires_status=progress_arrived_dungeon
+requires_not_status=minotaur_complete
+mission_text=Explore the dungeon and locate the legendary guardian

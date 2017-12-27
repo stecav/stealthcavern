@@ -1,0 +1,32 @@
+[set]
+id=1
+name=St. Maria Garb
+color=255,64,255
+items=93,94,95
+bonus=2,capacitor,15
+bonus=2,capacitor_regen,10
+bonus=3,hull,50
+bonus=3,hull_regen,50
+bonus=3,return_damage,25
+
+[set]
+id=2
+name=Temple Guard's Outfit
+color=255,64,255
+items=200,201,202
+bonus=2,subzero_resist,25
+bonus=2,poise,15
+bonus=3,soul_gain,5
+bonus=3,absorb_min,10
+bonus=3,absorb_max,10
+
+[set]
+id=3
+name=Wizard's Apparatus
+color=255,64,255
+items=308,309,310
+bonus=2,accuracy,10
+bonus=2,avoidance,10
+bonus=3,capacitor_regen,50
+bonus=3,credit_find,25
+bonus=3,item_find,30

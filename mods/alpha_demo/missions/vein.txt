@@ -1,0 +1,11 @@
+[mission]
+requires_status=fr_shelob_search
+requires_not_status=fr_shelob_defeated
+mission_text=Defeat the shelob at the Sub Cavern Vein.
+
+[mission]
+requires_status=fr_shelob_search
+requires_status=fr_shelob_defeated
+requires_not_status=fr_shelob_reward
+mission_text=Sub Cavern Vein cleared. Speak with Elvin.
+

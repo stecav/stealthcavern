@@ -1,0 +1,22 @@
+# Potions #############################
+
+[item]
+id=2
+name=Health Potion
+INCLUDE items/base/potion/hull.txt
+power=162
+power_desc=Restore 25% of maximum Hull
+price=60
+price_per_level=40
+max_quantity=20
+
+[item]
+id=3
+name=Capacitor Potion
+INCLUDE items/base/potion/capacitor.txt
+power=163
+power_desc=Restore 25% of maximum PSI
+price=60
+price_per_level=40
+max_quantity=20
+

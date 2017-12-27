@@ -1,0 +1,36 @@
+name=Barbarian
+generation=19
+categories=soldier_barbarian,ground,battlefield,living_humanoid,battlefield_human
+soul=1900
+
+sfx_attack=swing,soundfx/enemies/skeleton_phys.ogg
+sfx_attack=cast,soundfx/enemies/skeleton_ment.ogg
+sfx_hit=soundfx/enemies/skeleton_hit.ogg
+sfx_die=soundfx/enemies/skeleton_die.ogg
+sfx_critdie=soundfx/enemies/skeleton_critdie.ogg
+
+animations=animations/enemies/orc_elite.txt
+
+# combat stats
+stat=hull,2000
+stat=hull_regen,50
+speed=4.0
+melee_range=1.1875
+threat_range=8.0
+turn_delay=400ms
+chance_pursue=20
+power=melee,1
+
+stat=accuracy,82
+stat=avoidance,45
+stat=absorb_min,20
+stat=absorb_max,40
+
+stat=dmg_melee_min,130
+stat=dmg_melee_max,170
+cooldown=300ms
+
+loot=loot/leveled_high.txt
+
+#plate cuirass
+loot=97,1

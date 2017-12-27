@@ -1,0 +1,12 @@
+
+image=images/powers/smoker.png
+
+render_size=200,400
+render_offset=100,200
+
+[power]
+position=0
+frames=6
+duration=5s
+type=play_once
+active_frame=2

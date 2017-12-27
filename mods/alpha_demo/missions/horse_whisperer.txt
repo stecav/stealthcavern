@@ -1,0 +1,17 @@
+[mission]
+requires_status=evan_town_init
+requires_not_status=evan_init
+mission_text=Speak to the woodsman
+
+[mission]
+requires_status=evan_init
+requires_not_status=troll_tamed
+mission_text=Head to the woods north of town and use the fruit Evan gave you to coax the beast.
+
+[mission]
+requires_status=troll_tamed
+requires_not_status=troll_tamer_complete
+mission_text=Go back to town and tell Evan of your deeds.
+
+
+

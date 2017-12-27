@@ -1,0 +1,37 @@
+name=Antlion Scorcher
+generation=13
+categories=antlion_scorcher,antlion_scorcher,antlion,animal,ground,desert
+soul=500
+
+sfx_phys=soundfx/enemies/antlion_phys.ogg
+sfx_hit=soundfx/enemies/antlion_hit.ogg
+sfx_die=soundfx/enemies/antlion_die.ogg
+sfx_critdie=soundfx/enemies/antlion_critdie.ogg
+animations=animations/enemies/fire_ant.txt
+
+# combat stats
+stat=hull,670
+stat=hull_regen,10
+speed=4.0
+melee_range=1.1875
+threat_range=8.0
+turn_delay=400ms
+chance_pursue=20
+chance_melee_phys=15
+chance_ranged_ment=15
+power=melee,1,1119
+
+stat=accuracy,77
+stat=avoidance,28
+stat=absorb_min,5
+stat=absorb_max,10
+
+stat=dmg_ment_min,55
+stat=dmg_ment_max,90
+stat=dmg_melee_min,10
+stat=dmg_melee_max,35
+cooldown=33ms
+
+chance_flee=15
+# loot
+loot=loot/leveled_mid.txt

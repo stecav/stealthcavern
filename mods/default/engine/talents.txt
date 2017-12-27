@@ -1,0 +1,75 @@
+[stat]
+id=faction_horgan
+name=Faction horgan
+
+[stat]
+id=faction_umbra
+name=Faction umbra
+
+[stat]
+id=faction_metallo
+name=Faction metallo
+
+[stat]
+id=bounty
+name=Bounty
+
+[stat]
+id=prowess_melee
+name=Melee prowess
+
+[stat]
+id=prowess_ranged
+name=Ranged prowess
+
+[stat]
+id=prowess_magic
+name=Magic prowess
+
+[stat]
+id=prowess_psychic
+name=Psychic prowess
+
+[stat]
+id=prowess_shields
+name=Shields prowess
+
+[stat]
+id=prowess_armor
+name=Armor prowess
+
+[stat]
+id=prowess_amulets
+name=Amulets prowess
+
+[stat]
+id=prowess_bracelets
+name=Bracelets prowess
+
+[stat]
+id=prowess_rings
+name=Rings prowess
+
+[stat]
+id=prowess_implants
+name=Implants prowess
+
+[stat]
+id=prowess_artifacts
+name=Artifacts prowess
+
+[stat]
+id=prowess_visors
+name=Visors prowess
+
+[stat]
+id=prowess_salvaging
+name=Salvaging prowess
+
+[stat]
+id=prowess_craftmaking
+name=Craftmaking prowess
+
+[stat]
+id=prowess_scavenging
+name=Scavenging prowess

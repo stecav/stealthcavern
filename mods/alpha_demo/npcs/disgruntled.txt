@@ -1,0 +1,23 @@
+# mining overseer
+name=Disgruntled, Vagrant
+
+portrait=images/portraits/male09.png
+
+talker=true
+
+# animation info
+gfx=animations/npcs/guild_man1.txt
+
+[dialog]
+him=Hi friend. My name is...
+you=Do I look like you're my friend?
+him=Hey! we are all friends here! You can start by showing some respect and handing over some credits.
+you=I usually don't give credits to beggars.
+him=Hehehe...See, that's your quagmire. With that type of attitude you will never have friends. Now...as for those credits we were speaking of...
+you=Well...ummm...You see...the...
+him=OK, I get it. Just leave and be on your way.
+you=I have a mission I'm on and it goes just one way.
+him=Stories, stories...You'll be back! I know it.
+set_status=emp_goblincamp_shortcut
+
+

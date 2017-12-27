@@ -1,0 +1,7 @@
+quality=normal
+item_type=legs
+icon=293
+soundfx=soundfx/inventory/inventory_leather.ogg
+gfx=tin_tasset
+loot_animation=animations/loot/leather_armor.txt
+

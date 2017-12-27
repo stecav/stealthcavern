@@ -1,0 +1,9 @@
+name=Sylvestor, Smith
+
+# shop info
+vendor=true
+constant_stock=123,125,140,141,143,144,145,147,421,422,423,424,425,426,428,197,198,199,237,238,239,240,242,243,244,245,246
+
+# animation info
+gfx=animations/npcs/peasant_man2.txt
+

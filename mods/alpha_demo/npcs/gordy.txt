@@ -1,0 +1,8 @@
+name=Gordy, Alchemist
+
+# shop info
+vendor=true
+constant_stock=2,2,2,7,7,7,12,12,12,16,150,153,156,157,158,159,160,161,162,212,214,213,218,219,220,221,222,387,453,454,455,456
+
+# animation info
+gfx=animations/npcs/peasant_woman2.txt

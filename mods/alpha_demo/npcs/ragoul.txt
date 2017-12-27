@@ -1,0 +1,94 @@
+# mining overseer
+name=Ragoul, Trickster
+
+portrait=images/portraits/male20.png
+
+talker=true
+
+# animation info
+gfx=animations/npcs/peasant_man2.txt
+
+[dialog]
+requires_not_status=ragoul_init
+him=Howdy partner, I go by Ragoul. I've got great skills to test your luck today. 
+you=I've got great skills too.
+him=Well then I accept your challenge. Just let me pull out my belongings.
+set_status=ragoul_init
+
+[dialog]
+topic=Domino game[luck] - 5 credits
+requires_status=ragoul_init
+him=Dominos it is. It looks like the dominos are already...stacked{wink}. Win, and I'll pay you 13 credits.
+requires_currency=5
+gamble_currency=5
+
+[dialog]
+topic=Trick cups[luck] - 7 credits
+requires_status=ragoul_init
+him=Ahh, yes. My favorite. I'll hand you 21 credits to best me.
+requires_currency=7
+gamble_currency=7
+
+[dialog]
+topic=Mystery weights[brawn] - 10 credits
+requires_status=ragoul_init
+him=My-o-my...I've been waiting for the perfect specimen to test out my mysterious weights. Just lift these weights and tell me the correct measurement . You've got 34 credits waiting for your pockets if you are correct!
+requires_currency=10
+gamble_currency=10
+
+[dialog]
+topic=Brotherhood
+requires_status=ragoul_init
+requires_status=brotherhood_search
+requires_not_status=brotherhood_found
+you=Ahoy, I bring good tidings from back yonder. The brotherhood seeks knowledge of your wearbouts.
+him=You must be mis-mistaken. I've no brotherhood.
+you=A man, Otis claims he was a lost member of your brotherhood and seeks to reunite with you.
+him=That greedy bastard, he bilked you into ferreting me out! He just wants to kill me and take over my business. Please, just leave that matter alone.
+set_status=brotherhood_found
+
+[dialog]
+topic=Disagreement
+requires_status=ragoul_init
+requires_status=disagreement_start
+requires_not_status=disagreement_offer
+requires_not_status=disagreement_counter
+requires_not_status=disagreement_settle
+requires_not_status=disagreement_accepted
+requires_not_status=disagreement_rebuttal
+requires_not_status=disagreement_reward
+you=Now if you would be so kind as to inform me why a man named Graffe wants heafty sums of credits?
+him=You...tell him I've had enough of his games, I dont play around anymore.
+set_status=disagreement_rebuttal
+
+[dialog]
+topic=Disagreement - The counter
+requires_status=disagreement_counter
+requires_not_status=disagreement_offer
+requires_not_status=disagreement_settle
+requires_not_status=disagreement_accepted
+requires_not_status=disagreement_reward
+you=Ahahah, time to pay up now, Gaffe said your landings are on hold. We don't mess around either. So cough it up, or else...
+him=My landings!!!(looks to the west.) Fine. I've had enough, But not truely enough. Tell him there is a predicament with the corridor. No one can profit if this is to continue.
+set_status=disagreement_offer
+
+[dialog]
+topic=Disagreement - The deal
+requires_status=disagreement_deal
+requires_not_status=disagreement_accepted
+requires_not_status=disagreement_reward
+requires_not_status=disagreement_settle
+you=Now there is spooks he refered to. He really looked seriously threatening.
+him=Spooks? The threat from this corridor issue is easily ten fold the amount of that.
+set_status=disagreement_settle
+
+[dialog]
+topic=Disagreement - The finale
+requires_status=disagreement_accepted
+requires_not_status=disagreement_reward
+you=Graffe backed down, and in a superfluous way. Looks like this disagreement is over.
+him=It is said that once a great wizard pulled a world away from destruction. That is how I feel today. You're actions have earned my gratitude.
+set_status=disagreement_reward
+reward_currency=80
+reward_soul=90
+reward_talent=faction_horgan,8

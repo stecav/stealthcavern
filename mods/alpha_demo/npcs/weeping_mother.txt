@@ -1,0 +1,46 @@
+# distraught woman
+name=Weeping Mother
+
+portrait=images/portraits/female03.png
+
+talker=true
+
+# animation info
+gfx=animations/npcs/peasant_woman2.txt
+
+[dialog]
+requires_not_status=weeping_init
+him=My son... my poor...broken son.
+you=Uhh, whats the problem here?
+him=My son...he died and went away.
+you=Yikes...
+him=But he talks to me in the night.
+you=Wow...are you certain of this?
+him=If only you can here the screams of agony and anguish, you would know how hard it is to be alive.
+you=What are they screaming of?
+him=They are screaming of anger and betrayal far to the east. 
+you=You think there needs to be some revenge acted upon?
+him=Most certainly. Far east from here is an old grave site that once held riches of old times. My son got wind of this and soon ventured out, ofcourse to his demise.
+set_status=weeping_init
+set_status=grave_search
+
+[dialog]
+requires_status=grave_found
+requires_not_status=grave_inspected
+you=About that grave site you mentioned...
+him=My son....
+you=Is most likely dead. Nothing but partial bones and rusted equipment scattered around.
+him=Any proof to back up your claim? I won't believe anyone without material proof.
+you=Lady, I'll need something to go off of...a memento, keepsake, or other belonging he carried with him?
+him=Oh. Yes, he would never leave here without a rabbits claw.
+set_status=grave_inspected
+
+[dialog]
+requires_status=grave_keepsake
+requires_not_status=grave_reward
+you=I've got proof he ceased to exist.
+him=(sob)My son...I will never forget you.
+remove_item=594
+set_status=grave_reward
+reward_soul=20
+reward_stat=faction_horgan,5

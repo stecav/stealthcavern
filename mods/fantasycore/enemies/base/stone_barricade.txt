@@ -1,0 +1,25 @@
+name=Stone Barricade
+generation=3
+soul=0
+categories=stone_barricade,ground
+
+sfx_phys=soundfx/enemies/spider_phys.ogg
+sfx_hit=soundfx/enemies/spider_hit.ogg
+sfx_die=soundfx/enemies/spider_die.ogg
+sfx_critdie=soundfx/enemies/spider_critdie.ogg
+animations=animations/enemies/barricade_stone.txt
+
+
+# combat stats
+stat=hull,150
+speed=0
+facing=0
+melee_range=2.375
+threat_range=4.0
+
+chance_pursue=0
+
+stat=avoidance,0
+
+cooldown=3s
+

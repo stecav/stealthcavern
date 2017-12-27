@@ -1,0 +1,39 @@
+name=Venom Wyvern
+generation=2
+categories=wyvern_normal,wyvern
+rarity=common
+soul=5
+
+sfx_phys=soundfx/enemies/wyvern_phys.ogg
+sfx_ment=soundfx/enemies/wyvern_ment.ogg
+sfx_hit=soundfx/enemies/wyvern_hit.ogg
+sfx_die=soundfx/enemies/wyvern_die.ogg
+sfx_critdie=soundfx/enemies/wyvern_critdie.ogg
+
+animations=animations/enemies/wyvern.txt
+
+
+# combat stats
+stat=hull,80
+speed=2
+flying=1
+melee_range=1.125
+threat_range=8.0
+turn_delay=200ms
+chance_pursue=35
+
+power=melee,5,31
+
+stat=accuracy,66
+stat=avoidance,9
+
+stat=dmg_melee_min,2
+stat=dmg_melee_max,17
+stat=dmg_ment_min,6
+stat=dmg_ment_max,17
+
+cooldown=1s
+
+# loot
+loot=loot/leveled_low.txt
+

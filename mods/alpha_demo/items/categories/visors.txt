@@ -1,0 +1,185 @@
+# Visor Items
+
+[item]
+id=287
+name=Eye Shields
+flavor=Obtain protection from objects.
+INCLUDE items/base/visors/eye shields.txt
+requires_talent=prowess_visors,1
+abs=2
+requires_stat=concentration,2
+bonus=piercing_resist,12
+price=350
+
+[item]
+id=288
+name=Goggles
+flavor=These provide protection in high light environments.
+quality=high
+item_type=visor
+requires_talent=prowess_visors,1
+icon=116
+abs=2
+requires_stat=brawn,2
+soundfx=soundfx/inventory/inventory_leather.ogg
+gfx=mage_boots
+loot_animation=animations/loot/boots.txt
+stepfx=leather
+bonus=radiation_resist,12
+price=350
+
+[item]
+id=289
+name=Shades
+flavor=Provides protection from light.
+quality=high
+item_type=visor
+requires_talent=prowess_visors,1
+icon=116
+abs=2
+requires_stat=concentration,2
+soundfx=soundfx/inventory/inventory_leather.ogg
+gfx=mage_boots
+loot_animation=animations/loot/boots.txt
+stepfx=leather
+bonus=heat_resist,5
+price=350
+
+[item]
+id=290
+name=Face Shield
+flavor=Shatter proof design.
+quality=high
+item_type=visor
+requires_talent=prowess_visors,1
+icon=117
+abs=2
+requires_stat=concentration,2
+soundfx=soundfx/inventory/inventory_leather.ogg
+gfx=mage_boots
+loot_animation=animations/loot/boots.txt
+stepfx=leather
+bonus=speed,125
+price=350
+
+[item]
+id=291
+name=Gas Mask
+flavor=Replaceable filter type.
+quality=high
+item_type=visor
+requires_talent=prowess_visors,1
+icon=117
+abs=2
+requires_stat=concentration,3
+soundfx=soundfx/inventory/inventory_leather.ogg
+gfx=mage_boots
+loot_animation=animations/loot/boots.txt
+stepfx=leather
+bonus=speed,125
+price=450
+
+[item]
+id=292
+name=Respirator
+flavor=Used for toxic environments.
+quality=high
+item_type=visor
+requires_talent=prowess_visors,1
+icon=117
+abs=2
+requires_stat=concentration,3
+soundfx=soundfx/inventory/inventory_leather.ogg
+gfx=mage_boots
+loot_animation=animations/loot/boots.txt
+stepfx=leather
+bonus=speed,125
+price=450
+
+[item]
+id=293
+name=Eye Visor
+flavor=Lowers temperature in hot environments.
+quality=high
+item_type=visor
+requires_talent=prowess_visors,1
+icon=117
+abs=2
+requires_stat=concentration,2
+soundfx=soundfx/inventory/inventory_leather.ogg
+gfx=mage_boots
+loot_animation=animations/loot/boots.txt
+stepfx=leather
+bonus=speed,125
+price=450
+
+[item]
+id=294
+name=Optical Targeting Visor
+flavor=Improves targeting and response times.
+quality=high
+item_type=visor
+requires_talent=prowess_visors,1
+icon=116
+abs=2
+requires_stat=concentration,2
+soundfx=soundfx/inventory/inventory_leather.ogg
+gfx=mage_boots
+loot_animation=animations/loot/boots.txt
+stepfx=leather
+bonus=speed,125
+bonus=accuracy,12
+price=550
+
+[item]
+id=295
+name=Enhanced Targeting System
+flavor=Improves targeting.
+quality=high
+item_type=visor
+requires_talent=prowess_visors,1
+icon=117
+abs=2
+requires_stat=concentration,2
+soundfx=soundfx/inventory/inventory_leather.ogg
+gfx=mage_boots
+loot_animation=animations/loot/boots.txt
+stepfx=leather
+bonus=accuracy,15
+price=550
+
+[item]
+id=296
+name=Infrared Optical Visor
+flavor=Improves visibility and targeting.
+quality=high
+item_type=visor
+requires_talent=prowess_visors,1
+icon=116
+abs=2
+requires_stat=concentration,2
+soundfx=soundfx/inventory/inventory_leather.ogg
+gfx=mage_boots
+loot_animation=animations/loot/boots.txt
+stepfx=leather
+bonus=accuracy,15
+bonus=concentration,1
+price=650
+
+
+[item]
+id=297
+name=Night Vision Goggles
+flavor=Improves visibility in dark environments.
+quality=high
+item_type=visor
+requires_talent=prowess_visors,1
+icon=116
+abs=2
+requires_stat=concentration,4
+soundfx=soundfx/inventory/inventory_leather.ogg
+gfx=mage_boots
+loot_animation=animations/loot/boots.txt
+stepfx=leather
+bonus=accuracy,25
+price=650

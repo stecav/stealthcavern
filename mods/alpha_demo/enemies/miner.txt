@@ -1,0 +1,33 @@
+INCLUDE enemies/base/zombie.txt
+name=Miner
+generation=1
+categories=miner_normal,miner,ground
+soul=1
+
+# combat stats
+stat=hull,30
+speed=1.4
+melee_range=1.125
+threat_range=4.0
+turn_delay=400ms
+chance_pursue=1
+power=melee,37
+
+stat=accuracy,50
+stat=avoidance,6
+
+stat=dmg_melee_min,3
+stat=dmg_melee_max,5
+stat=dmg_ment_min,10
+stat=dmg_ment_max,20
+cooldown=300ms
+
+# loot
+loot=loot/leveled_bottom.txt
+
+# cloth set
+loot=64,5
+loot=65,5
+loot=66,5
+loot=67,5
+

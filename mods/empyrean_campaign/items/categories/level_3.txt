@@ -1,0 +1,257 @@
+# equipment intended for players level 3
+
+[item]
+id=38
+name=Warrior Cloth Shirt
+INCLUDE items/base/armor/cloth/chest.txt
+level=3
+quality=epic
+price=225
+abs=2
+bonus=hull,50
+
+[item]
+id=39
+name=Ranger Cloth Shirt
+INCLUDE items/base/armor/cloth/chest.txt
+level=3
+quality=epic
+price=225
+abs=1,2
+bonus=accuracy,6
+
+[item]
+id=40
+name=Wizard Cloth Shirt
+INCLUDE items/base/armor/cloth/chest.txt
+level=3
+quality=epic
+price=225
+abs=1
+bonus=capacitor,6
+
+[item]
+id=41
+name=Warrior Cloth Pants
+INCLUDE items/base/armor/cloth/legs.txt
+level=3
+quality=epic
+price=150
+abs=1,2
+bonus=poise,6
+
+[item]
+id=42
+name=Ranger Cloth Pants
+INCLUDE items/base/armor/cloth/legs.txt
+level=3
+quality=epic
+price=150
+abs=1
+bonus=avoidance,6
+
+[item]
+id=43
+name=Wizard Cloth Pants
+INCLUDE items/base/armor/cloth/legs.txt
+level=3
+quality=epic
+price=150
+abs=0,1
+bonus=capacitor,4
+
+[item]
+id=44
+name=Warrior Cloth Sandals
+INCLUDE items/base/armor/cloth/feet.txt
+level=3
+quality=epic
+price=90
+abs=1
+bonus=poise,4
+
+[item]
+id=45
+name=Ranger Cloth Sandals
+INCLUDE items/base/armor/cloth/feet.txt
+level=3
+quality=epic
+price=90
+abs=0,1
+bonus=avoidance,8
+
+[item]
+id=46
+name=Wizard Cloth Sandals
+INCLUDE items/base/armor/cloth/feet.txt
+level=3
+quality=epic
+price=90
+bonus=capacitor_regen,2
+
+[item]
+id=47
+name=Warrior Cloth Gloves
+INCLUDE items/base/armor/cloth/hands.txt
+level=3
+quality=epic
+price=75
+abs=1
+bonus=crit,2
+
+[item]
+id=48
+name=Ranger Cloth Gloves
+INCLUDE items/base/armor/cloth/hands.txt
+level=3
+quality=epic
+price=75
+abs=0,1
+bonus=accuracy,4
+
+[item]
+id=49
+name=Wizard Cloth Gloves
+INCLUDE items/base/armor/cloth/hands.txt
+level=3
+quality=epic
+price=75
+bonus=capacitor_regen,4
+
+[item]
+id=50
+name=Warrior Cloth Sash
+INCLUDE items/base/armor/belt.txt
+level=3
+quality=epic
+price=150
+bonus=hull_regen,50
+
+[item]
+id=51
+name=Ranger Cloth Sash
+INCLUDE items/base/armor/belt.txt
+level=3
+quality=epic
+price=150
+bonus=avoidance,6
+
+[item]
+id=52
+name=Wizard Cloth Sash
+INCLUDE items/base/armor/belt.txt
+level=3
+quality=epic
+price=150
+bonus=capacitor_regen,4
+
+[item]
+id=53
+name=Warrior Dagger
+INCLUDE items/base/weapons/melee/dagger.txt
+level=3
+quality=epic
+price=300
+dmg=melee,25,30
+requires_stat=brawn,5
+bonus=dmg_melee_min,10
+bonus=dmg_melee_max,10
+
+[item]
+id=54
+name=Ranger Slingshot
+INCLUDE items/base/weapons/ranged/slingshot.txt
+level=3
+quality=epic
+price=300
+dmg=ranged,25,30
+requires_stat=concentration,5
+bonus=dmg_ranged_min,10
+bonus=dmg_ranged_max,10
+
+[item]
+id=55
+name=Wizard Wand
+INCLUDE items/base/weapons/magic/wand.txt
+level=3
+quality=epic
+price=300
+dmg=ment,25,30
+requires_stat=conjure,5
+bonus=dmg_ment_min,10
+bonus=dmg_ment_max,10
+
+[item]
+id=56
+name=Paladin Wood Buckler
+INCLUDE items/base/shields/wood.txt
+level=3
+quality=epic
+price=225
+abs=1,2
+requires_stat=brawn,3
+bonus=absorb_max,2
+
+[item]
+id=57
+name=Adventurer Fire Ring
+INCLUDE items/base/rings/gold_5.txt
+level=3
+quality=epic
+price=300
+bonus=heat_resist,4
+
+[item]
+id=58
+name=Adventurer Ice Ring
+INCLUDE items/base/rings/silver_4.txt
+level=3
+quality=epic
+price=300
+bonus=subzero_resist,4
+
+[item]
+id=59
+name=Adventurer Lightning Ring
+INCLUDE items/base/rings/silver_5.txt
+level=3
+quality=epic
+price=300
+bonus=conductive_resist,4
+
+[item]
+id=60
+name=Adventurer Dark Ring
+INCLUDE items/base/rings/gold_3.txt
+level=3
+quality=epic
+price=300
+bonus=radiation_resist,4
+
+[item]
+id=61
+name=Adventurer Experience Ring
+INCLUDE items/base/rings/silver_2.txt
+level=3
+quality=epic
+price=300
+bonus=soul_gain,2
+
+[item]
+id=62
+name=Adventurer Wealth Ring
+INCLUDE items/base/rings/gold_2.txt
+level=3
+quality=epic
+price=300
+bonus=credit_find,4
+
+[item]
+id=63
+name=Adventurer Treasure Ring
+INCLUDE items/base/rings/gold_4.txt
+level=3
+quality=epic
+price=300
+bonus=item_find,10
+

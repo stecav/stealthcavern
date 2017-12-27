@@ -1,0 +1,35 @@
+[mission]
+requires_status=disagreement_start
+requires_not_status=disagreement_rebuttal
+mission_text=Tell Ragoul about the dispute.
+
+[mission]
+requires_status=disagreement_rebuttal
+requires_not_status=disagreement_counter
+mission_text=Inform Graffe of the rebuttal.
+
+[mission]
+requires_status=disagreement_counter
+requires_not_status=disagreement_offer
+mission_text=Inform Ragoul of the counter.
+
+[mission]
+requires_status=disagreement_offer
+requires_not_status=disagreement_deal
+mission_text=See if Graffe will accept offer.
+
+[mission]
+requires_status=disagreement_deal
+requires_not_status=disagreement_settle
+mission_text=Tell Ragoul the deal.
+
+[mission]
+requires_status=disagreement_settle
+requires_not_status=disagreement_accepted
+mission_text=Tell Graffe the settlement.
+
+[mission]
+requires_status=disagreement_accepted
+requires_not_status=disagreement_reward
+mission_text=Update Ragoul of the status.
+

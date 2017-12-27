@@ -1,0 +1,39 @@
+[element]
+id=heat
+name=Heat Resistance
+
+[element]
+id=subzero
+name=Subzero Resistance
+
+[element]
+id=inertia
+name=Inertia Resistance
+
+[element]
+id=acid
+name=Acid Resistance
+
+[element]
+id=radiation
+name=Radiation Resistance
+
+[element]
+id=conductive
+name=Conductive Resistance
+
+[element]
+id=slashing
+name=Slashing Resistance
+
+[element]
+id=piercing
+name=Piercing Resistance
+
+[element]
+id=blunt
+name=Blunt Resistance
+
+[element]
+id=resonant
+name=Resonant Resistance

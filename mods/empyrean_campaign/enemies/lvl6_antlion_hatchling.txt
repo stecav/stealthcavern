@@ -1,0 +1,29 @@
+INCLUDE enemies/base/antlion_hatchling.txt
+
+name=Antlion Hatchling
+generation=6
+categories=antlion_hatchling
+rarity=common
+soul=64
+
+# combat stats
+stat=hull,60
+speed=5
+turn_delay=166ms
+
+chance_pursue=30
+
+power=melee,164,2
+
+stat=accuracy,100
+stat=avoidance,60
+stat=poise,25
+
+stat=dmg_melee_min,55
+stat=dmg_melee_max,60
+
+cooldown=1475ms
+
+# loot
+loot=loot/level_6.txt
+

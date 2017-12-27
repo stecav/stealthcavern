@@ -1,0 +1,36 @@
+name=Skeleton Knight Elite
+generation=26
+categories=skeleton_knight_elite,ground,battlefield
+soul=4500
+
+sfx_attack=swing,soundfx/enemies/skeleton_phys.ogg
+sfx_attack=cast,soundfx/enemies/skeleton_ment.ogg
+sfx_hit=soundfx/enemies/skeleton_hit.ogg
+sfx_die=soundfx/enemies/skeleton_die.ogg
+sfx_critdie=soundfx/enemies/skeleton_critdie.ogg
+
+animations=animations/enemies/skeleton_knight.txt
+
+# combat stats
+stat=hull,3500
+stat=hull_regen,50
+speed=5.5
+melee_range=1.1875
+threat_range=8.0
+turn_delay=400ms
+chance_pursue=30
+power=melee,1
+
+stat=accuracy,85
+stat=avoidance,35
+stat=absorb_min,30
+stat=absorb_max,50
+
+stat=dmg_melee_min,400
+stat=dmg_melee_max,550
+cooldown=333ms
+
+loot=loot/leveled_top.txt
+
+loot=35,1
+

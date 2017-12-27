@@ -1,0 +1,57 @@
+# mining overseer
+name=Sven, Vigilantee
+
+portrait=images/portraits/male05.png
+
+talker=true
+
+# animation info
+gfx=animations/npcs/guild_man1.txt
+
+[dialog]
+requires_not_status=sven_init
+him=Howdy, stranger. This here is Trappers Corner, we trade in all matter of things here. A lot of folk pass through here and sell elaborate wares from across the globe.
+you=Spectacular. You must be the leader?
+him=More precisely a member. Our members hold together a truce of justice for foul play. Without justice there is crime, and crime brews unstability.
+you=Any local guides that may be of help?
+him=Indeed, theres a woodsman around here that claims to know the routes around here like the back of his hand.
+set_status=sven_init
+set_status=evan_town_init
+
+[dialog]
+topic=Goblin Camp
+requires_status=ml_troll_reward
+requires_not_status=fr_zombie_search
+him=We're having problems. Zombies....Not just Zombies, but Armored Zombies. All the noise from our mining is drawing their attention. We can't have them thinking we're easy prey.
+set_status=fr_zombie_search
+unset_status=fr_zombie_defeated
+reward_currency=20
+him=Attack their encampment up river from here. 20 credits now, 80 more when you return.
+
+[dialog]
+topic=Mineshaft
+requires_status=sven_init
+requires_not_status=ml_troll_search
+you=So how's the mining business?
+him=Not good at all. While I was digging, my pickaxe scraped a skull that was wedged in the rock wall. Before I knew it, the nasty thing started moving and a whole body emerged. Now that thing is in there, preventing any more mining.
+him=Kill that troll for me, and I'll make it worth your while.
+set_status=ml_troll_search
+unset_status=ml_troll_defeated
+
+[dialog]
+topic=Troll Chaos
+requires_status=ml_troll_search
+requires_not_status=ml_troll_defeated
+him=Please take care of that troll. Work in the mine can't continue otherwise.
+
+[dialog]
+topic=Troll Defeated
+requires_status=ml_troll_search
+requires_status=ml_troll_defeated
+requires_not_status=ml_troll_reward
+you=I've defeated the Troll.
+him=Excellent work! As promised, here's a little something for your troubles.
+set_status=ml_troll_reward
+reward_currency=210
+reward_talent=faction_horgan,5
+

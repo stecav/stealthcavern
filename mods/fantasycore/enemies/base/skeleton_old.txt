@@ -1,0 +1,30 @@
+name=Old Skeleton
+generation=2
+categories=skeleton_old,old_skeleton,skeleton,undead,ground,fern_valley_undead
+soul=3
+
+sfx_phys=soundfx/enemies/skeleton_phys.ogg
+sfx_ment=soundfx/enemies/skeleton_ment.ogg
+sfx_hit=soundfx/enemies/skeleton_hit.ogg
+sfx_die=soundfx/enemies/skeleton_die.ogg
+sfx_critdie=soundfx/enemies/skeleton_critdie.ogg
+
+animations=animations/enemies/skeleton_weak.txt
+
+# combat stats
+stat=hull,130
+speed=1.7
+melee_range=1.1875
+threat_range=8.0
+turn_delay=400ms
+chance_pursue=20
+power=melee,1,2
+
+stat=accuracy,67
+stat=avoidance,9
+
+stat=dmg_melee_min,4
+stat=dmg_melee_max,10
+cooldown=333ms
+
+loot=loot/leveled_bottom.txt

@@ -1,0 +1,125 @@
+# Basic Psychic Weapons #################
+
+[item]
+id=408
+name=Luck Charm
+INCLUDE items/base/weapons/psychic/luck charm.txt
+requires_talent=prowess_psychic,1
+dmg=ment,2,8
+price=20
+
+[item]
+id=409
+name=Synapse Charm
+INCLUDE items/base/weapons/psychic/synapse charm.txt
+requires_talent=prowess_psychic,1
+dmg=ment,4,12
+price=54
+
+[item]
+id=410
+name=Artifact Conduit
+INCLUDE items/base/weapons/psychic/artifact conduit.txt
+requires_talent=prowess_psychic,1
+dmg=ment,5,18
+requires_stat=influence,2
+price=75
+
+[item]
+id=411
+name=Ancestral Relic
+INCLUDE items/base/weapons/psychic/ancestral relic.txt
+requires_talent=prowess_psychic,1
+dmg=ment,11,22
+requires_stat=influence,2
+price=115
+
+[item]
+id=412
+name=Tiny Trinket
+quality=normal
+item_type=main
+equip_flags=psychic
+requires_talent=prowess_psychic,1
+icon=215
+dmg=ment,15,20
+requires_stat=influence,2
+soundfx=soundfx/inventory/inventory_wood.ogg
+gfx=rod
+loot_animation=animations/loot/rod.txt
+price=125
+
+[item]
+id=413
+name=Voodoo doll
+quality=normal
+item_type=main
+equip_flags=psychic
+requires_talent=prowess_psychic,1
+icon=220
+dmg=ment,5,30
+requires_stat=influence,2
+soundfx=soundfx/inventory/inventory_wood.ogg
+gfx=rod
+loot_animation=animations/loot/rod.txt
+price=155
+
+[item]
+id=414
+name=Tri-headed statue
+quality=normal
+item_type=main
+equip_flags=psychic
+requires_talent=prowess_psychic,1
+icon=214
+dmg=ment,18,35
+requires_stat=influence,2
+soundfx=soundfx/inventory/inventory_wood.ogg
+gfx=rod
+loot_animation=animations/loot/rod.txt
+price=195
+
+[item]
+id=415
+name=Semi-translucent trinket
+quality=normal
+item_type=main
+equip_flags=psychic
+requires_talent=prowess_psychic,1
+icon=214
+dmg=ment,15,42
+requires_stat=influence,2
+soundfx=soundfx/inventory/inventory_wood.ogg
+gfx=rod
+loot_animation=animations/loot/rod.txt
+price=235
+
+[item]
+id=416
+name=Organic Flesh
+quality=normal
+item_type=main
+equip_flags=psychic
+requires_talent=prowess_psychic,1
+icon=221
+dmg=ment,23,50
+requires_stat=influence,3
+soundfx=soundfx/inventory/inventory_wood.ogg
+gfx=rod
+loot_animation=animations/loot/rod.txt
+price=315
+
+[item]
+id=417
+name=Ominous relic
+quality=normal
+item_type=main
+equip_flags=psychic
+requires_talent=prowess_psychic,1
+icon=388
+dmg=ment,30,56
+requires_stat=influence,3
+soundfx=soundfx/inventory/inventory_wood.ogg
+gfx=rod
+loot_animation=animations/loot/rod.txt
+price=400

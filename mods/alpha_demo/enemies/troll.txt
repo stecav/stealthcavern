@@ -1,0 +1,46 @@
+name=Troll
+generation=20
+categories=troll,ground
+rarity=rare
+soul=2000
+
+sfx_attack=swing,soundfx/enemies/troll_phys.ogg
+sfx_hit=soundfx/enemies/troll_hit.ogg
+sfx_die=soundfx/enemies/troll_die.ogg
+sfx_critdie=soundfx/enemies/troll_critdie.ogg
+animations=animations/enemies/troll.txt
+
+# combat stats
+stat=hull,3000
+stat=hull_regen,50
+speed=2.5
+melee_range=2.0
+threat_range=8.0
+turn_delay=400ms
+chance_pursue=20
+power=melee,1
+
+stat=accuracy,88
+stat=avoidance,10
+stat=absorb_min,50
+stat=absorb_max,60
+
+stat=dmg_melee_min,150
+stat=dmg_melee_max,250
+cooldown=50ms
+
+stat=poise,100
+
+# loot
+loot=loot/leveled_high.txt
+
+# slingshot, leather chest, leather pants, health pot, mana pot
+loot=163,20
+loot=399,20
+loot=81,20
+loot=1,20
+loot=6,20
+
+#gauntlets of ogre power
+loot=255,2
+

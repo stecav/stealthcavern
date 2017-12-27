@@ -1,0 +1,42 @@
+name=Ravenous Skeleton
+humanoid=true
+generation=10
+categories=skeleton_ravenous,skeleton,undead,dungeon
+soul=160
+
+sfx_attack=swing,soundfx/enemies/skeleton_phys.ogg
+sfx_attack=cast,soundfx/enemies/skeleton_ment.ogg
+sfx_hit=soundfx/enemies/skeleton_hit.ogg
+sfx_die=soundfx/enemies/skeleton_die.ogg
+sfx_critdie=soundfx/enemies/skeleton_critdie.ogg
+
+animations=animations/enemies/skeleton_ravenous.txt
+
+
+
+# combat stats
+stat=hull,690
+speed=2.7
+melee_range=1.125
+threat_range=8.0
+turn_delay=70ms
+chance_pursue=10
+power=melee,1
+
+stat=accuracy,76
+stat=avoidance,25
+
+stat=dmg_melee_min,47
+stat=dmg_melee_max,69
+cooldown=25ms
+stat=absorb_min,3
+stat=absorb_max,6
+
+# loot
+loot=loot/leveled_low.txt
+
+# dagger, wood buckler, health pot
+loot=118,5
+loot=197,5
+loot=1,5
+

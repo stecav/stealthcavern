@@ -1,0 +1,8 @@
+name=Bennet, Bowyer
+
+# shop info
+vendor=true
+constant_stock=163,165,168,169,170,171,173,174,175,176,540,541,542,543,544,545,546,547,548
+
+# animation info
+gfx=animations/npcs/peasant_woman1.txt

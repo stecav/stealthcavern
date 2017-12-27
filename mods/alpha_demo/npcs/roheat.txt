@@ -1,0 +1,22 @@
+# mining overseer
+name=Roheat, Witchcrafter
+
+portrait=images/portraits/male05.png
+
+talker=true
+
+# animation info
+gfx=animations/npcs/peasant_man1.txt
+
+[dialog]
+requires_status=wc_refusal
+you=Alright, so I see you already have plenty of carapace, how about I offload mine?
+him=What is this about? You ugly piece of excuse for a life needs to leave my sight!
+you=You best lower your tone. I've not walked this far to meet some inebriated scoundrel!
+him=Why you little twerp, I'll have your head on stake before you even...
+you=[Throw the trophy at his head]
+him=OOoowwwaargh!!..I've...just...give me a minute...AAAARGGGURGLE...GASSSPP...COUGH,COUGH...AAaaaaaaaaaaaa[dies].
+you=[You start to leave the cave, but feel about to pass out with each step away from the trophy. Your only recourse is to hold on to it again.]
+set_status=wc_curse
+
+

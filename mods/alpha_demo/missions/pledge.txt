@@ -1,0 +1,12 @@
+[mission]
+requires_status=pledge_owe
+requires_not_status=pledge_paid
+requires_not_status=pledge_reward
+mission_text=Deliver the payment to Umar.
+
+[mission]
+requires_status=pledge_owe
+requires_status=pledge_paid
+requires_not_status=pledge_reward
+mission_text=Return to Otis with the receipt voucher.
+

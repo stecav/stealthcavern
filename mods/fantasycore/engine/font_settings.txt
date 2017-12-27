@@ -1,0 +1,26 @@
+# Only .ttf files are supported, due to limitations in SDL_ttf
+# The font must be placed in /fonts
+
+[font]
+id=font_regular
+style=default,Salsa-Regular.ttf,12,1
+style=ja,unifont-6.3.ttf,12,1
+style=zh,unifont-6.3.ttf,12,1
+
+[font]
+id=font_bold
+style=default,Salsa-Bold.ttf,12,1
+style=ja,unifont-6.3.ttf,12,1
+style=zh,unifont-6.3.ttf,12,1
+
+[font]
+id=font_italic
+style=default,Salsa-Italic.ttf,12,1
+style=ja,unifont-6.3.ttf,12,1
+style=zh,unifont-6.3.ttf,12,1
+
+[font]
+id=font_captions
+style=default,Salsa-Regular.ttf,24,1
+style=ja,unifont-6.3.ttf,24,1
+style=zh,unifont-6.3.ttf,12,1

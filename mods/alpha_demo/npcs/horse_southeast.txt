@@ -1,0 +1,5 @@
+name=Horse
+
+# animation info
+gfx=animations/npcs/horse_southeast.txt
+

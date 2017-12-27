@@ -1,0 +1,25 @@
+
+[mission]
+requires_status=wc_deal
+requires_not_status=wc_counter
+mission_text=Deal with Phobos from Desolation Fort.
+
+[mission]
+requires_status=wc_counter
+requires_not_status=wc_offer
+mission_text=Phobos recommended selling it to Cabi in Water Springs.
+
+[mission]
+requires_status=wc_offer
+requires_not_status=wc_refusal
+mission_text=Cabi insisted Roheat would gladly take it.
+
+[mission]
+requires_status=wc_refusal
+requires_not_status=wc_curse
+mission_text=Return to Wayne and confront him with the truth.
+
+[mission]
+requires_status=wc_curse
+requires_not_status=wc_complete
+mission_text=Return to Wayne and confront him with the truth.

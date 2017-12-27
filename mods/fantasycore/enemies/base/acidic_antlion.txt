@@ -1,0 +1,37 @@
+name=Acidic Antlion
+generation=18
+categories=acidic_antlion,antlion,antlion_spitter,ground,wyvern_cave,woods2,marshlands
+soul=1500
+
+sfx_attack=swing,soundfx/enemies/antlion_phys.ogg
+sfx_hit=soundfx/enemies/antlion_hit.ogg
+sfx_die=soundfx/enemies/antlion_die.ogg
+sfx_critdie=soundfx/enemies/antlion_critdie.ogg
+animations=animations/enemies/antlion.txt
+
+# combat stats
+stat=hull,1150
+stat=hull_regen,10
+speed=3.0
+melee_range=1.1875
+threat_range=8.0
+turn_delay=400ms
+chance_pursue=20
+power=melee,1
+power=ranged,1130
+power=ranged,1131
+
+stat=accuracy,75
+stat=avoidance,29
+stat=absorb_min,5
+stat=absorb_max,15
+
+stat=stat=dmg_ranged_min,100
+stat=dmg_ranged_max,140
+stat=dmg_melee_min,110
+stat=dmg_melee_max,135
+cooldown=33ms
+
+chance_flee=10
+
+loot=loot/leveled_high.txt

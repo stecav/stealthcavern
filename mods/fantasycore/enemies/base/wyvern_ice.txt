@@ -1,0 +1,43 @@
+name=Ice Wyvern
+generation=5
+categories=wyvern_ice,wyvern
+rarity=common
+soul=52
+
+sfx_hit=soundfx/enemies/wyvern_hit.ogg
+sfx_die=soundfx/enemies/wyvern_die.ogg
+sfx_critdie=soundfx/enemies/wyvern_critdie.ogg
+animations=animations/enemies/wyvern_water.txt
+
+
+# combat stats
+stat=hull,230
+stat=hull_regen,50
+speed=3.3
+flying=1
+melee_range=1.125
+threat_range=8.0
+turn_delay=400ms
+chance_pursue=35
+
+# bleed sting
+power=melee,5
+power=ranged,30
+
+stat=accuracy,68
+stat=avoidance,14
+
+stat=dmg_melee_min,7
+stat=dmg_melee_max,25
+stat=dmg_ment_min,10
+stat=dmg_ment_max,30
+stat=absorb_min,6
+stat=absorb_max,6
+
+cooldown=1s
+
+mission_loot=progress_arrived_town,ice_tail,204
+
+chance_flee=10
+# loot
+loot=loot/leveled_bottom.txt

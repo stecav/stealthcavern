@@ -1,0 +1,38 @@
+# Power Definitions
+
+# Powers menu (aka hero powers)
+# 1-156
+INCLUDE powers/categories/warrior.txt
+INCLUDE powers/categories/ranger.txt
+INCLUDE powers/categories/magician.txt
+
+# 157-161
+INCLUDE powers/categories/visual_effects.txt
+INCLUDE powers/categories/beacon.txt
+
+# 162-163
+INCLUDE powers/categories/items.txt
+
+# 164
+INCLUDE powers/categories/enemy.txt
+#INCLUDE powers/categories/map_hazards.txt
+
+# 500 (dev powers)
+[power]
+id=500
+name=Teleport
+type=fixed
+icon=176
+new_state=cast
+requires_empty_target=true
+requires_targeting=true
+requires_equipped_item=2000
+animation=animations/powers/runes.txt
+soundfx=soundfx/powers/teleport.ogg
+use_hazard=true
+no_attack=true
+lifespan=533ms
+floor=true
+starting_pos=source
+buff_teleport=true
+

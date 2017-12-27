@@ -1,0 +1,31 @@
+name=Skeleton Knight
+generation=10
+categories=ally_ghost_spawn_skeleton
+soul=120
+
+sfx_phys=soundfx/enemies/skeleton_phys.ogg
+sfx_ment=soundfx/enemies/skeleton_ment.ogg
+sfx_hit=soundfx/enemies/skeleton_hit.ogg
+sfx_die=soundfx/enemies/skeleton_die.ogg
+sfx_critdie=soundfx/enemies/skeleton_critdie.ogg
+
+animations=animations/enemies/skeleton_knight.txt
+
+# combat stats
+stat=hull,200
+stat=hull_regen,50
+speed=2.5
+melee_range=1.1875
+threat_range=8.0
+turn_delay=400ms
+chance_pursue=20
+power=melee_phys=1
+
+stat=accuracy,75
+stat=avoidance,25
+stat=absorb_min,1
+stat=absorb_max,10
+
+stat=dmg_melee_min,50
+stat=dmg_melee_max,100
+cooldown=33ms

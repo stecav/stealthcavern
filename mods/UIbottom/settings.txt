@@ -1,0 +1,2 @@
+description=Dashboard style Hull/PSI/Capacitor bars for stealthcavern games
+game=stealthcavern

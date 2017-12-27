@@ -1,0 +1,37 @@
+INCLUDE enemies/base/wyvern_ice.txt
+
+name=Ice Wyvern
+generation=7
+categories=wyvern,wyvern_ice
+rarity=uncommon
+soul=128
+
+# combat stats
+stat=hull,210
+speed=4.7
+turn_delay=200ms
+chance_pursue=5
+
+power=melee,164,1
+power=ranged,172,5
+
+stat=accuracy,125
+stat=avoidance,55
+stat=poise,28
+
+stat=dmg_melee_min,95
+stat=dmg_melee_max,100
+stat=dmg_ment_min,105
+stat=dmg_ment_max,115
+stat=absorb_min,6
+stat=absorb_max,7
+
+vulnerable=fire,150
+vulnerable=ice,75
+
+cooldown=1650ms
+
+# loot
+loot=loot/level_7.txt
+
+

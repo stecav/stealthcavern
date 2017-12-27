@@ -1,0 +1,45 @@
+name=Goblin Charger
+humanoid=true
+generation=24
+categories=goblin_charger,goblin,dungeon
+rarity=uncommon
+soul=3802
+
+sfx_attack=swing,soundfx/enemies/goblin_phys.ogg
+sfx_attack=cast,soundfx/enemies/goblin_ment.ogg
+sfx_hit=soundfx/enemies/goblin_hit.ogg
+sfx_die=soundfx/enemies/goblin_die.ogg
+sfx_critdie=soundfx/enemies/goblin_critdie.ogg
+
+animations=animations/enemies/goblin_runner.txt
+
+
+# combat stats
+stat=hull,2850
+speed=4.7
+melee_range=1.1875
+threat_range=8.0
+turn_delay=200ms
+chance_pursue=10
+power=melee,1
+power=melee,5
+
+stat=accuracy,88
+stat=avoidance,55
+
+stat=dmg_melee_min,5
+stat=dmg_melee_max,20
+stat=dmg_ment_min,5
+stat=dmg_ment_max,15
+cooldown=666ms
+stat=absorb_min,3
+stat=absorb_max,3
+
+# loot
+loot=loot/leveled_top.txt
+
+# dagger, leather gloves, leather boots
+loot=32,5
+loot=82,5
+loot=84,5
+

@@ -1,0 +1,62 @@
+name=Skeletal Knight
+humanoid=true
+generation=8
+categories=skeletal_knight,skeleton,undead,dungeon
+soul=110
+
+sfx_phys=soundfx/enemies/skeleton_phys.ogg
+sfx_ment=soundfx/enemies/skeleton_ment.ogg
+sfx_hit=soundfx/enemies/skeleton_hit.ogg
+sfx_die=soundfx/enemies/skeleton_die.ogg
+sfx_critdie=soundfx/enemies/skeleton_critdie.ogg
+
+animations=animations/enemies/skeleton.txt
+
+
+# combat stats
+stat=hull,400
+speed=3.5
+melee_range=1.1875
+threat_range=8.0
+turn_delay=133ms
+
+chance_pursue=45
+
+# blood strike
+power=melee,5
+# piercing strike
+power=melee,39
+
+stat=accuracy,73
+stat=avoidance,20
+
+stat=dmg_melee_min,30
+stat=dmg_melee_max,50
+stat=dmg_ment_min,30
+stat=dmg_ment_max,45
+
+stat=absorb_min,21
+stat=absorb_max,21
+
+vulnerable_heat=150
+vulnerable_subzero=75
+cooldown=333ms
+
+# loot
+loot=loot/leveled_low.txt
+
+# long sword, plate armor, crest shield
+loot=34,5
+loot=96,5
+loot=96,5
+loot=98,5
+loot=99,5
+loot=100,5
+loot=58,5
+
+# turtle figurine, ring of regen, great sword, tower shield, emerald
+loot=112,1
+loot=107,1
+loot=35,1
+loot=59,1
+loot=4,1

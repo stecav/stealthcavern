@@ -1,0 +1,325 @@
+## Status Effects
+# Primary stats
+[effect]
+id=Brawn
+type=brawn
+
+[effect]
+id=Conjure
+type=conjure
+
+[effect]
+id=Concentration
+type=concentration
+
+[effect]
+id=Nimble
+type=nimble
+
+[effect]
+id=Luck
+type=luck
+
+[effect]
+id=Influence
+type=influence
+
+[effect]
+id=Resolve
+type=resolve
+
+[effect]
+id=Resilience
+type=resilience
+
+[effect]
+id=Fealty
+type=fealty
+
+# Special-case effects
+[effect]
+id=Shield
+type=shield
+icon=15
+animation=animations/powers/shield.txt
+can_stack=false
+
+[effect]
+id=Heal
+type=heal
+icon=11
+animation=animations/powers/heal.txt
+can_stack=false
+
+[effect]
+id=Accomplishment
+icon=11
+animation=animations/powers/accomplishment.txt
+can_stack=false
+
+[effect]
+id=Convert
+type=convert
+#animation=animations/powers/spark_red_loop.txt
+animation=animations/powers/runes_green.txt
+
+[effect]
+id=Fear
+type=fear
+animation=animations/powers/fear.txt
+
+[effect]
+id=Fear Immobilise
+type=stun
+animation=animations/powers/spark_red_loop.txt
+
+# Other effects
+[effect]
+id=Bleeding
+type=damage_percent
+icon=25
+animation=animations/powers/spark_red_loop.txt
+can_stack=false
+
+[effect]
+id=Immobilize
+type=speed
+icon=24
+can_stack=false
+
+[effect]
+id=Slow
+type=speed
+icon=24
+can_stack=false
+
+[effect]
+id=Stun
+type=stun
+icon=26
+can_stack=false
+
+[effect]
+id=Immunity
+type=immunity
+icon=12
+can_stack=false
+
+[effect]
+id=Haste
+type=speed
+icon=9
+can_stack=false
+
+[effect]
+id=Hull restore
+type=hpot_percent
+
+[effect]
+id=Capacitor restore
+type=mpot_percent
+
+[effect]
+id=PSI restore
+type=spot_percent
+
+[effect]
+id=Hull regen
+type=hull_regen
+
+[effect]
+id=PSI
+type=psi
+
+[effect]
+id=PSI regen
+type=psi_regen
+
+[effect]
+id=Fury
+type=fury
+icon=276
+animation=animations/powers/psi_hull.txt
+
+[effect]
+id=PSI to hull
+type=psi_hull
+icon=276
+animation=animations/powers/psi_hull.txt
+
+[effect]
+id=Hull to capacitor
+type=hull_capacitor
+icon=277
+animation=animations/powers/hull_capacitor.txt
+
+[effect]
+id=Bolster
+type=bolster
+icon=273
+animation=animations/powers/bolster.txt
+
+[effect]
+id=Revive
+type=revive
+can_stack=false
+
+[effect]
+id=Ordinance
+type=ordinance
+icon=692
+animation=animations/powers/ordinance.txt
+
+[effect]
+id=Brainstorm
+type=brainstorm
+animation=animations/powers/brainstorm.txt
+
+[effect]
+id=Hardened
+type=hardened
+icon=691
+animation=animations/powers/hardened.txt
+
+[effect]
+id=Death Sentence
+type=death_sentence
+
+[effect]
+id=Radiant
+type=heal
+icon=11
+animation=animations/powers/heal.txt
+
+[effect]
+id=Traveler
+type=traveler
+icon=280
+animation=animations/powers/traveler.txt
+
+[effect]
+id=Replentish
+type=replentish
+icon=656
+animation=animations/powers/replentish.txt
+
+[effect]
+id=Encase
+type=encase
+icon=11
+animation=animations/powers/heal.txt
+
+[effect]
+id=Soul gain
+type=soul_gain
+
+[effect]
+id=Credit find
+type=currency_find
+
+[effect]
+id=Crit
+type=crit
+
+[effect]
+id=Stealth_icon
+icon=6
+can_stack=false
+
+[effect]
+id=Stealth_speed
+type=speed
+can_stack=false
+
+[effect]
+id=Hull Buff bonus - protection
+type=hull
+animation=animations/powers/shield.txt
+
+[effect]
+id=Casement
+type=casement
+icon=665
+animation=animations/powers/casement.txt
+
+[effect]
+id=Hull bonus
+type=hull
+
+[effect]
+id=Block_icon
+icon=4
+can_stack=false
+
+[effect]
+id=Knockback
+type=knockback
+can_stack=false
+
+[effect]
+id=Raise Absorb min - protection
+type=absorb_min
+
+[effect]
+id=Raise Absorb max - protection
+type=absorb_max
+
+[effect]
+id=Raise Avoidance - protection
+type=avoidance
+
+[effect]
+id=Shield regen
+type=shield_regen
+
+[effect]
+id=Capacitor
+type=capacitor
+
+[effect]
+id=Capacitor regen
+type=capacitor_regen
+
+[effect]
+id=Accuracy
+type=accuracy
+
+[effect]
+id=Heat Resistance
+type=heat_resist
+
+[effect]
+id=Subzero Resistance
+type=subzero_resist
+
+[effect]
+id=Inertia Resistance
+type=inertia_resist
+
+[effect]
+id=Conductive Resistance
+type=conductive_resist
+
+[effect]
+id=Acid Resistance
+type=acid_resist
+
+[effect]
+id=Resonant Resistance
+type=resonant_resist
+
+[effect]
+id=Radiation Resistance
+type=radiation_resist
+
+[effect]
+id=Slashing resist
+type=slashing_resist
+
+[effect]
+id=Piercing resist
+type=piercing_resist
+
+[effect]
+id=Blunt resist
+type=blunt_resist

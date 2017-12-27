@@ -1,0 +1,18 @@
+# mining overseer
+name=Dan, Fighter
+
+portrait=images/portraits/male06.png
+
+talker=true
+
+# animation info
+gfx=animations/npcs/peasant_man1.txt
+
+[dialog]
+him=Come to fight my prized creation have you? You look ill prepared to even consider such a task.
+you=Perhaps so. I'm interested in learning techniques though.
+him=You've came to the right place then my friend! I've made this autonomous creation to withstand the full punishment any living creature can dish out.
+you=No kidding...
+him=This  will last for a thousand years and beyond, it's built so tough.
+you=Well, you've made me curious now. I'd like to dish out some blows if you'd stop talking already!
+him=Hahaha....be my guest. Punch, kick, swing or cast until your hearts desire!

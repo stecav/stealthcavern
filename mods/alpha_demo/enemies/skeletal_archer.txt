@@ -1,0 +1,45 @@
+name=Skeletal Archer
+humanoid=true
+generation=5
+categories=skeletal_archer,skeleton,undead,dungeon
+soul=38
+
+sfx_attack=swing,soundfx/enemies/skeleton_phys.ogg
+sfx_attack=cast,soundfx/enemies/skeleton_ment.ogg
+sfx_hit=soundfx/enemies/skeleton_hit.ogg
+sfx_die=soundfx/enemies/skeleton_die.ogg
+sfx_critdie=soundfx/enemies/skeleton_critdie.ogg
+
+animations=animations/enemies/skeleton_archer.txt
+
+
+# combat stats
+stat=hull,225
+speed=3.0
+melee_range=1.1875
+threat_range=8.0
+turn_delay=200ms
+chance_pursue=5
+power=melee,1
+power=ranged,34
+
+stat=accuracy,70
+stat=avoidance,15
+
+stat=dmg_melee_min,5
+stat=dmg_melee_max,11
+stat=dmg_ranged_min,2
+stat=dmg_ranged_max,15
+stat=absorb_min,6
+stat=absorb_max,6
+
+cooldown=1s
+
+# loot
+loot=loot/leveled_bottom.txt
+
+# short bow, leather hood
+loot=49,5
+loot=80,5
+
+

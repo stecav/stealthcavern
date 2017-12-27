@@ -1,0 +1,117 @@
+# Amulets
+
+
+[item]
+id=354
+name=Warden's Amulet
+INCLUDE items/base/amulets/wardens amulet.txt
+requires_talent=prowess_amulets,1
+price=450
+bonus=soul_gain,10
+
+[item]
+id=355
+name=Shiva Amulet
+INCLUDE items/base/amulets/shiva amulet.txt
+requires_talent=prowess_amulets,1
+price=450
+bonus=soul_gain,10
+
+[item]
+id=356
+name=Amulet of Sparks
+flavor=Faded memories are vivid to the wearer of this silver band.
+INCLUDE items/base/amulets/amulet of sparks.txt
+requires_talent=prowess_amulets,1
+price=450
+bonus=soul_gain,10
+
+[item]
+id=357
+name=Red Amulet
+flavor=Faded memories are vivid to the wearer of this silver band.
+INCLUDE items/base/amulets/red amulet.txt
+requires_talent=prowess_amulets,1
+price=450
+bonus=soul_gain,10
+
+[item]
+id=358
+name=Amulet of Wind
+flavor=Faded memories are vivid to the wearer of this silver band.
+INCLUDE items/base/amulets/amulet of wind.txt
+requires_talent=prowess_amulets,1
+price=450
+bonus=inertia_resist,10
+
+[item]
+id=359
+name=Underworld Amulet
+flavor=Faded memories are vivid to the wearer of this silver band.
+INCLUDE items/base/amulets/underworld amulet.txt
+requires_talent=prowess_amulets,1
+price=450
+bonus=soul_gain,10
+
+[item]
+id=360
+name=Watchkeeper's Amulet
+flavor=Faded memories are vivid to the wearer of this silver band.
+INCLUDE items/base/amulets/watchkeepers amulet.txt
+requires_talent=prowess_amulets,1
+price=450
+bonus=resonant_resist,10
+
+[item]
+id=361
+name=Amulet of Intellect
+flavor=Faded memories are vivid to the wearer of this silver band.
+INCLUDE items/base/amulets/amulet of intellect.txt
+requires_talent=prowess_amulets,1
+price=450
+bonus=influence,3
+
+[item]
+id=362
+name=Gravedigger Amulet
+flavor=Faded memories are vivid to the wearer of this silver band.
+INCLUDE items/base/amulets/gravedigger amulet.txt
+requires_talent=prowess_amulets,1
+price=450
+bonus=soul_gain,20
+
+[item]
+id=363
+name=Amulet of Justice
+flavor=Faded memories are vivid to the wearer of this silver band.
+INCLUDE items/base/amulets/amulet of justice.txt
+requires_talent=prowess_amulets,1
+price=450
+bonus=blunt_resist,10
+
+[item]
+id=364
+name=Forged Amulet
+flavor=Faded memories are vivid to the wearer of this silver band.
+INCLUDE items/base/amulets/forged amulet.txt
+requires_talent=prowess_amulets,1
+price=150
+
+[item]
+id=365
+name=Vibrant Amulet
+flavor=Faded memories are vivid to the wearer of this silver band.
+INCLUDE items/base/amulets/vibrant amulet.txt
+requires_talent=prowess_amulets,1
+price=450
+bonus=subzero_resist,10
+
+[item]
+id=366
+name=Amulet of Queen's
+flavor=Faded memories are vivid to the wearer of this silver band.
+INCLUDE items/base/amulets/amulet of queens.txt
+requires_talent=prowess_amulets,1
+price=450
+bonus=soul_gain,10
+bonus=conductive_resist,10

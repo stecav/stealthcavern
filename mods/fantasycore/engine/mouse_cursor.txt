@@ -1,0 +1,10 @@
+# Context-sensitive mouse cursors
+# Format is:
+# action=filename, x-offset, y-offset
+# "action" can be any of: normal, interact, talk, attack
+
+normal=images/cursors/cursor_normal.png
+interact=images/cursors/cursor_interact.png
+talk=images/cursors/cursor_interact.png
+target=images/cursors/cursor_target.png,-12,-10
+attack=images/cursors/cursor_attack.png

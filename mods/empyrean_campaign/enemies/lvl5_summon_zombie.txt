@@ -1,0 +1,22 @@
+INCLUDE enemies/base/zombie.txt
+
+name=Zombie
+generation=5
+categories=summon_zombie
+
+# combat stats
+stat=hull,640
+speed=6
+turn_delay=400ms
+chance_pursue=10
+
+power=melee,164,10
+power=melee,168,5
+
+stat=accuracy,100
+stat=avoidance,30
+stat=poise,32
+
+stat=dmg_melee_min,75
+stat=dmg_melee_max,80
+cooldown=1600ms

@@ -1,0 +1,9 @@
+name=Ivan
+
+# shop info
+vendor=true
+constant_stock=1,2,33,49,57,84,250
+
+# animation info
+gfx=animations/npcs/peddler_goblin.txt
+

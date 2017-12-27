@@ -1,0 +1,65 @@
+# Collectable ################################
+
+[item]
+id=81
+name=Goblin Card
+INCLUDE items/base/collectable/goblin card.txt
+price=100
+price_sell=100
+max_quantity=100
+
+[item]
+id=82
+name=Spider Card
+INCLUDE items/base/collectable/spider card.txt
+price=100
+price_sell=100
+max_quantity=100
+
+[item]
+id=83
+name=Spawn Card
+INCLUDE items/base/collectable/spawn card.txt
+price=100
+price_sell=100
+max_quantity=100
+
+[item]
+id=84
+name=Ghost Card
+INCLUDE items/base/collectable/ghost card.txt
+price=100
+price_sell=100
+max_quantity=100
+
+[item]
+id=85
+name=Headhunter Card
+INCLUDE items/base/collectable/headhunter card.txt
+price=100
+price_sell=100
+max_quantity=100
+
+[item]
+id=86
+name=Boss Card
+INCLUDE items/base/collectable/boss card.txt
+price=100
+price_sell=100
+max_quantity=100
+
+[item]
+id=87
+name=Snake Card
+INCLUDE items/base/collectable/snake card.txt
+price=100
+price_sell=100
+max_quantity=100
+
+[item]
+id=88
+name=Minotaur Card
+INCLUDE items/base/collectable/minotaur card.txt
+price=100
+price_sell=100
+max_quantity=100

@@ -1,0 +1,114 @@
+# Chain Armor #########################
+
+[item]
+id=237
+name=Chain Coif
+INCLUDE items/base/armor/chain/head.txt
+abs=3
+requires_stat=brawn,3
+price=75
+
+[item]
+id=238
+name=Chain Cuirass
+quality=normal
+item_type=chest
+icon=153
+abs=4
+requires_stat=brawn,3
+soundfx=soundfx/inventory/inventory_maille.ogg
+gfx=chain_cuirass
+loot_animation=animations/loot/steel_armor.txt
+price=100
+
+[item]
+id=239
+name=Chain Pauldron
+quality=normal
+item_type=shoulder
+icon=297
+abs=4
+requires_stat=brawn,3
+soundfx=soundfx/inventory/inventory_maille.ogg
+gfx=chain_cuirass
+loot_animation=animations/loot/steel_armor.txt
+price=75
+
+[item]
+id=240
+name=Chain Bracer
+quality=normal
+item_type=arm
+icon=312
+abs=4
+requires_stat=brawn,3
+soundfx=soundfx/inventory/inventory_maille.ogg
+gfx=chain_cuirass
+loot_animation=animations/loot/steel_armor.txt
+price=75
+
+[item]
+id=242
+name=Chain Greaves
+quality=normal
+item_type=lleg
+icon=319
+abs=4
+requires_stat=brawn,3
+soundfx=soundfx/inventory/inventory_maille.ogg
+gfx=chain_cuirass
+loot_animation=animations/loot/steel_armor.txt
+price=75
+
+[item]
+id=243
+name=Chain Belt
+quality=normal
+item_type=abdomen
+icon=310
+abs=4
+requires_stat=brawn,3
+soundfx=soundfx/inventory/inventory_maille.ogg
+gfx=chain_cuirass
+loot_animation=animations/loot/steel_armor.txt
+price=75
+
+[item]
+id=244
+name=Chain Gloves
+quality=normal
+item_type=hands
+icon=154
+abs=3
+requires_stat=brawn,3
+soundfx=soundfx/inventory/inventory_maille.ogg
+gfx=chain_gloves
+loot_animation=animations/loot/steel_armor.txt
+price=82
+
+[item]
+id=245
+name=Chain Tassets
+quality=normal
+item_type=uleg
+icon=155
+abs=4
+requires_stat=brawn,3
+soundfx=soundfx/inventory/inventory_maille.ogg
+gfx=chain_greaves
+loot_animation=animations/loot/steel_armor.txt
+price=75
+
+[item]
+id=246
+name=Chain Boots
+quality=normal
+item_type=feet
+icon=156
+abs=3
+requires_stat=brawn,3
+soundfx=soundfx/inventory/inventory_maille.ogg
+gfx=chain_boots
+loot_animation=animations/loot/steel_armor.txt
+price=83
+stepfx=metal

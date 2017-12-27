@@ -1,0 +1,47 @@
+//
+// The resource header (defines the icon).
+//
+#include "resource.h"
+
+//
+// Version information requires inclusion of either <windows.h> or <winver.h>
+//
+#include <WinVer.h>
+
+// -------------------------------
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_Stealth Cavern_APP_ICON        ICON                    "..\\distribution\\StealthCavern.ico"
+
+// -------------------------------
+//
+// Version information
+//
+
+VS_VERSION_INFO VERSIONINFO
+  FILEVERSION    1,0,0,0
+  PRODUCTVERSION 1,0,0,0
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904E4"
+        BEGIN
+            VALUE "Comments", "Stealth Cavern\0"
+            VALUE "FileDescription", "Free Libre Action Roleplaying Engine\0"
+            VALUE "FileVersion", "1, 0, 0\0"
+            VALUE "InternalName", "Stealth Cavern\0"
+            VALUE "LegalCopyright", "Bryan Mcdowell - 2017\0"
+            VALUE "OriginalFilename", "stealthcavern.exe\0"
+            VALUE "ProductName", "Stealth Cavern\0"
+            VALUE "ProductVersion", "1, 0, 0\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+		VALUE "Translation", 0x000, 1200
+    END
+END

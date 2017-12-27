@@ -1,0 +1,102 @@
+# mining overseer
+name=Bratak, Trickster
+
+portrait=images/portraits/male20.png
+
+talker=true
+
+# animation info
+gfx=animations/npcs/peasant_man2.txt
+
+[dialog]
+requires_not_status=otis_init
+him=Hello stranger. I'm Otis. You look like a person with great skill and luck. 
+you=Thats right, I can even...
+him=Let me interrupt and offer you a chance to obtain what you deserve. Just a low bet will secure your chance. What do you say?
+set_status=otis_init
+
+[dialog]
+topic=Card game[luck] - 2 credits
+requires_status=otis_init
+him=Cards it is. I just so happen to have my card deck already...shuffled{grinning}. Win, and I'll pay you 7 credits.
+requires_currency=2
+gamble_currency=2
+
+[dialog]
+topic=Dice roll[luck] - 3 credits
+requires_status=otis_init
+him=Ahh, yes. My favorite. I'll hand you 11 credits to best me.
+requires_currency=3
+gamble_currency=3
+
+[dialog]
+topic=Dart throwing[concentration] - 4 credits
+requires_status=otis_init
+him=Oh, darts huh? We'll let just see how good you are. Beat me and you'll earn 14 credits.
+requires_currency=4
+gamble_currency=4
+
+[dialog]
+topic=Brotherhood
+requires_status=rotten_tower_found
+requires_not_status=brotherhood_search
+him=You seem to find things others can't. I could use your keen skillset for a lost brotherhood member. 
+you=Certainly, I've scouted many lands and seen all manner of things.
+him=I've been searching the last known whereabouts, and from what I can tell, he was last headed beyond the rotten tower. I'll reward you if you can find him, or at least his body.
+set_status=brotherhood_search
+
+[dialog]
+topic=Brotherhood - Truth
+requires_status=brotherhood_found
+requires_not_status=brotherhood_reward
+him=Is my assertion correct when I say that you've found my lost brotherhood member? 
+you=Yes, I saw him in Mountain Retreat, he is very popular with the wealthy.
+him=That blasted little...Ah..erm..That is great, I can begin preparations to MEET him there. And yes, take this generous offer for your informative skills.
+set_status=brotherhood_reward
+reward_currency=140
+reward_soul=30
+reward_faction_horgan=10
+
+[dialog]
+topic=Brotherhood - Deception(influence)
+requires_status=brotherhood_found
+requires_not_status=brotherhood_reward
+him=Yes, tell me all that you know.
+you=Well, it wasn't what you or I expected...dead.
+him=But the body, where is it?
+you=There was just tracks, and some bones, human.
+him=I can't be sure...but here, take this for your information.
+set_status=brotherhood_reward
+reward_currency=50
+reward_soul=50
+reward_faction_horgan=5
+
+[dialog]
+topic=Brotherhood - Lie(influence)
+requires_status=brotherhood_found
+requires_not_status=brotherhood_reward
+him=Tell me you found him now, so that he...I mean I can rest in peace.
+you=I don't know.
+him=I...can only hope the monsters ate his body.
+set_status=brotherhood_reward
+reward_currency=20
+reward_soul=50
+
+[dialog]
+topic=Pledge
+requires_status=brotherhood_reward
+requires_not_status=pledge_owe
+him=My ordeal I'm in, is a tricky one. 
+you=You are a man of great tricks, how can you not use that to your advantage?
+him=Ahaha, you spark the rebellious beast within me! I want you to take this package to my apprentice, Umar up north. Tell me you will keep it safe and tiddy upon deliverance, and I can gift you some of these spare credits that are...bulging out of my pockets.
+set_status=pledge_owe
+
+[dialog]
+topic=Pledge
+requires_status=pledge_paid
+requires_not_status=pledge_reward
+him=I knew I could trust a man such as yourself. Now, for those credits I was speaking of...
+set_status=pledge_reward
+reward_currency=80
+reward_soul=50
+reward_faction_horgan=10

@@ -1,0 +1,4 @@
+APPEND
+
+pos=267,5,106,18
+align=bottom

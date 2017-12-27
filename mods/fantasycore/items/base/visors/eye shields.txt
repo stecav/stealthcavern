@@ -1,0 +1,6 @@
+quality=normal
+item_type=visor
+icon=116
+soundfx=soundfx/inventory/inventory_leather.ogg
+gfx=mage_boots
+loot_animation=animations/loot/boots.txt

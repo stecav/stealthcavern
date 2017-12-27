@@ -1,0 +1,51 @@
+name=Skeletal Prophet
+generation=9
+categories=skeletal_prophet,ground
+soul=155
+
+sfx_phys=soundfx/enemies/skeleton_phys.ogg
+sfx_ment=soundfx/enemies/skeleton_ment.ogg
+sfx_hit=soundfx/enemies/skeleton_hit.ogg
+sfx_die=soundfx/enemies/skeleton_die.ogg
+sfx_critdie=soundfx/enemies/skeleton_critdie.ogg
+
+animations=animations/enemies/skeleton_mage.txt
+
+
+# combat stats
+stat=hull,500
+speed=3.5
+melee_range=1.1875
+threat_range=8.0
+turn_delay=200ms
+
+chance_pursue=15
+power_melee,1
+power_ranged,19
+power_ranged,30
+
+stat=accuracy,74
+stat=avoidance,37
+
+stat=dmg_melee_min,25
+stat=dmg_melee_max,58
+stat=dmg_ment_min,15
+stat=dmg_ment_max,40
+
+vulnerable_heat=200
+vulnerable_subzero=50
+cooldown=500ms
+
+# loot
+loot=loot/leveled_low.txt
+
+# staff
+loot=42,5
+
+# ring of concentration, owl figurine, sapphire, sage mantle, sage frock
+loot=108,1
+loot=120,1
+loot=3,1
+loot=123,1
+loot=124,1
+

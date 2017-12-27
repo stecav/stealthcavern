@@ -1,0 +1,30 @@
+name=Agrivated Zombie
+generation=3
+categories=agrivated_zombie,rotting_zombie,zombie,undead,ground,fern_valley_undead
+soul=13
+
+sfx_attack=swing,soundfx/enemies/zombie_phys.ogg
+sfx_attack=cast,soundfx/enemies/zombie_ment.ogg
+sfx_hit=soundfx/enemies/zombie_hit.ogg
+sfx_die=soundfx/enemies/zombie_die.ogg
+sfx_critdie=soundfx/enemies/zombie_critdie.ogg
+animations=animations/enemies/zombie.txt
+
+# combat stats
+stat=hull,140
+stat=hull_regen,50
+speed=2.5
+melee_range=1.1875
+threat_range=8.0
+turn_delay=400ms
+chance_pursue=10
+power=melee,1,2
+
+stat=accuracy,67
+stat=avoidance,13
+
+stat=dmg_melee_min,10
+stat=dmg_melee_max,12
+cooldown=33ms
+
+loot=loot/leveled_bottom.txt

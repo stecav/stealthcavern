@@ -1,0 +1,98 @@
+# Artifact Items
+
+[item]
+id=305
+name=Miniature UFO
+flavor=An extremely heavy item for such a small object.
+INCLUDE items/base/artifacts/miniature ufo.txt
+abs=2
+requires_stat=resolve,2
+price=4850
+
+[item]
+id=306
+name=Experimental Nuclear Device
+flavor=An unknown model brimming with rads.
+quality=high
+item_type=artifact
+icon=375
+abs=2
+requires_stat=resolve,2
+soundfx=soundfx/inventory/inventory_leather.ogg
+gfx=mage_boots
+loot_animation=animations/loot/boots.txt
+price=4050
+
+[item]
+id=307
+name=Jetpack
+flavor=The stable D-series model for personnel transport.
+quality=high
+item_type=artifact
+icon=133
+abs=2
+requires_stat=resolve,2
+soundfx=soundfx/inventory/inventory_leather.ogg
+gfx=mage_boots
+loot_animation=animations/loot/boots.txt
+bonus=speed,500
+price=3250
+
+[item]
+id=308
+name=Hoverboard
+flavor=Such devices were pioneered just recently.
+quality=high
+item_type=artifact
+icon=128
+abs=2
+requires_stat=resolve,2
+soundfx=soundfx/inventory/inventory_leather.ogg
+gfx=mage_boots
+loot_animation=animations/loot/boots.txt
+bonus=speed,280
+price=2170
+
+[item]
+id=309
+name=Experimental Teleporter
+flavor=With a transmitter but no responder, who knows where this will take someone.
+quality=high
+item_type=artifact
+icon=261
+abs=2
+requires_stat=resolve,2
+soundfx=soundfx/inventory/inventory_leather.ogg
+gfx=mage_boots
+loot_animation=animations/loot/boots.txt
+price=2550
+
+[item]
+id=310
+name=Miniature Doppelganger
+flavor=An illussion or trick?
+quality=high
+item_type=artifact
+icon=262
+abs=2
+requires_stat=resolve,2
+soundfx=soundfx/inventory/inventory_leather.ogg
+gfx=mage_boots
+loot_animation=animations/loot/boots.txt
+price=2750
+
+[item]
+id=311
+name=Experimental Time Dimensional Remote
+flavor=Such devices were thought destroyed millenia ago.
+quality=high
+item_type=artifact
+icon=376
+abs=2
+requires_stat=resolve,2
+soundfx=soundfx/inventory/inventory_leather.ogg
+gfx=mage_boots
+loot_animation=animations/loot/boots.txt
+stepfx=leather
+bonus=speed,125
+price=3250

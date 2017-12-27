@@ -1,0 +1,18 @@
+
+[mission]
+requires_status=goblin_complete
+requires_not_status=progress_arrived_asylum
+mission_text=Unlocked the 'Summon Goblin Ally' Skill. Continue through the north exit of the caves and travel East through the desert to the asylum.
+
+[mission]
+requires_status=progress_arrived_asylum
+requires_not_status=bryn_init
+mission_text=Find the asylum living quarters and see if anybody has some answers
+
+[mission]
+requires_status=bryn_init
+requires_not_status=asylum_complete
+mission_text=Find the Governor
+
+
+

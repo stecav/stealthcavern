@@ -1,0 +1,20 @@
+# Settings for actionbar menu
+# pos is x,y,width,height
+
+pos=0,0,640,35
+align=bottom
+
+slot=1,10,3
+slot=2,42,3
+slot=3,74,3
+slot=4,106,3
+slot=5,138,3
+slot=6,170,3
+slot=7,202,3
+slot=8,234,3
+slot=9,266,3
+slot=10,298,3
+
+slot_M1=362,3
+slot_M2=394,3
+

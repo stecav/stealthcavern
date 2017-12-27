@@ -1,0 +1,83 @@
+# Ceramic Armor #########################
+
+[item]
+id=558
+name=Titanate Ceramic Helmet
+INCLUDE items/base/armor/ceramic/head.txt
+requires_talent=prowess_armor,1
+abs=20
+requires_stat=brawn,4
+price=350
+
+[item]
+id=559
+name=Titanate Ceramic Pauldron
+INCLUDE items/base/armor/ceramic/chest.txt
+requires_talent=prowess_armor,1
+abs=20
+requires_stat=brawn,4
+price=350
+
+[item]
+id=560
+name=Titanate Ceramic Tasset
+INCLUDE items/base/armor/ceramic/legs.txt
+requires_talent=prowess_armor,1
+abs=20
+requires_stat=brawn,4
+price=350
+
+[item]
+id=561
+name=Titanate Ceramic Greave
+INCLUDE items/base/armor/ceramic/chest.txt
+requires_talent=prowess_armor,1
+abs=20
+requires_stat=brawn,4
+price=350
+
+[item]
+id=562
+name=Titanate Ceramic Belt
+INCLUDE items/base/armor/ceramic/chest.txt
+requires_talent=prowess_armor,1
+abs=20
+requires_stat=brawn,4
+price=350
+
+[item]
+id=563
+name=Titanate Ceramic Bracer
+INCLUDE items/base/armor/ceramic/chest.txt
+requires_talent=prowess_armor,1
+abs=20
+requires_stat=brawn,4
+price=350
+
+[item]
+id=564
+name=Titanate Ceramic Cuirass
+INCLUDE items/base/armor/ceramic/chest.txt
+requires_talent=prowess_armor,1
+abs=22
+requires_stat=brawn,4
+price=500
+
+[item]
+id=565
+name=Titanate Ceramic Gauntlets
+INCLUDE items/base/armor/ceramic/hands.txt
+requires_talent=prowess_armor,1
+abs=20
+requires_stat=brawn,4
+price=385
+
+[item]
+id=566
+name=Titanate Ceramic Solleret
+INCLUDE items/base/armor/ceramic/feet.txt
+requires_talent=prowess_armor,1
+abs=20
+requires_stat=brawn,4
+price=375
+stepfx=metal

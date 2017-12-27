@@ -1,0 +1,74 @@
+# Ceramic Armor #########################
+
+[item]
+id=257
+name=Ceramic Helmet
+INCLUDE items/base/armor/ceramic/head.txt
+abs=5
+requires_stat=brawn,4
+price=350
+
+[item]
+id=258
+name=Ceramic Pauldron
+INCLUDE items/base/armor/ceramic/chest.txt
+abs=5
+requires_stat=brawn,4
+price=350
+
+[item]
+id=259
+name=Ceramic Tasset
+INCLUDE items/base/armor/ceramic/legs.txt
+abs=5
+requires_stat=brawn,4
+price=350
+
+[item]
+id=260
+name=Ceramic Greave
+INCLUDE items/base/armor/ceramic/chest.txt
+abs=5
+requires_stat=brawn,4
+price=350
+
+[item]
+id=261
+name=Ceramic Belt
+INCLUDE items/base/armor/ceramic/chest.txt
+abs=5
+requires_stat=brawn,4
+price=350
+
+[item]
+id=262
+name=Ceramic Bracer
+INCLUDE items/base/armor/ceramic/chest.txt
+abs=5
+requires_stat=brawn,4
+price=350
+
+[item]
+id=263
+name=Ceramic Cuirass
+INCLUDE items/base/armor/ceramic/chest.txt
+abs=7
+requires_stat=brawn,4
+price=500
+
+[item]
+id=264
+name=Ceramic Gauntlets
+INCLUDE items/base/armor/ceramic/hands.txt
+abs=5
+requires_stat=brawn,4
+price=385
+
+[item]
+id=266
+name=Ceramic Solleret
+INCLUDE items/base/armor/ceramic/feet.txt
+abs=5
+requires_stat=brawn,4
+price=375
+stepfx=metal

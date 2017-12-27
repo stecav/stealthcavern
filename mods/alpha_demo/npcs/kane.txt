@@ -1,0 +1,8 @@
+name=Kane, Alchemist
+
+# shop info
+vendor=true
+constant_stock=3,3,3,8,8,8,13,13,13,16,149,151,152,154,155,212,214,213,218,219,220,221,222,387
+
+# animation info
+gfx=animations/npcs/peasant_woman2.txt

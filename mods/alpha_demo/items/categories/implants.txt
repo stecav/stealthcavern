@@ -1,0 +1,78 @@
+# Implant Items
+
+[item]
+id=298
+name=Neural Synapse Booster
+flavor=Improves response times for actions.
+INCLUDE items/base/implants/neural synapse booster.txt
+requires_talent=prowess_implants,1
+abs=2
+requires_stat=resolve,2
+bonus=speed,125
+price=450
+
+[item]
+id=299
+name=Neural Network Booster
+flavor=Improves targeting and threat information.
+INCLUDE items/base/implants/neural network booster.txt
+requires_talent=prowess_implants,1
+abs=2
+requires_stat=resolve,2
+bonus=concentration,1
+price=450
+
+[item]
+id=300
+name=Neural Cerebral Booster
+flavor=Performs catalyst function to improve magic.
+INCLUDE items/base/implants/neural network booster.txt
+requires_talent=prowess_implants,1
+abs=2
+requires_stat=resolve,2
+bonus=conjure,1
+price=450
+
+[item]
+id=301
+name=Neural Sensory Booster
+flavor=Increases motor core functions by providing redundant routes.
+INCLUDE items/base/implants/neural network booster.txt
+requires_talent=prowess_implants,1
+abs=2
+requires_stat=resolve,2
+bonus=resolve,2
+price=550
+
+[item]
+id=302
+name=Neural Induction Booster
+flavor=Helps provide entropy for life support.
+INCLUDE items/base/implants/neural network booster.txt
+requires_talent=prowess_implants,1
+abs=2
+requires_stat=resolve,2
+bonus=resilience,1
+price=550
+
+[item]
+id=303
+name=Neural Endoderm Booster
+flavor=Allows for increased throughput.
+INCLUDE items/base/implants/neural network booster.txt
+requires_talent=prowess_implants,1
+abs=2
+requires_stat=resolve,2
+bonus=nimble,1
+price=550
+
+[item]
+id=304
+name=Optical Vesicle Booster
+flavor=Reports claim these increase the users probability.
+INCLUDE items/base/implants/neural network booster.txt
+requires_talent=prowess_implants,1
+abs=2
+requires_stat=resolve,2
+bonus=luck,2
+price=550

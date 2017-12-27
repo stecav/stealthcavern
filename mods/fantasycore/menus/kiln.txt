@@ -1,0 +1,9 @@
+pos=0,-120,174,110
+align=center
+
+soundfx_open=soundfx/wood_open.ogg
+soundfx_kiln=soundfx/kiln_item.ogg
+confirm=16,74
+kiln_area=7,5
+kiln_cols=5
+kiln_rows=2

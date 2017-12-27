@@ -1,0 +1,5 @@
+quality=normal
+icon=151
+item_type=junk
+soundfx=soundfx/inventory/inventory_gem.ogg
+loot_animation=animations/loot/gem.txt

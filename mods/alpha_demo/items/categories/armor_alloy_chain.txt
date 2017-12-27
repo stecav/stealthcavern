@@ -1,0 +1,74 @@
+# Alloy Chain Armor #########################
+
+[item]
+id=540
+name=Alloy Chain Coif
+INCLUDE items/base/armor/chain/head.txt
+abs=15
+requires_stat=brawn,3
+price=75
+
+[item]
+id=541
+name=Alloy Chain Cuirass
+INCLUDE items/base/armor/chain/chest.txt
+abs=16
+requires_stat=brawn,3
+price=100
+
+[item]
+id=542
+name=Alloy Chain Pauldron
+INCLUDE items/base/armor/chain/chest.txt
+abs=16
+requires_stat=brawn,3
+price=75
+
+[item]
+id=543
+name=Alloy Chain Bracer
+INCLUDE items/base/armor/chain/chest.txt
+abs=16
+requires_stat=brawn,3
+price=75
+
+[item]
+id=544
+name=Alloy Chain Greaves
+INCLUDE items/base/armor/chain/chest.txt
+abs=16
+requires_stat=brawn,3
+price=75
+
+[item]
+id=545
+name=Alloy Chain Belt
+INCLUDE items/base/armor/chain/chest.txt
+abs=16
+requires_stat=brawn,3
+price=75
+
+[item]
+id=546
+name=Alloy Chain Gloves
+INCLUDE items/base/armor/chain/chest.txt
+abs=16
+requires_stat=brawn,3
+price=82
+
+[item]
+id=547
+name=Alloy Chain Tassets
+INCLUDE items/base/armor/chain/legs.txt
+abs=16
+requires_stat=brawn,3
+price=75
+
+[item]
+id=548
+name=Alloy Chain Boots
+INCLUDE items/base/armor/chain/feet.txt
+abs=15
+requires_stat=brawn,3
+price=83
+stepfx=metal

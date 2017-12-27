@@ -1,0 +1,134 @@
+# Robes ###############################
+
+[item]
+id=218
+name=Mage Hood
+INCLUDE items/base/armor/mage/head.txt
+flavor=The seams on this hood are designed to aid the flow of capacitor.
+requires_stat=conjure,2
+bonus=capacitor_regen,10
+price=55
+
+[item]
+id=219
+name=Mage Vest
+flavor=Frost resistance runes line the inside of this vest.
+quality=high
+item_type=chest
+icon=137
+abs=1
+requires_stat=conjure,2
+bonus=subzero_resist,10
+soundfx=soundfx/inventory/inventory_cloth.ogg
+gfx=mage_vest
+loot_animation=animations/loot/clothes.txt
+price=65
+
+[item]
+id=220
+name=Mage Sleeves
+flavor=The heat resistance runes that hem these sleeves help protect beginner students of Pyromancy.
+quality=high
+item_type=hands
+icon=138
+bonus=heat_resist,10
+requires_stat=conjure,2
+soundfx=soundfx/inventory/inventory_cloth.ogg
+gfx=mage_sleeves
+loot_animation=animations/loot/clothes.txt
+price=45
+
+[item]
+id=221
+name=Mage Skirt
+flavor=Spell components are tucked into hidden pockets covering this skirt.
+quality=high
+item_type=uleg
+icon=139
+abs=1
+bonus=capacitor,15
+requires_stat=conjure,2
+soundfx=soundfx/inventory/inventory_cloth.ogg
+gfx=mage_skirt
+loot_animation=animations/loot/clothes.txt
+price=90
+
+[item]
+id=222
+name=Mage Boots
+flavor=Attunement with the elements allow mages to ice and fire walk.
+quality=high
+item_type=feet
+icon=140
+requires_stat=conjure,2
+bonus=heat_resist,5
+bonus=subzero_resist,5
+soundfx=soundfx/inventory/inventory_cloth.ogg
+gfx=mage_boots
+loot_animation=animations/loot/clothes.txt
+price=70
+stepfx=cloth
+
+[item]
+id=223
+name=Mage Tassets
+flavor=Attunement with the elements allow mages to ice and fire walk.
+quality=high
+item_type=lleg
+icon=140
+requires_stat=conjure,2
+bonus=heat_resist,5
+bonus=subzero_resist,5
+soundfx=soundfx/inventory/inventory_cloth.ogg
+gfx=mage_boots
+loot_animation=animations/loot/clothes.txt
+price=70
+stepfx=cloth
+
+[item]
+id=224
+name=Mage Belt
+flavor=Attunement with the elements allow mages to ice and fire walk.
+quality=high
+item_type=abdomen
+icon=118
+requires_stat=conjure,2
+bonus=heat_resist,5
+bonus=subzero_resist,5
+soundfx=soundfx/inventory/inventory_cloth.ogg
+gfx=mage_boots
+loot_animation=animations/loot/clothes.txt
+price=70
+stepfx=cloth
+
+[item]
+id=225
+name=Mage Bracer
+flavor=Attunement with the elements allow mages to ice and fire walk.
+quality=high
+item_type=arm
+icon=140
+requires_stat=conjure,2
+bonus=heat_resist,5
+bonus=subzero_resist,5
+soundfx=soundfx/inventory/inventory_cloth.ogg
+gfx=mage_boots
+loot_animation=animations/loot/clothes.txt
+price=70
+stepfx=cloth
+
+[item]
+id=226
+name=Mage Pauldron
+flavor=Attunement with the elements allow mages to ice and fire walk.
+quality=high
+item_type=shoulder
+icon=140
+requires_stat=conjure,2
+bonus=heat_resist,5
+bonus=subzero_resist,5
+soundfx=soundfx/inventory/inventory_cloth.ogg
+gfx=mage_boots
+loot_animation=animations/loot/clothes.txt
+price=70
+stepfx=cloth

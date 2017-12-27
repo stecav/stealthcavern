@@ -1,0 +1,22 @@
+# mining overseer
+name=Phobos, Dealer
+
+portrait=images/portraits/male05.png
+
+talker=true
+
+# animation info
+gfx=animations/npcs/guild_man1.txt
+
+
+[dialog]
+topic=Carapace Trophy
+requires_status=wc_deal
+you=I hear you take intrest in carapace trophies.
+him=Those are hard to come by, but times have changed.
+you=You mean you are no longer interested in buying?
+him=Well, I'll tell you what. Cabi takes more pride in making concoctions out of those, and from what I heard, pays more.
+you=I've never met Cabi. How do I find this person?
+him=Ugh...She likes to hang out by the water springs.
+set_status=wc_counter
+

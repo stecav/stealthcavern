@@ -1,0 +1,13 @@
+animations=animations/enemies/boulder.txt
+
+name=Boulder
+generation=9
+categories=nazia_boulder
+
+defeat_status=emp_naziamines_cleared
+
+stat=hull,1
+stat=avoidance,1000
+speed=0
+
+suppress_hp=true

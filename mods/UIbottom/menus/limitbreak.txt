@@ -1,0 +1,5 @@
+APPEND
+
+pos=130,-28,106,18
+text_pos=0,-3,50,13
+align=bottom

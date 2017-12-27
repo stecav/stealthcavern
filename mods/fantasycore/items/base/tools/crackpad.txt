@@ -1,0 +1,5 @@
+quality=high
+icon=379
+item_type=tool
+soundfx=soundfx/inventory/inventory_gem.ogg
+loot_animation=animations/loot/gem.txt

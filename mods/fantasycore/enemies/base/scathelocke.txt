@@ -1,0 +1,57 @@
+name=Scathelocke
+generation=11
+categories=scathelocke,ground
+soul=250
+
+sfx_phys=soundfx/enemies/spider_phys.ogg
+sfx_hit=soundfx/enemies/spider_hit.ogg
+sfx_die=soundfx/enemies/spider_die.ogg
+sfx_critdie=soundfx/enemies/spider_critdie.ogg
+animations=animations/enemies/scathelocke.txt
+
+mission_loot=lb_ice_unlocked,lb_ice_key,9101
+defeat_status=lb_ice_defeated
+
+# combat stats
+stat=hull,820
+speed=4.5
+melee_range=1.1875
+threat_range=8.0
+turn_delay=166ms
+chance_pursue=30
+#chill touch
+power=melee,38
+power=ranged,30
+
+stat=accuracy,78
+stat=avoidance,33
+
+stat=dmg_melee_min,55
+stat=dmg_melee_max,80
+stat=dmg_ment_min,65
+stat=dmg_ment_max,85
+stat=absorb_min,10
+stat=absorb_max,10
+#immune ice
+vulnerable_heat=200
+vulnerable_subzero=0
+cooldown=1s
+
+# loot
+loot=loot/leveled_mid.txt
+
+# long sword, plate armor, crest shield
+loot=34,5
+loot=96,5
+loot=96,5
+loot=98,5
+loot=99,5
+loot=100,5
+loot=58,5
+
+# turtle figurine, ring of regen, great sword, tower shield, emerald
+loot=112,1
+loot=107,1
+loot=35,1
+loot=59,1
+loot=4,1

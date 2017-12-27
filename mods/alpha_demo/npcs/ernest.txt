@@ -1,0 +1,8 @@
+name=Ernest, Scrapper
+
+# shop info
+vendor=true
+constant_stock=62,67,69,71,72,74,76
+
+# animation info
+gfx=animations/npcs/peasant_woman2.txt

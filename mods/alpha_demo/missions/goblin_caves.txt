@@ -1,0 +1,21 @@
+
+[mission]
+requires_status=horse_tamer_complete
+requires_not_status=leaving_town
+mission_text=Unlocked the 'Conversion' skill. Return to talk to Ieuan
+
+[mission]
+requires_status=leaving_town
+requires_not_status=vlad_init
+mission_text=Travel north through the Goblin caves leading to the desert. Keep an eye out for Vlad.
+
+[mission]
+requires_status=vlad_init
+requires_not_status=goblin_cave_clear
+mission_text=Clear the goblin caves of the infestation
+
+[mission]
+requires_status=goblin_cave_clear
+requires_not_status=goblin_complete
+mission_text=Return to Vlad
+

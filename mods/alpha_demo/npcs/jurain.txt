@@ -1,0 +1,8 @@
+name=Jurain, Alchemist
+
+# shop info
+vendor=true
+constant_stock=3,3,3,8,8,8,13,13,13,16,212,214,213,218,219,220,221,222,388,457,458,459,460,461,462,463,464,465,466
+
+# animation info
+gfx=animations/npcs/peasant_woman2.txt

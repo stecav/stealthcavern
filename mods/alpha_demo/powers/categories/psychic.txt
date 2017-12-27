@@ -1,0 +1,487 @@
+[power]
+id=88
+name=Sublimate
+type=missile
+icon=270
+description=Basic psychic assault
+new_state=cast
+face=true
+requires_capacitor=1
+directional=true
+animation=animations/powers/sublimate.txt
+use_hazard=true
+aim_assist=true
+base_damage=ment
+lifespan=33ms
+radius=1.0
+speed=70
+starting_pos=melee
+
+[power]
+id=89
+name=Greater Sublimate
+type=missile
+icon=271
+description=Psychic attack with 10% Capacitor steal
+new_state=cast
+requires_flags=psychic
+face=true
+requires_capacitor=1
+directional=true
+animation=animations/powers/sublimate.txt
+use_hazard=true
+aim_assist=true
+base_damage=ment
+lifespan=33ms
+radius=1.0
+speed=70
+starting_pos=melee
+capacitor_steal=10
+
+[power]
+id=198
+name=HP Boost
+type=fixed
+description=Raises Hull by 50
+icon=688
+passive=true
+post_effect=Hull bonus,50,0
+buff=true
+
+[power]
+id=90
+name=Bolster
+type=fixed
+icon=273
+description=Improve stats
+new_state=cast
+requires_flags=psychic
+requires_capacitor=15
+soundfx=soundfx/powers/cracker.ogg
+trait_elemental=light
+buff=true
+post_effect=Conjure,1,1s
+post_effect=Brawn,1,1s
+post_effect=Concentration,1,1s
+post_effect=Luck,1,1s
+post_effect=Influence,1,1s
+post_effect=Nimble,1,1s
+post_effect=Resilience,1,1s
+post_effect=Resolve,1,1s
+post_effect=Bolster,0,0
+
+[power]
+id=91
+name=Hamper
+type=fixed
+icon=272
+description=Debuff foes
+new_state=cast
+requires_flags=psychic
+requires_capacitor=8
+soundfx=soundfx/powers/heal.ogg
+trait_elemental=light
+buff=true
+post_effect=Heal,0,0
+
+[power]
+id=92
+name=Overthrow
+type=fixed
+icon=274
+description=Leech vital essenses
+new_state=cast
+requires_flags=psychic
+requires_capacitor=5
+soundfx=soundfx/powers/heal.ogg
+trait_elemental=light
+buff=true
+post_effect=Heal,0,0
+
+[power]
+id=93
+name=Catalyst
+type=fixed
+icon=275
+description=Trigger burning spirits within to feel stronger
+new_state=cast
+requires_capacitor=15
+soundfx=soundfx/powers/heal.ogg
+trait_elemental=light
+buff=true
+post_effect=Heal,0,0
+
+[power]
+id=94
+name=PSI to Hull
+type=fixed
+icon=276
+description=Override psi regulation and transfer to hull
+new_state=cast
+requires_capacitor=20
+soundfx=soundfx/powers/buffers.ogg
+trait_elemental=light
+buff=true
+post_effect=PSI to hull,0,0
+
+[power]
+id=95
+name=Hull to Capacitor
+type=fixed
+icon=277
+description=Burn off hull and generate capacitor in the process
+new_state=cast
+requires_capacitor=5
+soundfx=soundfx/powers/buffe.ogg
+trait_elemental=light
+buff=true
+post_effect=Hull to capacitor,0,0
+
+[power]
+id=96
+name=Imagination
+type=fixed
+icon=278
+description=Generate hallucinations to reveal alternate realities
+new_state=cast
+requires_capacitor=8
+soundfx=soundfx/powers/heal.ogg
+trait_elemental=light
+buff=true
+post_effect=Heal,0,0
+
+[power]
+id=97
+name=Trick
+type=fixed
+icon=279
+description=Obscure your intentions 
+new_state=cast
+requires_capacitor=15
+soundfx=soundfx/powers/heal.ogg
+trait_elemental=light
+buff=true
+post_effect=Fealty,20,5s
+
+[power]
+id=98
+name=Traveler
+type=fixed
+icon=280
+description=Get to your destination faster
+new_state=cast
+requires_capacitor=40
+soundfx=soundfx/powers/screamer.ogg
+trait_elemental=light
+buff=true
+post_effect=Nimble,2,10s
+post_effect=Traveler,0,0
+
+[power]
+id=99
+name=Cleanse
+type=fixed
+icon=281
+description=Get rid of harmful effects
+new_state=cast
+requires_capacitor=20
+soundfx=soundfx/powers/heal.ogg
+trait_elemental=light
+buff=true
+post_effect=Heal,0,0
+
+[power]
+id=145
+name=Envision
+type=fixed
+icon=284
+description=See through things
+new_state=cast
+requires_capacitor=10
+soundfx=soundfx/powers/heal.ogg
+trait_elemental=light
+buff=true
+post_effect=Heal,0,0
+
+[power]
+id=146
+name=Telekenesis
+type=fixed
+icon=282
+description=Teleport objects to you
+new_state=cast
+requires_capacitor=10
+soundfx=soundfx/powers/heal.ogg
+trait_elemental=light
+buff=true
+post_effect=Heal,0,0
+
+[power]
+id=147
+name=Hijack
+type=fixed
+icon=283
+description=Control others
+new_state=cast
+requires_flags=psychic
+requires_capacitor=5
+soundfx=soundfx/powers/heal.ogg
+trait_elemental=light
+buff=true
+post_effect=Heal,0,0
+
+[power]
+id=148
+name=Entrap
+type=fixed
+icon=286
+description=Decieve and obscure what enemies really attack, reflects damage
+new_state=cast
+requires_flags=psychic
+requires_capacitor=5
+soundfx=soundfx/powers/heal.ogg
+trait_elemental=light
+buff=true
+post_effect=Heal,0,0
+
+[power]
+id=149
+name=Extort
+type=fixed
+icon=287
+description=Gain wealth from the weaker minds
+new_state=cast
+requires_flags=psychic
+requires_capacitor=10
+soundfx=soundfx/powers/heal.ogg
+trait_elemental=light
+buff=true
+post_effect=Heal,0,0
+
+[power]
+id=150
+name=Brainstorm
+type=fixed
+icon=285
+description=Regenerate your psychic powers fast
+new_state=cast
+requires_capacitor=10
+soundfx=soundfx/powers/buffers.ogg
+trait_elemental=light
+buff=true
+post_effect=Influence,2,30s
+post_effect=Brainstorm,0,0
+
+[power]
+id=151
+name=Reconstruct
+type=fixed
+icon=27
+description=Suicide
+new_state=cast
+animation=animations/powers/special.txt
+soundfx=soundfx/powers/special.ogg
+trait_elemental=light
+base_damage=melee
+
+[power]
+id=203
+name=Fearmonger
+type=fixed
+icon=689
+description=Enemies are stunned with fear before fleeing
+new_state=cast
+requires_capacitor=12
+soundfx=soundfx/powers/warcry.ogg
+use_hazard=true
+lifespan=40ms
+radius=4.0
+starting_pos=source
+multitarget=true
+post_effect=Fear,0,7s
+post_effect=Fear Immobilise,0,2s
+
+[power]
+id=204
+name=Protection
+type=fixed
+description=Raises all allies hull by 50
+icon=690
+post_effect=Hull Buff bonus - protection,50,10s
+buff_party=true
+requires_capacitor=5
+new_state=cast
+
+[power]
+id=205
+name=Hardened
+type=fixed
+description=Additional bonus to damage absorb
+soundfx=soundfx/powers/bufffer.ogg
+icon=691
+post_effect=Raise Absorb min - protection,10,20s
+post_effect=Raise Absorb max - protection,10,20s
+post_effect=Hardened,0,0
+buff=true
+requires_capacitor=5
+new_state=cast
+
+
+[power]
+id=206
+name=Ordinance
+type=fixed
+description=Additional bonus to avoidance
+soundfx=soundfx/powers/boom.ogg
+icon=692
+post_effect=Raise Absorb min - protection,10,30s
+post_effect=Raise Absorb max - protection,10,30s
+post_effect=Raise Avoidance - protection,15,30s
+post_effect=Ordinance,0,0
+buff=true
+requires_capacitor=10
+new_state=cast
+
+[power]
+id=207
+name=Casement
+type=fixed
+description=Additional bonus to Elemental resistances
+soundfx=soundfx/powers/powerup.ogg
+icon=665
+post_effect=Raise Absorb min - protection,10,40s
+post_effect=Raise Absorb max - protection,10,40s
+post_effect=Raise Avoidance - protection,15,40s
+post_effect=Heat Resistance,10,40s
+post_effect=Subzero Resistance,10,40s
+post_effect=Conductive Resistance,10,40s
+post_effect=Radiation Resistance,10,40s
+post_effect=Casement,0,0
+buff=true
+requires_capacitor=15
+new_state=cast
+
+[power]
+id=243
+name=Strangle
+type=fixed
+icon=660
+description=Use psychic dominance to constrict foes
+new_state=cast
+requires_capacitor=8
+soundfx=soundfx/powers/heal.ogg
+trait_elemental=light
+buff=true
+post_effect=Heal,0,0
+
+[power]
+id=248
+name=Swirl of force
+type=fixed
+icon=659
+description=Emits a swirling gravitational pit
+new_state=cast
+requires_capacitor=8
+soundfx=soundfx/powers/heal.ogg
+trait_elemental=light
+buff=true
+post_effect=Heal,0,0
+
+[power]
+id=245
+name=Collision force
+type=fixed
+icon=662
+description=Spawn dark energies that attract enemies and cause physical damage
+new_state=cast
+requires_capacitor=8
+soundfx=soundfx/powers/heal.ogg
+trait_elemental=light
+buff=true
+post_effect=Heal,0,0
+
+[power]
+id=246
+name=Drop force
+type=fixed
+icon=694
+description=Manipulate gravitational forces to cause physical damage
+new_state=cast
+requires_capacitor=8
+soundfx=soundfx/powers/heal.ogg
+trait_elemental=light
+buff=true
+post_effect=Heal,0,0
+
+[power]
+id=250
+name=Phase facade
+type=fixed
+icon=664
+description=Generate hallucination to trick enemies
+new_state=cast
+requires_capacitor=8
+soundfx=soundfx/powers/heal.ogg
+trait_elemental=light
+buff=true
+post_effect=Heal,0,0
+
+[power]
+id=251
+name=Meditation
+type=fixed
+icon=693
+description=Alter biochemistry to regenerate and boost vitals
+new_state=cast
+requires_capacitor=8
+soundfx=soundfx/powers/heal.ogg
+trait_elemental=light
+buff=true
+post_effect=Heal,0,0
+
+[power]
+id=249
+name=Weigh of worlds
+type=fixed
+icon=661
+description=Alter gravitational field to make foes feel heavy and slow
+new_state=cast
+requires_capacitor=8
+soundfx=soundfx/powers/heal.ogg
+trait_elemental=light
+buff=true
+post_effect=Heal,0,0
+
+[power]
+id=244
+name=Throwback
+type=fixed
+icon=663
+description=Manifest dark energies that hurls an enemy away
+new_state=cast
+requires_capacitor=8
+soundfx=soundfx/powers/quake.ogg
+animation=animations/powers/quake.txt
+use_hazard=true
+base_damage=ment
+lifespan=400ms
+radius=2.0
+floor=true
+trait_elemental=earth
+starting_pos=source
+face=true
+cooldown=90ms
+post_effect=Knockback,60,100ms
+
+[power]
+id=247
+name=Phase field
+type=fixed
+icon=278
+description=Generates electromagnetic field that alters reality
+new_state=cast
+requires_capacitor=8
+soundfx=soundfx/powers/heal.ogg
+trait_elemental=light
+buff=true
+post_effect=Heal,0,0

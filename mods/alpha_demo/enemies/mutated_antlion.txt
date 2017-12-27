@@ -1,0 +1,41 @@
+name=Mutated Antlion
+generation=28
+categories=mutated_antlion_fire,antlion,dungeon,cave,fire,ground
+soul=7100
+
+sfx_attack=swing,soundfx/enemies/antlion_phys.ogg
+sfx_hit=soundfx/enemies/antlion_hit.ogg
+sfx_die=soundfx/enemies/antlion_die.ogg
+sfx_critdie=soundfx/enemies/antlion_critdie.ogg
+animations=animations/enemies/fire_ant.txt
+
+
+# combat stats
+stat=hull,4140
+speed=2.2
+melee_range=1.1875
+threat_range=8.0
+turn_delay=400ms
+chance_pursue=10
+power=melee,1
+power=ranged,1119
+
+stat=accuracy,90
+stat=avoidance,67
+
+stat=dmg_melee_min,610
+stat=dmg_melee_max,730
+stat=dmg_ment_min,70
+stat=dmg_ment_max,750
+stat=absorb_min,21
+stat=absorb_max,21
+vulnerable_heat=50
+vulnerable_subzero=200
+
+cooldown=83ms
+
+mission_loot=bethan_init,ant_heart,206
+
+stat=hull_regen,50
+# loot
+loot=loot/leveled_top.txt

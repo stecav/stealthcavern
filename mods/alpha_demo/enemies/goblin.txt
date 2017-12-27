@@ -1,0 +1,40 @@
+name=Goblin
+humanoid=true
+generation=23
+categories=goblin_normal,goblin,dungeon
+rarity=common
+soul=3500
+
+sfx_attack=swing,soundfx/enemies/goblin_phys.ogg
+sfx_attack=cast,soundfx/enemies/goblin_ment.ogg
+sfx_hit=soundfx/enemies/goblin_hit.ogg
+sfx_die=soundfx/enemies/goblin_die.ogg
+sfx_critdie=soundfx/enemies/goblin_critdie.ogg
+
+animations=animations/enemies/goblin.txt
+
+# combat stats
+stat=hull,2330
+speed=3.2
+melee_range=1.125
+threat_range=8.0
+turn_delay=166ms
+chance_pursue=30
+power=melee,1
+
+stat=accuracy,86
+stat=avoidance,42
+stat=absorb_min,12
+stat=absorb_max,12
+
+stat=dmg_melee_min,310
+stat=dmg_melee_max,395
+cooldown=333ms
+
+# loot
+loot=loot/leveled_top.txt
+
+# dagger
+loot=32,5
+
+

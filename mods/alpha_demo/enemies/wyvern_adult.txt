@@ -1,0 +1,43 @@
+name=Adult Wyvern
+generation=7
+categories=wyvern_adult,wyvern
+rarity=common
+soul=80
+
+sfx_attack=swing,soundfx/enemies/wyvern_phys.ogg
+sfx_attack=cast,soundfx/enemies/wyvern_ment.ogg
+sfx_hit=soundfx/enemies/wyvern_hit.ogg
+sfx_die=soundfx/enemies/wyvern_die.ogg
+sfx_critdie=soundfx/enemies/wyvern_critdie.ogg
+
+animations=animations/enemies/wyvern_adult.txt
+
+
+# combat stats
+stat=hull,350
+speed=6
+flying=1
+melee_range=1.125
+threat_range=8.0
+turn_delay=100ms
+chance_pursue=10
+
+# bleed sting
+power=melee,5
+power=ranged,31
+
+stat=accuracy,73
+stat=avoidance,21
+
+stat=dmg_melee_min,18
+stat=dmg_melee_max,33
+stat=dmg_ment_min,20
+stat=dmg_ment_max,40
+stat=absorb_min,15
+stat=absorb_max,15
+
+cooldown=1s
+
+# loot
+loot=loot/leveled_low.txt
+

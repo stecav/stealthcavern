@@ -1,0 +1,250 @@
+[power]
+id=112
+type=fixed
+icon=64
+name=Minor Health Tonic
+soundfx=soundfx/powers/potion.ogg
+new_state=instant
+requires_item=1
+cooldown=500ms
+buff=true
+post_effect=Hull restore,20,33ms
+
+[power]
+id=171
+type=fixed
+icon=84
+name=Mild Health Tonic
+soundfx=soundfx/powers/potion.ogg
+new_state=instant
+requires_item=2
+cooldown=500ms
+buff=true
+post_effect=Hull restore,40,33ms
+
+[power]
+id=100
+type=fixed
+icon=87
+name=Health Tonic
+soundfx=soundfx/powers/potion.ogg
+new_state=instant
+requires_item=3
+cooldown=500ms
+buff=true
+post_effect=Hull restore,50,33ms
+
+[power]
+id=111
+type=fixed
+icon=699
+name=Resolute Health Tonic
+soundfx=soundfx/powers/potion.ogg
+new_state=instant
+requires_item=4
+cooldown=500ms
+buff=true
+post_effect=Hull restore,60,33ms
+
+[power]
+id=113
+type=fixed
+icon=700
+name=Superfluous Health Tonic
+soundfx=soundfx/powers/potion.ogg
+new_state=instant
+requires_item=5
+cooldown=500ms
+buff=true
+post_effect=Hull restore,70,33ms
+
+[power]
+id=106
+type=fixed
+icon=169
+name=Minor PSI Brew
+soundfx=soundfx/powers/potion.ogg
+new_state=instant
+requires_item=6
+cooldown=500ms
+buff=true
+post_effect=PSI restore,20,33ms
+
+[power]
+id=107
+type=fixed
+icon=80
+name=Mild PSI Brew
+soundfx=soundfx/powers/potion.ogg
+new_state=instant
+requires_item=7
+cooldown=500ms
+buff=true
+post_effect=PSI restore,30,33ms
+
+[power]
+id=108
+type=fixed
+icon=67
+name=PSI Brew
+soundfx=soundfx/powers/potion.ogg
+new_state=instant
+requires_item=8
+cooldown=500ms
+buff=true
+post_effect=PSI restore,40,33ms
+
+[power]
+id=109
+type=fixed
+icon=701
+name=Resolute PSI Brew
+soundfx=soundfx/powers/potion.ogg
+new_state=instant
+requires_item=9
+cooldown=500ms
+buff=true
+post_effect=PSI restore,50,33ms
+
+[power]
+id=110
+type=fixed
+icon=702
+name=Superfluous PSI Brew
+soundfx=soundfx/powers/potion.ogg
+new_state=instant
+requires_item=10
+cooldown=500ms
+buff=true
+post_effect=PSI restore,60,33ms
+
+[power]
+id=101
+type=fixed
+icon=65
+name=Minor Capacitor Potion
+new_state=instant
+soundfx=soundfx/powers/potion.ogg
+requires_item=11
+cooldown=500ms
+buff=true
+post_effect=Capacitor restore,10,33ms
+
+[power]
+id=102
+type=fixed
+icon=81
+name=Mild Capacitor Potion
+new_state=instant
+soundfx=soundfx/powers/potion.ogg
+requires_item=12
+cooldown=500ms
+buff=true
+post_effect=Capacitor restore,20,33ms
+
+[power]
+id=103
+type=fixed
+icon=66
+name=Capacitor Potion
+new_state=instant
+soundfx=soundfx/powers/potion.ogg
+requires_item=13
+cooldown=500ms
+buff=true
+post_effect=Capacitor restore,30,33ms
+
+[power]
+id=104
+type=fixed
+icon=706
+name=Resolute Capacitor Potion
+new_state=instant
+soundfx=soundfx/powers/potion.ogg
+requires_item=14
+cooldown=500ms
+buff=true
+post_effect=Capacitor restore,40,33ms
+
+[power]
+id=105
+type=fixed
+icon=707
+name=Superfluous Capacitor Potion
+new_state=instant
+soundfx=soundfx/powers/potion.ogg
+requires_item=15
+cooldown=500ms
+buff=true
+post_effect=Capacitor restore,50,33ms
+
+[power]
+id=111
+type=fixed
+icon=90
+name=Lesser Electrolyte Concoction
+new_state=instant
+soundfx=soundfx/powers/potion.ogg
+requires_item=386
+cooldown=500ms
+buff=true
+post_effect=Fury,2,5s
+
+[power]
+id=114
+type=fixed
+icon=82
+name=Electrolyte Concoction
+new_state=instant
+soundfx=soundfx/powers/potion.ogg
+requires_item=387
+cooldown=500ms
+buff=true
+post_effect=Fury,3,7s
+
+[power]
+id=113
+type=fixed
+icon=89
+name=Pure Electrolyte Concoction
+new_state=instant
+soundfx=soundfx/powers/potion.ogg
+requires_item=388
+cooldown=500ms
+buff=true
+post_effect=Fury,4,10s
+
+[power]
+id=140
+name=Æther Walkers
+type=fixed
+icon=176
+description=Blink to a nearby location
+new_state=cast
+requires_capacitor=3
+requires_empty_target=true
+requires_targeting=true
+requires_equipped_item=126
+animation=animations/powers/runes.txt
+soundfx=soundfx/powers/teleport.ogg
+use_hazard=true
+no_attack=true
+lifespan=533ms
+floor=true
+starting_pos=source
+buff_teleport=true
+target_range=8.0
+target_neighbor=1
+cooldown=15s
+
+[power]
+id=170
+#name=Ouroboros Ring
+#description=Revive upon death
+type=fixed
+buff=true
+requires_equipped_item=112,1
+passive=true
+passive_trigger=on_death
+post_effect=Revive,0,33s
+

@@ -1,0 +1,7 @@
+quality=normal
+item_type=legs
+icon=243
+soundfx=soundfx/inventory/inventory_maille.ogg
+gfx=ceramic_greaves
+loot_animation=animations/loot/ceramic_tasset.txt
+

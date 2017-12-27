@@ -1,0 +1,55 @@
+# Hero classes
+# name must be first
+# brawn/conjure/concentration/nimble/luck/influence/resolve/resilience points should total to no greater than the max available points
+
+[class]
+name=Close Combat Violator
+description=Rely on brawn and melee weapons to strike down foes. Primary attribute: Brawn
+currency=0
+equipment=208,216,217,137
+primary=brawn,1
+powers=5
+actionbar=144,0,0,0,0,0,0,0,0,0,1,5
+
+[class]
+name=Arcane Elementalist Perveyor
+description=Inherent natural abilities provide a conduit for casting magical spells. Primary attribute: Conjure
+currency=0
+equipment=208,216,217,149
+primary=conjure,1
+powers=6
+actionbar=144,0,0,0,0,0,0,0,0,0,2,6
+
+[class]
+name=Ranged Combat Terrorizer
+description=A specialist in ranged weaponry and combat accuracy. Primary attribute: Concentration
+currency=0
+equipment=208,216,217,165
+primary=concentration,1
+powers=16
+actionbar=144,0,0,0,0,0,0,0,0,0,22,16
+
+[class]
+name=Constituent Survivalist Guerrilla
+description=Focus on defensive powers for survival. Primary attribute: Nimble
+currency=0
+equipment=208,216,217,197,117
+primary=nimble,1
+powers=141
+actionbar=141,144,0,0,0,0,0,0,0,0,1,3
+
+[class]
+name=Intelligent Convincing Pursuader
+description=Use powers of influence and manipulation to drive your agenda. Primary attribute: Influence
+currency=0
+equipment=208,216,217,408
+primary=influence,1
+powers=94
+actionbar=144,0,0,0,0,0,0,0,0,0,88,94
+
+[class]
+name=Proficient Adapting Improviser
+description=Adapt to changing environments on your own. Primary attribute: custom
+currency=40
+equipment=208,216,217
+actionbar=144,0,0,0,0,0,0,0,0,0,1,0

@@ -1,0 +1,34 @@
+name=Giant Spider
+generation=10
+categories=spider_giant,spider,animal,ground
+soul=150
+rarity=uncommon
+
+sfx_attack=swing,soundfx/enemies/antlion_phys.ogg
+sfx_hit=soundfx/enemies/antlion_hit.ogg
+sfx_die=soundfx/enemies/antlion_die.ogg
+sfx_critdie=soundfx/enemies/antlion_critdie.ogg
+animations=animations/enemies/spider_giant.txt
+
+
+# combat stats
+stat=hull,1020
+stat=hull_regen,10
+speed=2.3
+melee_range=1.1875
+threat_range=8.0
+turn_delay=166ms
+chance_pursue=30
+power=melee,1,2
+
+stat=accuracy,75
+stat=avoidance,24
+stat=absorb_min,10
+stat=absorb_max,30
+
+stat=dmg_melee_min,45
+stat=dmg_melee_max,65
+cooldown=333ms
+
+# loot
+loot=loot/leveled_low.txt

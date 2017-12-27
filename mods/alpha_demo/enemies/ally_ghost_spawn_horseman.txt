@@ -1,0 +1,32 @@
+name=Headless Horseman
+generation=18
+categories=ally_ghost_spawn_horseman
+soul=250
+
+sfx_phys=soundfx/enemies/skeleton_phys.ogg
+sfx_ment=soundfx/enemies/skeleton_ment.ogg
+sfx_hit=soundfx/enemies/skeleton_hit.ogg
+sfx_die=soundfx/enemies/skeleton_die.ogg
+sfx_critdie=soundfx/enemies/skeleton_critdie.ogg
+
+animations=animations/enemies/steel_armor.txt
+
+# combat stats
+stat=hull,300
+stat=hull_regen,50
+speed=3.5
+melee_range=1.1875
+threat_range=8.0
+turn_delay=400ms
+chance_pursue=20
+chance_melee_phys=20
+power=melee,1
+
+stat=accuracy,80
+stat=avoidance,25
+stat=absorb_min,15
+stat=absorb_max,25
+
+stat=dmg_melee_min,60
+stat=dmg_melee_max,100
+cooldown=15s

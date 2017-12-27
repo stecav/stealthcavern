@@ -1,0 +1,9 @@
+
+image=images/powers/grenade.png
+
+[power]
+frames=1
+duration=1s
+type=looped
+active_frame=all
+frame=0,0,0,0,8,8,2,34

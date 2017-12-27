@@ -1,0 +1,51 @@
+name=Skeletal Sniper
+humanoid=true
+generation=16
+categories=skeletal_sniper,skeleton,undead,dungeon
+soul=750
+
+sfx_attack=swing,soundfx/enemies/skeleton_phys.ogg
+sfx_attack=cast,soundfx/enemies/skeleton_ment.ogg
+sfx_hit=soundfx/enemies/skeleton_hit.ogg
+sfx_die=soundfx/enemies/skeleton_die.ogg
+sfx_critdie=soundfx/enemies/skeleton_critdie.ogg
+
+animations=animations/enemies/skeleton_archer.txt
+
+
+# combat stats
+stat=hull,1550
+speed=2.5
+melee_range=1.1875
+threat_range=8.0
+turn_delay=200ms
+chance_pursue=5
+
+# shoot
+power=ranged,34
+# multi-shot
+power=ranged,42
+
+stat=accuracy,79
+stat=avoidance,34
+
+stat=dmg_melee_min,75
+stat=dmg_melee_max,125
+stat=dmg_ranged_min,115
+stat=dmg_ranged_max,145
+stat=absorb_min,15
+stat=absorb_max,15
+
+cooldown=500ms
+
+# loot
+loot=loot/leveled_high.txt
+
+# long bow, chain coif
+loot=50,5
+loot=88,5
+
+# cat figurine, relic hunter's ring
+loot=121,1
+loot=113,1
+

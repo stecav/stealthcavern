@@ -1,0 +1,58 @@
+name=Sir Evan Maddox
+generation=7
+categories=sir_evan_maddox,ground
+soul=70
+
+sfx_phys=soundfx/enemies/skeleton_phys.ogg
+sfx_ment=soundfx/enemies/skeleton_ment.ogg
+sfx_hit=soundfx/enemies/skeleton_hit.ogg
+sfx_die=soundfx/enemies/skeleton_die.ogg
+sfx_critdie=soundfx/enemies/skeleton_critdie.ogg
+
+animations=animations/enemies/skeleton.txt
+
+defeat_status=ak_maddox_defeated
+
+# combat stats
+stat=hull,425
+speed=5
+melee_range=1.1875
+threat_range=10.0
+turn_delay=133ms
+chance_pursue=25
+power=melee,1
+power=ranged,35
+
+stat=accuracy,74
+stat=avoidance,22
+
+stat=dmg_melee_min,16
+stat=dmg_melee_max,40
+stat=dmg_ment_min,15
+stat=dmg_ment_max,35
+stat=absorb_min,10
+stat=absorb_max,15
+vulnerable_heat=150
+vulnerable_subzero=75
+
+cooldown=833ms
+
+# loot
+loot=loot/leveled_low.txt
+
+# long sword, plate armor, crest shield
+loot=34,5
+loot=96,5
+loot=96,5
+loot=98,5
+loot=99,5
+loot=100,5
+loot=58,5
+
+# turtle figurine, ring of regen, great sword, tower shield, emerald
+loot=112,1
+loot=107,1
+loot=35,1
+loot=59,1
+loot=4,1
+

@@ -1,0 +1,42 @@
+name=Zaltor the Bloody
+generation=30
+categories=big,ground
+soul=10000
+
+sfx_phys=soundfx/enemies/antlion_phys.ogg
+sfx_hit=soundfx/enemies/antlion_hit.ogg
+sfx_die=soundfx/enemies/antlion_die.ogg
+sfx_critdie=soundfx/enemies/antlion_critdie.ogg
+animations=animations/enemies/scathelocke.txt
+
+# combat stats
+stat=hull,5000
+stat=hull_regen,100
+speed=5.0
+melee_range=1.1875
+threat_range=8.0
+turn_delay=400ms
+chance_pursue=10
+power=melee,1
+power=melee,1109
+power=ranged,1111
+power=ranged,1108
+
+stat=accuracy,100
+stat=avoidance,85
+stat=absorb_min,20
+stat=absorb_max,100
+
+stat=dmg_ment_min,650
+stat=dmg_ment_max,800
+stat=dmg_melee_min,800
+stat=dmg_melee_max,950
+cooldown=333ms
+
+chance_flee=50
+
+stat=poise,95
+# loot
+loot=loot/leveled_top.txt
+
+defeat_status=battle_complete

@@ -1,0 +1,117 @@
+# Carbon Nanotube Armor #######################
+
+[item]
+id=585
+name=Carbon Nanotube Hood
+quality=normal
+item_type=head
+icon=288
+abs=25
+requires_stat=brawn,2
+soundfx=soundfx/inventory/inventory_cloth.ogg
+gfx=tin_helm
+loot_animation=animations/loot/leather_armor.txt
+price=40
+
+[item]
+id=586
+name=Carbon Nanotube Chest
+quality=normal
+item_type=chest
+icon=289
+abs=28
+requires_stat=brawn,2
+soundfx=soundfx/inventory/inventory_leather.ogg
+gfx=tin_cuirass
+loot_animation=animations/loot/leather_armor.txt
+price=55
+
+[item]
+id=587
+name=Carbon Nanotube Tasset
+quality=normal
+item_type=uleg
+icon=291
+abs=26
+requires_stat=brawn,2
+soundfx=soundfx/inventory/inventory_leather.ogg
+gfx=tin_greaves
+loot_animation=animations/loot/leather_armor.txt
+price=40
+
+[item]
+id=588
+name=Carbon Nanotube Bracer
+quality=normal
+item_type=arm
+icon=296
+abs=25
+requires_stat=brawn,2
+soundfx=soundfx/inventory/inventory_leather.ogg
+gfx=tin_bracer
+loot_animation=animations/loot/leather_armor.txt
+price=40
+
+[item]
+id=589
+name=Carbon Nanotube Greave
+quality=normal
+item_type=lleg
+icon=293
+abs=26
+requires_stat=brawn,2
+soundfx=soundfx/inventory/inventory_leather.ogg
+gfx=tin_tasset
+loot_animation=animations/loot/leather_armor.txt
+price=40
+
+[item]
+id=590
+name=Carbon Nanotube Belt
+quality=normal
+item_type=abdomen
+icon=295
+abs=25
+requires_stat=brawn,2
+soundfx=soundfx/inventory/inventory_leather.ogg
+loot_animation=animations/loot/leather_armor.txt
+price=40
+
+[item]
+id=591
+name=Carbon Nanotube Pauldron
+quality=normal
+item_type=shoulder
+icon=294
+abs=25
+requires_stat=brawn,2
+soundfx=soundfx/inventory/inventory_leather.ogg
+loot_animation=animations/loot/leather_armor.txt
+price=40
+
+[item]
+id=592
+name=Carbon Nanotube Gloves
+quality=normal
+item_type=hands
+icon=290
+abs=25
+requires_stat=brawn,2
+soundfx=soundfx/inventory/inventory_leather.ogg
+gfx=tin_gauntlets
+loot_animation=animations/loot/leather_armor.txt
+price=47
+
+[item]
+id=593
+name=Carbon Nanotube Boots
+quality=normal
+item_type=feet
+icon=292
+abs=25
+requires_stat=brawn,2
+soundfx=soundfx/inventory/inventory_leather.ogg
+gfx=tin_boots
+loot_animation=animations/loot/leather_armor.txt
+price=47
+stepfx=leather

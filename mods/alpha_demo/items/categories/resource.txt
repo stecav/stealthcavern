@@ -1,0 +1,121 @@
+# Resource ################################
+
+[item]
+id=42
+name=Iron ingot
+INCLUDE items/base/resource/iron ingot.txt
+price=150
+price_sell=100
+max_quantity=10
+
+[item]
+id=43
+name=Platinum ingot
+INCLUDE items/base/resource/platinum ingot.txt
+price=100
+price_sell=100
+max_quantity=100
+
+[item]
+id=44
+name=Aluminum ingot
+INCLUDE items/base/resource/aluminum ingot.txt
+price=100
+price_sell=100
+max_quantity=100
+
+[item]
+id=45
+name=Gold ingot
+INCLUDE items/base/resource/gold ingot.txt
+price=100
+price_sell=100
+max_quantity=100
+
+[item]
+id=46
+name=Alloy ingot
+INCLUDE items/base/resource/alloy ingot.txt
+price=100
+price_sell=100
+max_quantity=100
+
+[item]
+id=47
+name=Silver ingot
+INCLUDE items/base/resource/silver ingot.txt
+price=100
+price_sell=100
+max_quantity=100
+
+[item]
+id=48
+name=Nickle ingot
+INCLUDE items/base/resource/nickle ingot.txt
+price=100
+price_sell=100
+max_quantity=100
+
+[item]
+id=49
+name=Cut Pine
+INCLUDE items/base/resource/cut pine.txt
+price=100
+price_sell=100
+max_quantity=100
+
+[item]
+id=50
+name=Cut Mahogany
+INCLUDE items/base/resource/cut mahogany.txt
+price=100
+price_sell=100
+max_quantity=100
+
+[item]
+id=51
+name=Cut Cedar
+INCLUDE items/base/resource/cut cedar.txt
+price=100
+price_sell=100
+max_quantity=100
+
+[item]
+id=52
+name=Bundle of Wire
+INCLUDE items/base/resource/bundle of wire.txt
+price=100
+price_sell=100
+max_quantity=100
+
+[item]
+id=53
+name=Bundle of String
+INCLUDE items/base/resource/bundle of string.txt
+price=100
+price_sell=100
+max_quantity=100
+
+[item]
+id=54
+name=Prepared Battery Cell
+INCLUDE items/base/resource/prepared battery cell.txt
+price=100
+price_sell=100
+max_quantity=100
+
+[item]
+id=55
+name=Prepared Detonator
+INCLUDE items/base/resource/prepared detonator.txt
+price=100
+price_sell=100
+max_quantity=100
+
+[item]
+id=56
+name=Sight Mount
+INCLUDE items/base/resource/sight mount.txt
+price=100
+price_sell=100
+max_quantity=100

@@ -1,0 +1,36 @@
+name=Ghost Captain
+generation=24
+categories=ghost_captain,ghost_captain,spirit,undead,ground,asylum
+soul=3580
+intangible=true
+
+sfx_attack=swing,soundfx/enemies/zombie_phys.ogg
+sfx_attack=cast,soundfx/enemies/zombie_ment.ogg
+sfx_hit=soundfx/enemies/zombie_hit.ogg
+sfx_die=soundfx/enemies/zombie_die.ogg
+sfx_critdie=soundfx/enemies/zombie_critdie.ogg
+animations=animations/enemies/pirate_ghost_captain.txt
+
+# combat stats
+stat=hull,3160
+stat=hull_regen,50
+speed=4.0
+melee_range=1.1875
+threat_range=8.0
+turn_delay=400ms
+chance_pursue=20
+power=melee,1
+power=ranged,1123
+power=ranged,1125
+
+stat=accuracy,85
+stat=avoidance,55
+stat=absorb_min,10
+stat=absorb_max,15
+
+stat=dmg_melee_min,20
+stat=dmg_melee_max,40
+cooldown=33ms
+
+loot=loot/leveled_top.txt
+chance_flee=5

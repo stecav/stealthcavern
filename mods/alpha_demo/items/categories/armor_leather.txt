@@ -1,0 +1,110 @@
+# Leather Armor #######################
+
+[item]
+id=227
+name=Leather Hood
+quality=normal
+item_type=head
+icon=144
+abs=1
+soundfx=soundfx/inventory/inventory_cloth.ogg
+gfx=leather_hood
+loot_animation=animations/loot/leather_armor.txt
+price=18
+
+[item]
+id=228
+name=Leather Chest
+quality=normal
+item_type=chest
+icon=145
+abs=2
+soundfx=soundfx/inventory/inventory_leather.ogg
+gfx=leather_chest
+loot_animation=animations/loot/leather_armor.txt
+price=28
+
+[item]
+id=229
+name=Leather Leggings
+quality=normal
+item_type=uleg
+icon=147
+abs=2
+soundfx=soundfx/inventory/inventory_leather.ogg
+gfx=cloth_pants
+loot_animation=animations/loot/leather_armor.txt
+price=18
+
+[item]
+id=230
+name=Leather Bracer
+quality=normal
+item_type=arm
+icon=309
+abs=2
+soundfx=soundfx/inventory/inventory_leather.ogg
+gfx=leather_chest
+loot_animation=animations/loot/leather_armor.txt
+price=18
+
+[item]
+id=231
+name=Leather Greave
+quality=normal
+item_type=lleg
+icon=311
+abs=2
+soundfx=soundfx/inventory/inventory_leather.ogg
+gfx=leather_chest
+loot_animation=animations/loot/leather_armor.txt
+price=18
+
+[item]
+id=232
+name=Leather Belt
+quality=normal
+item_type=abdomen
+icon=208
+abs=2
+soundfx=soundfx/inventory/inventory_leather.ogg
+gfx=leather_chest
+loot_animation=animations/loot/leather_armor.txt
+price=18
+
+[item]
+id=233
+name=Leather Pauldron
+quality=normal
+item_type=shoulder
+icon=307
+abs=2
+soundfx=soundfx/inventory/inventory_leather.ogg
+gfx=leather_chest
+loot_animation=animations/loot/leather_armor.txt
+price=18
+
+[item]
+id=234
+name=Leather Gloves
+quality=normal
+item_type=hands
+icon=146
+abs=1
+soundfx=soundfx/inventory/inventory_leather.ogg
+gfx=leather_gloves
+loot_animation=animations/loot/leather_armor.txt
+price=22
+
+[item]
+id=236
+name=Leather Boots
+quality=normal
+item_type=feet
+icon=148
+abs=1
+soundfx=soundfx/inventory/inventory_leather.ogg
+gfx=leather_boots
+loot_animation=animations/loot/leather_armor.txt
+price=22
+stepfx=leather

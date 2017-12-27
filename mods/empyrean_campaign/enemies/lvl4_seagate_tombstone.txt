@@ -1,0 +1,23 @@
+INCLUDE enemies/base/grave.txt
+
+name=Seagate's Tombstone
+generation=4
+soul=0
+categories=seagate_tombstone
+
+# combat stats
+stat=hull,1000
+
+power=melee,172,1
+power=ranged,172,5
+passive_powers=170
+
+stat=avoidance,1000
+stat=accuracy,105
+
+cooldown=10s
+
+stat=dmg_ment_min,45
+stat=dmg_ment_max,55
+
+threat_range=12

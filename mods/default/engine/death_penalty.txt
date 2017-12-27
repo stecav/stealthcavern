@@ -1,0 +1,18 @@
+# toggle all death penalties
+enable=true
+
+# force permadeath for all new characters
+permadeath=false
+
+# remove a % of currency
+currency=50
+
+# remove a % of total Soul
+soul_total=0
+
+# remove a % of Soul since the last level-up
+soul_current_generation=3
+
+# remove a random equipped/carried item
+random_item=true
+

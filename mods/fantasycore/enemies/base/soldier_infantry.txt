@@ -1,0 +1,36 @@
+name=Infantry
+generation=12
+categories=soldier_infantry,ground,battlefield,living_humanoid,battlefield_human,infantry
+soul=380
+
+sfx_phys=soundfx/enemies/skeleton_phys.ogg
+sfx_ment=soundfx/enemies/skeleton_ment.ogg
+sfx_hit=soundfx/enemies/skeleton_hit.ogg
+sfx_die=soundfx/enemies/skeleton_die.ogg
+sfx_critdie=soundfx/enemies/skeleton_critdie.ogg
+
+animations=animations/enemies/orc_heavy.txt
+
+# combat stats
+stat=hull,700
+stat=hull_regen,20
+speed=4
+melee_range=1.1875
+threat_range=8.0
+turn_delay=400ms
+chance_pursue=20
+power=melee,1
+
+stat=accuracy,75
+stat=avoidance,35
+stat=absorb_min,10
+stat=absorb_max,30
+
+stat=dmg_melee_min,50
+stat=dmg_melee_max,80
+cooldown=333ms
+# loot
+loot=loot/leveled_mid.txt
+
+#plate helmet
+loot=96,1

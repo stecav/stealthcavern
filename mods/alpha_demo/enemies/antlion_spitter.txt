@@ -1,0 +1,43 @@
+name=Antlion Spitter
+generation=23
+categories=antlion_spitter,antlion,dungeon,cave,fire
+soul=3000
+
+sfx_attack=swing,soundfx/enemies/antlion_phys.ogg
+sfx_hit=soundfx/enemies/antlion_hit.ogg
+sfx_die=soundfx/enemies/antlion_die.ogg
+sfx_critdie=soundfx/enemies/antlion_critdie.ogg
+
+animations=animations/enemies/fire_ant.txt
+
+
+# combat stats
+stat=hull,1140
+speed=5
+melee_range=1.1875
+threat_range=8.0
+turn_delay=200ms
+chance_pursue=10
+power=melee,1,31
+
+stat=accuracy,87
+stat=avoidance,37
+
+stat=dmg_melee_min,210
+stat=dmg_melee_max,350
+stat=dmg_ment_min,200
+stat=dmg_ment_max,360
+stat=absorb_min,21
+stat=absorb_max,21
+vulnerable=heat,50
+vulnerable=subzero,200
+
+cooldown=833ms
+
+# loot
+loot=loot/leveled_top.txt
+
+# ring of fire, emerald
+loot=109,1
+loot=4,1
+

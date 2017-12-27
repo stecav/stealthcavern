@@ -1,0 +1,82 @@
+# Plate Armor #########################
+
+[item]
+id=247
+name=Plate Helmet
+INCLUDE items/base/armor/plate/head.txt
+requires_talent=prowess_armor,1
+abs=4
+requires_stat=brawn,4
+price=220
+
+[item]
+id=248
+name=Plate Pauldron
+INCLUDE items/base/armor/plate/chest.txt
+requires_talent=prowess_armor,1
+abs=4
+requires_stat=brawn,4
+price=220
+
+[item]
+id=250
+name=Plate Greave
+INCLUDE items/base/armor/plate/chest.txt
+requires_talent=prowess_armor,1
+abs=4
+requires_stat=brawn,4
+price=220
+
+[item]
+id=251
+name=Plate Belt
+INCLUDE items/base/armor/plate/chest.txt
+requires_talent=prowess_armor,1
+abs=4
+requires_stat=brawn,4
+price=220
+
+[item]
+id=252
+name=Plate Bracer
+INCLUDE items/base/armor/plate/chest.txt
+requires_talent=prowess_armor,1
+abs=4
+requires_stat=brawn,4
+price=220
+
+[item]
+id=253
+name=Plate Cuirass
+INCLUDE items/base/armor/plate/chest.txt
+requires_talent=prowess_armor,1
+abs=6
+requires_stat=brawn,4
+price=350
+
+[item]
+id=254
+name=Plate Gauntlets
+INCLUDE items/base/armor/plate/hands.txt
+requires_talent=prowess_armor,1
+abs=4
+requires_stat=brawn,4
+price=255
+
+[item]
+id=255
+name=Plate Leggings
+INCLUDE items/base/armor/plate/legs.txt
+requires_talent=prowess_armor,1
+abs=4
+requires_stat=brawn,4
+price=315
+
+[item]
+id=256
+name=Plate Solleret
+INCLUDE items/base/armor/plate/chest.txt
+requires_talent=prowess_armor,1
+abs=4
+requires_stat=brawn,4
+price=300

@@ -1,0 +1,105 @@
+# Leather Armor #######################
+
+[item]
+id=531
+name=Studded Leather Hood
+INCLUDE items/base/armor/leather/head.txt
+abs=12
+price=18
+
+[item]
+id=532
+name=Studded Leather Chest
+quality=normal
+item_type=chest
+icon=145
+abs=14
+soundfx=soundfx/inventory/inventory_leather.ogg
+gfx=leather_chest
+loot_animation=animations/loot/leather_armor.txt
+price=28
+
+[item]
+id=533
+name=Studded Leather Leggings
+quality=normal
+item_type=uleg
+icon=147
+abs=14
+soundfx=soundfx/inventory/inventory_leather.ogg
+gfx=cloth_pants
+loot_animation=animations/loot/leather_armor.txt
+price=18
+
+[item]
+id=534
+name=Studded Leather Bracer
+quality=normal
+item_type=arm
+icon=309
+abs=14
+soundfx=soundfx/inventory/inventory_leather.ogg
+gfx=leather_chest
+loot_animation=animations/loot/leather_armor.txt
+price=18
+
+[item]
+id=535
+name=Studded Leather Greave
+quality=normal
+item_type=lleg
+icon=311
+abs=14
+soundfx=soundfx/inventory/inventory_leather.ogg
+gfx=leather_chest
+loot_animation=animations/loot/leather_armor.txt
+price=18
+
+[item]
+id=536
+name=Studded Leather Belt
+quality=normal
+item_type=abdomen
+icon=208
+abs=14
+soundfx=soundfx/inventory/inventory_leather.ogg
+gfx=leather_chest
+loot_animation=animations/loot/leather_armor.txt
+price=18
+
+[item]
+id=537
+name=Studded Leather Pauldron
+quality=normal
+item_type=shoulder
+icon=307
+abs=14
+soundfx=soundfx/inventory/inventory_leather.ogg
+gfx=leather_chest
+loot_animation=animations/loot/leather_armor.txt
+price=18
+
+[item]
+id=538
+name=Studded Leather Gloves
+quality=normal
+item_type=hands
+icon=146
+abs=12
+soundfx=soundfx/inventory/inventory_leather.ogg
+gfx=leather_gloves
+loot_animation=animations/loot/leather_armor.txt
+price=22
+
+[item]
+id=539
+name=Studded Leather Boots
+quality=normal
+item_type=feet
+icon=148
+abs=12
+soundfx=soundfx/inventory/inventory_leather.ogg
+gfx=leather_boots
+loot_animation=animations/loot/leather_armor.txt
+price=22
+stepfx=leather

@@ -1,0 +1,37 @@
+name=Shelob
+generation=10
+categories=shelob,ground
+soul=190
+
+sfx_phys=soundfx/enemies/antlion_phys.ogg
+sfx_hit=soundfx/enemies/antlion_hit.ogg
+sfx_die=soundfx/enemies/antlion_die.ogg
+sfx_critdie=soundfx/enemies/antlion_critdie.ogg
+animations=animations/enemies/spider_giant.txt
+
+
+
+# combat stats
+stat=hull,800
+speed=3.5
+melee_range=1.1875
+threat_range=8.0
+turn_delay=166ms
+chance_pursue=30
+chance_melee_phys=20
+power=melee,1
+
+stat=accuracy,74
+stat=avoidance,22
+stat=absorb_min,1
+stat=absorb_max,12
+
+stat=dmg_melee_min,40
+stat=dmg_melee_max,65
+cooldown=333ms
+
+defeat_status=goblin_cave_clear
+
+stat=hull_regen,10
+# loot
+loot=loot/leveled_low.txt

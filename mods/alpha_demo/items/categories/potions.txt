@@ -1,0 +1,206 @@
+# Potions #############################
+
+[item]
+id=1
+name=Minor Health Tonic
+INCLUDE items/base/potion/minor_hull.txt
+power=112
+power_desc=Restore 30 Hull
+price=12
+max_quantity=10
+
+[item]
+id=2
+name=Mild Health Tonic
+INCLUDE items/base/potion/mild_hull.txt
+power=171
+power_desc=Restore 40 Hull
+price=20
+max_quantity=10
+
+[item]
+id=3
+name=Health Tonic
+INCLUDE items/base/potion/hull.txt
+power=100
+power_desc=Restore 50 Hull
+price=35
+max_quantity=10
+
+[item]
+id=4
+name=Resolute Health Tonic
+INCLUDE items/base/potion/resolute_hull.txt
+power=111
+power_desc=Restore 65 Hull
+price=55
+max_quantity=10
+
+[item]
+id=5
+name=Superfluous Health Tonic
+INCLUDE items/base/potion/superfluous_hull.txt
+power=113
+power_desc=Restore 100 Hull
+price=80
+max_quantity=10
+
+[item]
+id=6
+name=Minor PSI Brew
+INCLUDE items/base/potion/minor_psi.txt
+power=106
+power_desc=Restore 20 PSI
+price=5
+max_quantity=10
+
+[item]
+id=7
+name=Mild PSI Brew
+INCLUDE items/base/potion/mild_psi.txt
+power=107
+power_desc=Restore 40 PSI
+price=12
+max_quantity=10
+
+[item]
+id=8
+name=PSI Brew
+INCLUDE items/base/potion/psi.txt
+power=108
+power_desc=Restore 60 PSI
+price=25
+max_quantity=10
+
+[item]
+id=9
+name=Resolute PSI Brew
+INCLUDE items/base/potion/resolute_psi.txt
+power=109
+power_desc=Restore 80 PSI
+price=33
+max_quantity=10
+
+[item]
+id=10
+name=Superfluous PSI Brew
+INCLUDE items/base/potion/superfluous_psi.txt
+power=110
+power_desc=Restore 100 PSI
+price=60
+max_quantity=10
+
+[item]
+id=11
+name=Minor Capacitor Potion
+INCLUDE items/base/potion/minor_capacitor.txt
+power=101
+power_desc=Restore 20 Capacitor
+price=10
+max_quantity=10
+
+[item]
+id=12
+name=Mild Capacitor Potion
+INCLUDE items/base/potion/mild_capacitor.txt
+power=102
+power_desc=Restore 30 Capacitor
+price=25
+max_quantity=10
+
+[item]
+id=13
+name=Capacitor Potion
+INCLUDE items/base/potion/capacitor.txt
+power=103
+power_desc=Restore 40 Capacitor
+price=37
+max_quantity=10
+
+[item]
+id=14
+name=Resolute Capacitor Potion
+INCLUDE items/base/potion/resolute_capacitor.txt
+power=104
+power_desc=Restore 50 Capacitor
+price=55
+max_quantity=10
+
+[item]
+id=15
+name=Superfluous Capacitor Potion
+INCLUDE items/base/potion/superfluous_capacitor.txt
+power=105
+power_desc=Restore 100 Capacitor
+price=90
+max_quantity=10
+
+
+[item]
+id=386
+name=Lesser Electrolyte Concoction
+INCLUDE items/base/potion/lesser_limit.txt
+power=111
+power_desc=Slightly increases limit break gain
+price=100
+max_quantity=10
+
+[item]
+id=387
+name=Electrolyte Concoction
+INCLUDE items/base/potion/limit.txt
+power=114
+power_desc=Increases limit break gain
+item_type=consumable
+soundfx=soundfx/inventory/inventory_potion.ogg
+loot_animation=animations/loot/capacitor_potion.txt
+price=200
+max_quantity=10
+
+[item]
+id=388
+name=Pure Electrolyte Concoction
+INCLUDE items/base/potion/pure_limit.txt
+power=113
+power_desc=Significantly increases limit break gain
+price=300
+max_quantity=10
+
+[item]
+id=389
+name=Dirty Experimental Fluid
+quality=normal
+icon=258
+power=101
+power_desc=Unknown
+item_type=consumable
+soundfx=soundfx/inventory/inventory_potion.ogg
+loot_animation=animations/loot/capacitor_potion.txt
+price=120
+max_quantity=10
+
+[item]
+id=390
+name=Experimental Fluid
+quality=normal
+icon=259
+power=101
+power_desc=Unknown
+item_type=consumable
+soundfx=soundfx/inventory/inventory_potion.ogg
+loot_animation=animations/loot/capacitor_potion.txt
+price=150
+max_quantity=10
+
+[item]
+id=391
+name=Refined Experimental Fluid
+quality=high
+icon=260
+power=101
+power_desc=Unknown
+item_type=consumable
+soundfx=soundfx/inventory/inventory_potion.ogg
+loot_animation=animations/loot/capacitor_potion.txt
+price=200
+max_quantity=10

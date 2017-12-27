@@ -1,0 +1,5 @@
+[layer]
+image=images/parallax/dust.png
+speed=0.04
+fixed_speed=0.2,0.1
+map_layer=object

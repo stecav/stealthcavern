@@ -1,0 +1,34 @@
+name=Living Statue
+generation=26
+soul=4000
+categories=demon_statue,ground
+
+animations=animations/enemies/demon_statue.txt
+
+# combat stats
+stat=hull,2000
+stat=hull_regen,50
+speed=0
+#facing=0
+melee_range=2.375
+threat_range=4.0
+turn_delay=400ms
+
+chance_pursue=0
+
+power=melee,1
+power=ranged,32
+
+stat=accuracy,85
+stat=avoidance,0
+stat=absorb_min,1
+stat=absorb_max,10
+
+stat=dmg_ment_min,420
+stat=dmg_ment_max,560
+stat=dmg_melee_min,300
+stat=dmg_melee_max,485
+
+cooldown=33ms
+
+loot=loot/leveled_top.txt

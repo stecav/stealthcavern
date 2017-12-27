@@ -1,0 +1,4 @@
+backimage=images/menus/backimages/world.png
+backimage=images/menus/backimages/worlda.png
+backimage=images/menus/backimages/worldb.png
+

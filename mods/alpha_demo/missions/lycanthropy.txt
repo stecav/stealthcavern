@@ -1,0 +1,14 @@
+[mission]
+requires_status=wyvern_complete
+requires_not_status=werebear_defeated
+mission_text=Unlocked the 'Summon Wyvern Ally' skill. Investigate the beast at the cave to the southeast of the Northwood
+
+[mission]
+requires_status=werebear_defeated
+requires_not_status=werebear_returning
+mission_text=Return to tell bethan of your fight
+
+[mission]
+requires_status=werebear_returning
+requires_not_status=werebear_complete
+mission_text=Return to the cave where you fought the beast

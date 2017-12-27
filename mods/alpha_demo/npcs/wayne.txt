@@ -1,0 +1,148 @@
+# mining overseer
+name=Wayne, Grandmaster
+
+portrait=images/portraits/male20.png
+
+talker=true
+
+# animation info
+gfx=animations/npcs/peasant_man2.txt
+
+[dialog]
+requires_not_status=wayne_init
+you=You look like the wise type.
+him=And you look like the type looking for a roundhouse kick to the cerebellum.
+you=Speaking of violence, I could use some defence advice or training.
+him=I trained many a knucklehead such as yourself, but now other matters are more pressing.
+set_status=wayne_init
+
+[dialog]
+topic=Lost Acquaintance[influence OR 20 credits]
+requires_status=wayne_init
+requires_not_status=wa_search
+challenge_stat=influence,20
+you=You know, it might help if you get whatever plagues you off your chest.
+him=That does sound logical. Well...My...Or rather I should say acquaintance has been abroad for some time now. I can only imagine what has happened.
+you=Ok, let me cut this sob story short, you want to track down some acquaintance you met?
+him=I would be most grateful. She was comming down from White Wind to meet me here.
+set_status=wa_search
+
+[dialog]
+topic=Dead Acquaintance
+requires_status=wa_found
+you=I hate to break it to you, but your acquaintance is definitely dead.
+him=How the...Did you...bring back proof of your...PROPOSTEROUS ALLEGATIONS!!??
+set_status=wa_proof
+
+[dialog]
+topic=Confirmed Dead Acquaintance
+requires_status=wa_brooch
+you=Here is proof. You have a habit of doubting my work?
+him=This does look like the brooch I remeber around her neck. There is not many like this around these parts.
+set_status=wa_complete
+reward_soul=45
+
+[dialog]
+topic=Missing Strap
+requires_status=wayne_init
+requires_not_status=ws_search
+you=Hey, you dropped your shield, and it looks like its busted.
+him=You best keep your eyes and paws off my stuff ladd, lest you be put down like the rest of the theivery that goes on around here.
+you=Ok you old grouch. I'm just tired of looking at your junk that is taking up my walking space.
+him=Well aren't you a high feather, why not do something about all that walking and go find it yonder the Frontier Plains where I emerged from!
+set_status=ws_search
+
+[dialog]
+topic=Found Strap
+requires_status=ws_found
+requires_not_status=ws_complete
+you=Alright ye'ol goat, take your strap to the smith and get it fixed.
+him=By the goats!, I don't believe it, I scoured that entire plain and then some!
+you=It must be the extra eye I have.
+him=I can't thank you enough for your diligence on this matter. I do have some technique I can depart with.
+set_status=ws_complete
+remove_item=9104
+reward_soul=30
+reward_talent=prowess_shields,1
+reward_talent=faction_horgan,3
+
+[dialog]
+topic=Carapace Trophy
+requires_status=ws_complete
+requires_status=wa_complete
+him=Hey, kiddo, now that I know I can trust your legwork, I have a small task to dole out if you are interested in making a profit...hmm?
+you=I don't run errands for old geezers
+him=But you do, I've not taken a blind eye to your previous tasks, now get your ears close so I don't have to repeat myself
+you=You sure have a loose tongue when it comes to sly and snide remarks
+him=I've been meaning to unburden this old back of a trophy I got in my younger years...
+you=And now you want my back to carry it for the life of me...
+him=Your snappy mouth should learn to pause when I speak
+you=I've nearly reached my limit tolerance on your long winded story. Just give me the trophy
+him=Phobos said he was interested in buying it a while ago. He frequents Desolation Fort.
+
+[dialog]
+topic=Carapace Trophy
+requires_status=wc_curse
+you=WAAAYYNE!! You sly SOB! You w...
+him=AAHAHAHA calm your childish temper boy! I was definitely right when I knew I could trust a dog such as yourself! Now, hand over the trophy.
+you=I...wha...how did you...what is going on?
+him=Now all I need to prepare is a mild adhesive and have this bugger out by the morning. Your talents will not be in vain. Here is some compensation.
+set_status=wc_complete
+reward_currency=150
+reward_soul=150
+reward_talent=faction_horgan,3
+reward_talent=prowess_shields
+
+[dialog]
+topic=Token Gratitude
+requires_status=wayne_init
+requires_talent=faction_horgan,3
+requires_not_status=wt_search
+you=What is this elaborate sketch you have?
+him=I've been meaning to get this constructed since I arrived here!
+you=How come it never came to fruition?
+him=I've not seen a soul around here that is loyal enough. First, there is a log trunk I saw back yonder the Sandy Basin. That will suffice.
+set_status=wt_search
+
+[dialog]
+topic=Token Gratitude - a log
+requires_status=wt_found
+requires_not_status=wp_search
+you=This log looks immaculate, just as you described.
+him=Yes...Yesss! Now then...the pole which I came across down by the White Wind, that should be fitting.
+set_status=wp_search
+
+[dialog]
+topic=Token Gratitude - a pole
+requires_status=wp_found
+requires_not_status=wr_buy
+you=This pole looks like it will fit perfectly...
+him=True it is. Just as I had imagined. I will require some rope to tie these together. The local shop should have some.
+set_status=wr_buy
+
+[dialog]
+topic=Token Gratitude - rope
+requires_status=wr_done
+requires_not_status=wx_trade
+you=OK. the rope you requested.
+him=This rope is too shawdy, but should suffice with a little inginuity. Aww, now I will need a hammer. There is a friend over in Mountain Retreat that has a very specific hammer I need, trade him this pinion for the hammer.
+set_status=wx_trade
+
+[dialog]
+topic=Token Gratitude - hammer
+requires_status=wx_done
+requires_not_status=wt_build
+you=Here, this hammer is unusually heavy, what is in this?
+him=A little something I call whammy, special forge from the high mountain volcanoe. Now I need you to whack it just at the edge of the base. Be mindful not to underestimate the Power of the hammer!
+set_status=wt_build
+
+[dialog]
+topic=Token Gratitude - gratitude
+requires_status=wx_complete
+requires_not_status=wt_complete
+you=You really were right, this token is already giving off a great vibe.
+him=You did great lad. From now on you will be regarded as an honorable legend!
+set_status=wt_complete
+reward_currency=150
+reward_soul=150
+reward_talent=faction_horgan,6

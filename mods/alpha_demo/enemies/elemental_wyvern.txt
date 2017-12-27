@@ -1,0 +1,45 @@
+name=Elemental Wyvern
+generation=18
+categories=elemental_wyvern
+rarity=common
+soul=5
+
+sfx_attack=swing,soundfx/enemies/wyvern_phys.ogg
+sfx_attack=cast,soundfx/enemies/wyvern_ment.ogg
+sfx_hit=soundfx/enemies/wyvern_hit.ogg
+sfx_die=soundfx/enemies/wyvern_die.ogg
+sfx_critdie=soundfx/enemies/wyvern_critdie.ogg
+animations=animations/enemies/wyvern_air.txt
+
+
+# combat stats
+stat=hull,200
+speed=3.0
+flying=1
+melee_range=1.125
+threat_range=8.0
+turn_delay=400ms
+chance_pursue=35
+
+# bleed sting
+power=melee,5
+# fire spit
+power=ranged,1121
+
+stat=accuracy,77
+stat=avoidance,27
+
+stat=dmg_melee_min,5
+stat=dmg_melee_max,25
+stat=dmg_ment_min,10
+stat=dmg_ment_max,30
+stat=absorb_min,6
+stat=absorb_max,6
+
+cooldown=1s
+cooldown_ranged_ment=3
+
+mission_loot=progress_arrived_town,ice_tail,204
+
+stat=hull_regen,50
+chance_flee=10

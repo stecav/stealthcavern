@@ -1,0 +1,38 @@
+INCLUDE enemies/base/antlion_freezer.txt
+
+name=Frostbite Antlion
+generation=6
+categories=antlion,antlion_ice,ice,snowplains
+rarity=common
+soul=64
+
+# combat stats
+stat=hull,165
+speed=5
+turn_delay=200ms
+
+chance_pursue=10
+
+power=melee,164,1
+power=ranged,172,5
+
+stat=accuracy,110
+stat=avoidance,50
+stat=poise,25
+
+stat=absorb_min,6
+stat=absorb_max,7
+
+stat=dmg_melee_min,80
+stat=dmg_melee_max,85
+stat=dmg_ment_min,95
+stat=dmg_ment_max,100
+
+vulnerable=fire,150
+vulnerable=ice,75
+
+cooldown=1475ms
+
+# loot
+loot=loot/level_6.txt
+

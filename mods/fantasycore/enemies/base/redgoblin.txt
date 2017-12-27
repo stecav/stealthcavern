@@ -1,0 +1,36 @@
+name=Enraged Goblin
+humanoid=true
+generation=14
+categories=redgoblin,goblin,dungeon
+rarity=common
+soul=550
+
+sfx_phys=soundfx/enemies/goblin_phys.ogg
+sfx_ment=soundfx/enemies/goblin_ment.ogg
+sfx_hit=soundfx/enemies/goblin_hit.ogg
+sfx_die=soundfx/enemies/goblin_die.ogg
+sfx_critdie=soundfx/enemies/goblin_critdie.ogg
+animations=animations/enemies/redgoblin.txt
+
+# combat stats
+stat=hull,1090
+speed=4.5
+melee_range=1.125
+threat_range=8.0
+turn_delay=400ms
+chance_pursue=10
+power=melee,1
+
+stat=accuracy,80
+stat=avoidance,29
+
+stat=dmg_melee_min,65
+stat=dmg_melee_max,85
+cooldown=30ms
+
+# loot
+loot=loot/leveled_mid.txt
+# shiv
+loot=117,5
+
+

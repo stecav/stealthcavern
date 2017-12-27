@@ -1,0 +1,12 @@
+
+image=images/powers/special.png
+
+render_size=345,406
+render_offset=164,242
+
+[power]
+position=0
+frames=6
+duration=330ms
+type=play_once
+active_frame=2

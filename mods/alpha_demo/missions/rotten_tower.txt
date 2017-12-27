@@ -1,0 +1,15 @@
+
+[mission]
+requires_status=rotten_tower_search
+requires_not_status=rotten_tower_found
+mission_text=Search the rotten tower south west of the Frontier Plains.
+
+[mission]
+requires_status=rotten_tower_found
+requires_not_status=rotten_tower_inspected
+mission_text=Inspect the tower more closely.
+
+[mission]
+requires_status=rotten_tower_inspected
+requires_not_status=rotten_tower_reward
+mission_text=Return to Martigan and tell him about the abandoned tower.

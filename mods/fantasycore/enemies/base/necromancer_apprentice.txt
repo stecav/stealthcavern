@@ -1,0 +1,41 @@
+name=Apprentice Necromancer
+generation=16
+categories=necromancer_apprentice,human,undead,ground
+soul=1000
+
+sfx_hit=soundfx/enemies/human_male_hit.ogg
+sfx_die=soundfx/enemies/human_male_die.ogg
+animations=animations/enemies/assasin.txt
+
+
+# combat stats
+stat=hull,1425
+speed=3
+melee_range=1.1875
+threat_range=8.0
+turn_delay=200ms
+chance_pursue=30
+power=melee,1
+power=ranged,128
+
+stat=accuracy,77
+stat=avoidance,39
+
+stat=dmg_melee_min,85
+stat=dmg_melee_max,129
+stat=dmg_ment_min,95
+stat=dmg_ment_max,165
+stat=absorb_min,10
+stat=absorb_max,10
+vulnerable_heat=50
+vulnerable_subzero=50
+cooldown=1s
+
+# loot
+loot=loot/leveled_high.txt
+
+# blood gear, ring of regen
+loot=116,1
+loot=117,1
+loot=107,1
+

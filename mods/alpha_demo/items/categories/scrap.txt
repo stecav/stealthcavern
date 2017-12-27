@@ -1,0 +1,193 @@
+# Scrap ################################
+
+[item]
+id=57
+name=Iron
+INCLUDE items/base/scrap/iron.txt
+price=6
+price_sell=6
+max_quantity=100
+
+[item]
+id=58
+name=Steel
+INCLUDE items/base/scrap/steel.txt
+price=7
+price_sell=7
+max_quantity=100
+
+[item]
+id=59
+name=Platinum
+INCLUDE items/base/scrap/platinum.txt
+price=13
+price_sell=13
+max_quantity=100
+
+[item]
+id=60
+name=Gold
+INCLUDE items/base/scrap/gold.txt
+price=12
+price_sell=12
+max_quantity=100
+
+[item]
+id=61
+name=Silver
+INCLUDE items/base/scrap/silver.txt
+price=11
+price_sell=11
+max_quantity=100
+
+[item]
+id=62
+name=Bronze
+INCLUDE items/base/scrap/bronze.txt
+price=5
+price_sell=5
+max_quantity=100
+
+[item]
+id=63
+name=Aluminum
+INCLUDE items/base/scrap/aluminum.txt
+price=8
+price_sell=8
+max_quantity=100
+
+[item]
+id=64
+name=Mahogany
+INCLUDE items/base/scrap/mahogany.txt
+price=9
+price_sell=9
+max_quantity=100
+
+[item]
+id=65
+name=Nickle
+INCLUDE items/base/scrap/nickle.txt
+price=5
+price_sell=5
+max_quantity=100
+
+[item]
+id=66
+name=Cedar
+INCLUDE items/base/scrap/cedar.txt
+price=7
+price_sell=7
+max_quantity=100
+
+[item]
+id=67
+name=Plastic
+INCLUDE items/base/scrap/plastic.txt
+price=4
+price_sell=4
+max_quantity=100
+
+[item]
+id=68
+name=Fiberglass
+INCLUDE items/base/scrap/fiberglass.txt
+price=5
+price_sell=5
+max_quantity=100
+
+[item]
+id=69
+name=Stone
+INCLUDE items/base/scrap/stone.txt
+price=3
+price_sell=3
+max_quantity=100
+
+[item]
+id=70
+name=Marble
+INCLUDE items/base/scrap/marble.txt
+price=8
+price_sell=8
+max_quantity=100
+
+[item]
+id=71
+name=Pine
+INCLUDE items/base/scrap/pine.txt
+price=7
+price_sell=7
+max_quantity=100
+
+[item]
+id=72
+name=Mild Adhesive
+INCLUDE items/base/scrap/mild adhesive.txt
+price=5
+price_sell=5
+max_quantity=100
+
+[item]
+id=73
+name=Strong Adhesive
+INCLUDE items/base/scrap/strong adhesive.txt
+price=6
+price_sell=6
+max_quantity=100
+
+[item]
+id=74
+name=Wire
+INCLUDE items/base/scrap/wire.txt
+price=5
+price_sell=5
+max_quantity=100
+
+[item]
+id=75
+name=Super Conductive Material
+INCLUDE items/base/scrap/super conductive material.txt
+price=13
+price_sell=13
+max_quantity=100
+
+[item]
+id=76
+name=Tough String
+INCLUDE items/base/scrap/tough string.txt
+price=7
+price_sell=7
+max_quantity=100
+
+[item]
+id=77
+name=Strong String
+INCLUDE items/base/scrap/strong string.txt
+price=9
+price_sell=9
+max_quantity=100
+
+[item]
+id=78
+name=Power Modulator
+INCLUDE items/base/scrap/power modulator.txt
+price=12
+price_sell=12
+max_quantity=100
+
+[item]
+id=79
+name=Lesser Battery Cell
+INCLUDE items/base/scrap/lesser battery cell.txt
+price=6
+price_sell=6
+max_quantity=100
+
+[item]
+id=80
+name=Battery cell
+INCLUDE items/base/scrap/battery cell.txt
+price=8
+price_sell=8
+max_quantity=100

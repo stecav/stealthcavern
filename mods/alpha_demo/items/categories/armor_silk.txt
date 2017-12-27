@@ -1,0 +1,101 @@
+# Silk Weave Robes ###############################
+
+[item]
+id=522
+name=Silk Weave Hood
+INCLUDE items/base/armor/mage/head.txt
+flavor=The seams on this hood are designed to aid the flow of capacitor.
+abs=10
+requires_stat=conjure,2
+bonus=capacitor_regen,10
+price=55
+
+[item]
+id=523
+name=Silk Weave Vest
+INCLUDE items/base/armor/mage/chest.txt
+flavor=Frost resistance runes line the inside of this vest.
+abs=11
+requires_stat=conjure,2
+bonus=subzero_resist,10
+price=65
+
+[item]
+id=524
+name=Silk Weave Sleeves
+INCLUDE items/base/armor/mage/chest.txt
+flavor=The heat resistance runes that hem these sleeves help protect beginner students of Pyromancy.
+abs=10
+bonus=heat_resist,10
+requires_stat=conjure,2
+price=45
+
+[item]
+id=525
+name=Silk Weave Skirt
+INCLUDE items/base/armor/mage/legs.txt
+flavor=Spell components are tucked into hidden pockets covering this skirt.
+abs=11
+bonus=capacitor,15
+requires_stat=conjure,2
+price=90
+
+[item]
+id=526
+name=Silk Weave Boots
+INCLUDE items/base/armor/mage/feet.txt
+flavor=Attunement with the elements allow mages to ice and fire walk.
+abs=10
+requires_stat=conjure,2
+bonus=heat_resist,5
+bonus=subzero_resist,5
+price=70
+stepfx=cloth
+
+[item]
+id=527
+name=Silk Weave Tassets
+INCLUDE items/base/armor/mage/chest.txt
+flavor=Attunement with the elements allow mages to ice and fire walk.
+abs=10
+requires_stat=conjure,2
+bonus=heat_resist,5
+bonus=subzero_resist,5
+price=70
+stepfx=cloth
+
+[item]
+id=528
+name=Silk Weave Belt
+INCLUDE items/base/armor/mage/chest.txt
+flavor=Attunement with the elements allow mages to ice and fire walk.
+abs=10
+requires_stat=conjure,2
+bonus=heat_resist,5
+bonus=subzero_resist,5
+price=70
+stepfx=cloth
+
+[item]
+id=529
+name=Silk Weave Bracer
+INCLUDE items/base/armor/mage/hands.txt
+flavor=Attunement with the elements allow mages to ice and fire walk.
+abs=10
+requires_stat=conjure,2
+bonus=heat_resist,5
+bonus=subzero_resist,5
+price=70
+stepfx=cloth
+
+[item]
+id=530
+name=Silk Weave Pauldron
+INCLUDE items/base/armor/mage/hands.txt
+flavor=Attunement with the elements allow mages to ice and fire walk.
+abs=10
+requires_stat=conjure,2
+bonus=heat_resist,5
+bonus=subzero_resist,5
+price=70
+stepfx=cloth

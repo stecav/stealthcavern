@@ -1,0 +1,36 @@
+name=Ghostly Commander
+generation=28
+categories=ghostly_commander,ground
+soul=7800
+intangible=true
+
+sfx_attack=swing,soundfx/enemies/antlion_phys.ogg
+sfx_hit=soundfx/enemies/antlion_hit.ogg
+sfx_die=soundfx/enemies/antlion_die.ogg
+sfx_critdie=soundfx/enemies/antlion_critdie.ogg
+animations=animations/enemies/pirate_ghost_captain.txt
+
+# combat stats
+stat=hull,3600
+stat=hull_regen,50
+speed=4.0
+melee_range=1.1875
+threat_range=8.0
+turn_delay=400ms
+chance_pursue=20
+power=melee,1
+power=ranged,1123
+power=ranged,1126
+
+stat=accuracy,95
+stat=avoidance,75
+stat=absorb_min,10
+stat=absorb_max,15
+
+stat=dmg_melee_min,660
+stat=dmg_melee_max,740
+cooldown=33ms
+
+chance_flee=20
+# loot
+loot=loot/leveled_top.txt

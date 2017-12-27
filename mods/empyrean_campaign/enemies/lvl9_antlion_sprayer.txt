@@ -1,0 +1,36 @@
+INCLUDE enemies/base/antlion.txt
+
+name=Antlion Sprayer
+generation=9
+categories=antlion,antlion_fire,fire,dungeon,grassland
+rarity=uncommon
+soul=512
+
+# combat stats
+stat=hull,240
+speed=5.6
+turn_delay=200ms
+
+chance_pursue=10
+
+power=melee,191,2
+power=ranged,191,10
+
+stat=accuracy,125
+stat=avoidance,65
+stat=poise,34
+
+stat=absorb_min,9
+stat=absorb_max,10
+
+stat=dmg_ment_min,140
+stat=dmg_ment_max,145
+
+vulnerable=fire,75
+vulnerable=ice,150
+
+cooldown=1400ms
+
+# loot
+loot=loot/level_9.txt
+

@@ -1,0 +1,44 @@
+name=Plague Zombie
+generation=10
+categories=plaguezombie,zombie,undead,dungeon
+soul=160
+
+sfx_phys=soundfx/enemies/zombie_phys.ogg
+sfx_ment=soundfx/enemies/zombie_ment.ogg
+sfx_hit=soundfx/enemies/zombie_hit.ogg
+sfx_die=soundfx/enemies/zombie_die.ogg
+sfx_critdie=soundfx/enemies/zombie_critdie.ogg
+animations=animations/enemies/plaguezombie.txt
+
+
+# combat stats
+stat=hull,580
+speed=1.8
+melee_range=1.125
+threat_range=8.0
+turn_delay=400ms
+chance_pursue=10
+power=melee,1
+
+stat=accuracy,74
+stat=avoidance,25
+
+stat=dmg_melee_min,35
+stat=dmg_melee_max,59
+stat=dmg_ment_min,28
+stat=dmg_ment_max,69
+stat=absorb_min,3
+stat=absorb_max,6
+
+cooldown=20ms
+
+# loot
+loot=loot/leveled_low.txt
+
+# cloth set, healing pot
+loot=31,5
+loot=32,5
+loot=33,5
+loot=36,5
+loot=6,5
+

@@ -1,0 +1,126 @@
+# Bracelets
+
+[item]
+id=367
+name=Banded Bracelet
+flavor=Faded memories are vivid to the wearer of this silver band.
+INCLUDE items/base/bracelets/banded.txt
+requires_talent=prowess_bracelets,1
+price=150
+
+[item]
+id=368
+name=Infused Bracelet
+flavor=Faded memories are vivid to the wearer of this silver band.
+INCLUDE items/base/bracelets/infused.txt
+requires_talent=prowess_bracelets,1
+price=350
+bonus=acid_resist,10
+
+[item]
+id=369
+name=Gem Bracelet
+flavor=Faded memories are vivid to the wearer of this silver band.
+INCLUDE items/base/bracelets/wararchist.txt
+requires_talent=prowess_bracelets,1
+price=350
+bonus=radiation_resist,10
+
+[item]
+id=370
+name=Blood Red Bracelet
+flavor=Faded memories are vivid to the wearer of this silver band.
+INCLUDE items/base/bracelets/blood.txt
+requires_talent=prowess_bracelets,1
+price=350
+bonus=heat_resist,10
+
+[item]
+id=371
+name=Onyx Bracelet
+flavor=Faded memories are vivid to the wearer of this silver band.
+INCLUDE items/base/bracelets/banded.txt
+requires_talent=prowess_bracelets,1
+price=250
+
+[item]
+id=372
+name=Inlaid Bracelet
+flavor=Faded memories are vivid to the wearer of this silver band.
+INCLUDE items/base/bracelets/infused.txt
+requires_talent=prowess_bracelets,1
+price=350
+bonus=slashing_resist,10
+
+[item]
+id=373
+name=Bracelet of Tears
+flavor=Faded memories are vivid to the wearer of this silver band.
+INCLUDE items/base/bracelets/wararchist.txt
+requires_talent=prowess_bracelets,1
+price=350
+bonus=piercing_resist,30
+
+[item]
+id=374
+name=Covert Bracelet
+flavor=Faded memories are vivid to the wearer of this silver band.
+INCLUDE items/base/bracelets/blood.txt
+requires_talent=prowess_bracelets,1
+price=350
+bonus=soul_gain,10
+bonus=stealth,30
+
+[item]
+id=375
+name=Insidious Bracelet
+flavor=Faded memories are vivid to the wearer of this silver band.
+INCLUDE items/base/bracelets/banded.txt
+requires_talent=prowess_bracelets,1
+price=350
+bonus=heat_resist,10
+bonus=blunt_resist,10
+
+[item]
+id=376
+name=Seven Circle Bracelet
+flavor=Faded memories are vivid to the wearer of this silver band.
+INCLUDE items/base/bracelets/infused.txt
+requires_talent=prowess_bracelets,1
+price=350
+bonus=heat_resist,5
+bonus=subzero_resist,5
+bonus=acid_resist,5
+
+[item]
+id=377
+name=Wararchist Bracelet
+flavor=Faded memories are vivid to the wearer of this silver band.
+INCLUDE items/base/bracelets/wararchist.txt
+requires_talent=prowess_bracelets,1
+price=350
+bonus=soul_gain,10
+bonus=subzero_resist,10
+bonus=heat_resist,10
+bonus=resonant_resist,10
+bonus=acid_resist,10
+
+[item]
+id=378
+name=Sparkling Bracelet
+flavor=Faded memories are vivid to the wearer of this silver band.
+INCLUDE items/base/bracelets/blood.txt
+requires_talent=prowess_bracelets,1
+price=350
+bonus=soul_gain,10
+bonus=slashing_resist,10
+bonus=resonant_resist,10
+
+[item]
+id=379
+name=Bracelet of Followers
+flavor=Faded memories are vivid to the wearer of this silver band.
+INCLUDE items/base/bracelets/banded.txt
+requires_talent=prowess_bracelets,1
+price=350
+bonus=influence,2

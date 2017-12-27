@@ -1,0 +1,34 @@
+name=Shade
+generation=13
+categories=shade,shade,spirit,undead,ground,asylum
+soul=440
+intangible=true
+
+sfx_attack=swing,soundfx/enemies/zombie_phys.ogg
+sfx_attack=cast,soundfx/enemies/zombie_ment.ogg
+sfx_hit=soundfx/enemies/zombie_hit.ogg
+sfx_die=soundfx/enemies/zombie_die.ogg
+sfx_critdie=soundfx/enemies/zombie_critdie.ogg
+animations=animations/enemies/shadow.txt
+
+# combat stats
+stat=hull,960
+stat=hull_regen,10
+speed=3.5
+melee_range=1.1875
+threat_range=8.0
+turn_delay=400ms
+chance_pursue=20
+power=melee,1
+power=melee,1128
+
+stat=accuracy,78
+stat=avoidance,30
+stat=absorb_min,1
+stat=absorb_max,10
+
+stat=dmg_melee_min,60
+stat=dmg_melee_max,80
+cooldown=333ms
+# loot
+loot=loot/leveled_mid.txt

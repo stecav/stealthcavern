@@ -1,0 +1,43 @@
+name=Krakatoa, Antlion Burster
+categories=krakatoa,ground
+generation=30
+rarity=rare
+soul=10000
+
+sfx_attack=swing,soundfx/enemies/antlion_phys.ogg
+sfx_hit=soundfx/enemies/antlion_hit.ogg
+sfx_die=soundfx/enemies/antlion_die.ogg
+sfx_critdie=soundfx/enemies/antlion_critdie.ogg
+animations=animations/enemies/fire_ant.txt
+
+
+# combat stats
+# antlions have low Hull and high armor for their generation
+stat=hull,5130
+speed=5
+melee_range=1.1875
+threat_range=8.0
+turn_delay=133ms
+chance_pursue=50
+
+# explode
+power=melee,40
+
+stat=accuracy,100
+stat=avoidance,95
+
+stat=dmg_ment_min,750
+stat=dmg_ment_max,800
+stat=absorb_min,25
+stat=absorb_max,25
+vulnerable=heat,20
+vulnerable=subzero,200
+
+cooldown=83ms
+
+# loot
+loot=loot/leveled_top.txt
+
+# ring of fire, ruby
+loot=109,1
+loot=5,1

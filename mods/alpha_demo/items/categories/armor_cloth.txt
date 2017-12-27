@@ -1,0 +1,61 @@
+# Clothes #############################
+
+[item]
+id=208
+name=Cloth Shirt
+INCLUDE items/base/armor/cloth/chest.txt
+price=6
+
+[item]
+id=209
+name=Cloth Pauldron
+INCLUDE items/base/armor/cloth/chest.txt
+price=3
+
+[item]
+id=210
+name=Cloth Bracer
+INCLUDE items/base/armor/cloth/chest.txt
+price=3
+
+[item]
+id=211
+name=Cloth Gloves
+INCLUDE items/base/armor/cloth/chest.txt
+price=4
+
+[item]
+id=212
+name=Cloth Greave
+INCLUDE items/base/armor/cloth/chest.txt
+price=3
+
+[item]
+id=213
+name=Cloth Tasset
+INCLUDE items/base/armor/cloth/chest.txt
+price=4
+
+[item]
+id=214
+name=Cloth Belt
+INCLUDE items/base/armor/cloth/chest.txt
+price=3
+
+[item]
+id=215
+name=Cloth Hood
+INCLUDE items/base/armor/cloth/chest.txt
+price=3
+
+[item]
+id=216
+name=Cloth Pants
+INCLUDE items/base/armor/cloth/legs.txt
+price=5
+
+[item]
+id=217
+name=Cloth Sandals
+INCLUDE items/base/armor/cloth/feet.txt
+price=4

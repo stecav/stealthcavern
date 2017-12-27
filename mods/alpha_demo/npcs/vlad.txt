@@ -1,0 +1,89 @@
+name=Vlad
+
+portrait=images/portraits/male06.png
+
+talker=true
+
+gfx=animations/npcs/goblin_elite.txt
+
+[dialog]
+requires_not_status=vlad_init
+him=Where ye bin Evan?
+you=um...
+him=Well? Where be this so called aa-pel?
+you=Apple?
+him=Aye thats what a sed. What ye tryin to pull on old Vlad?
+you=Um... here you go.
+remove_item=201
+him=Aaaaaaarg! Why ye tryin to poison me! It tastes like orc feet! Git out Evan.
+you=But I'm not Evan.
+him=What? Why are ye pretending to be Evan then?
+you=I look nothing like him.
+him=Ye look exactly the same to me.
+him=Well ye better get to work then.
+you=Work?
+him=There be some creepy crawlies sneaked into my cave! Go and take care o them!
+him=Get to it then! Look lively!
+you=(What just happened?)
+set_status=vlad_init
+
+[dialog]
+requires_status=vlad_init
+requires_not_status=goblin_cave_clear
+him=What are ye waitin for? Go and get them critters.
+
+[dialog]
+requires_status=goblin_cave_clear
+requires_not_status=goblin_complete
+him=What ye doin back here?
+you=I got rid of the spiders.
+him=Aha! Ye den gid manthing.
+you=Pardon?
+him=Ye be alright by Vlad.
+him=Ye stick with me now boy.
+him=If ye be needing a good goblin axe to cover ye out there, call the name Vlad.
+him=Ye wont see Vlad the destroyer hiding from a fight.
+you=(Well, better a friend than a foe... probably)
+set_status=goblin_complete
+set_status=vlad_chatter1
+
+[dialog]
+requires_status=vlad_chatter1
+requires_not_status=vlad_chatter2
+requires_not_status=minotaur_complete
+him=If ye be needing a good goblin axe to cover ye out there, call the name Vlad.
+unset_status=vlad_chatter1
+set_status=vlad_chatter2
+
+[dialog]
+requires_status=vlad_chatter2
+requires_not_status=vlad_chatter3
+requires_not_status=minotaur_complete
+him=Ye can count on Vlad the impaler
+unset_status=vlad_chatter2
+set_status=vlad_chatter3
+
+[dialog]
+requires_status=vlad_chatter3
+requires_not_status=vlad_chatter4
+requires_not_status=minotaur_complete
+him=Keep yer nasty aa-pels
+unset_status=vlad_chatter3
+set_status=vlad_chatter4
+
+[dialog]
+requires_status=vlad_chatter4
+requires_not_status=vlad_chatter1
+requires_not_status=minotaur_complete
+him=Where ye bin Evan?
+unset_status=vlad_chatter4
+set_status=vlad_chatter1
+
+[dialog]
+requires_status=minotaur_complete
+him=Ready for battle lad.
+him=Watch out! Vlad is coming!
+
+
+
+

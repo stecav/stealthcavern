@@ -1,0 +1,7 @@
+quality=normal
+item_type=hands
+icon=242
+soundfx=soundfx/inventory/inventory_maille.ogg
+gfx=ceramic_gloves
+loot_animation=animations/loot/ceramic_gloves.txt
+

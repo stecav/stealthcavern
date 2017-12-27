@@ -1,0 +1,22 @@
+# mining overseer
+name=Beuo, Vagrant
+
+portrait=images/portraits/male09.png
+
+talker=true
+
+# animation info
+gfx=animations/npcs/guild_man1.txt
+
+[dialog]
+him=Heeey!!? I thought you...Where did you come from?
+you=I just woke up here. Where am I?
+him=Ah, you're the one I've heard about? I heard some guys found and picked up an unconcious warrior days ago.
+you=You said you thought something?
+him=I thought you were dead so I...resourced some of your belongings.
+you=You mean you stole all my stuff?
+him=I just needed something to get me by. 
+you=If I wasn't so weak right now I would strike you down.
+him=Hehe, A mans got to do what he has to.
+
+

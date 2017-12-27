@@ -1,0 +1,63 @@
+name=Skeletal Warrior
+humanoid=true
+generation=21
+categories=skeletal_warrior,skeleton,undead,dungeon
+soul=2220
+
+sfx_phys=soundfx/enemies/skeleton_phys.ogg
+sfx_ment=soundfx/enemies/skeleton_ment.ogg
+sfx_hit=soundfx/enemies/skeleton_hit.ogg
+sfx_die=soundfx/enemies/skeleton_die.ogg
+sfx_critdie=soundfx/enemies/skeleton_critdie.ogg
+
+animations=animations/enemies/skeleton.txt
+
+
+waypoint_pause=1s
+
+# combat stats
+stat=hull,2700
+speed=3
+melee_range=1.1875
+threat_range=8.0
+turn_delay=200ms
+
+chance_pursue=25
+
+# blood strike
+power=melee,5
+# piercing strike
+power=melee,39
+
+stat=accuracy,88
+stat=avoidance,37
+
+stat=dmg_melee_min,225
+stat=dmg_melee_max,300
+stat=dmg_ment_min,25
+stat=dmg_ment_max,60
+
+stat=absorb_min,12
+stat=absorb_max,12
+
+vulnerable_heat=150
+vulnerable_subzero=75
+cooldown=666ms
+
+# loot
+loot=loot/leveled_top.txt
+
+# shortsword, chain armor, iron buckler
+loot=33,5
+loot=89,5
+loot=90,5
+loot=91,5
+loot=92,5
+loot=57,5
+
+# blood gear, long sword, crest shield, duelist guants
+loot=116,1
+loot=117,1
+loot=34,1
+loot=58,1
+loot=115,1

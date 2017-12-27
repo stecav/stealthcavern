@@ -1,0 +1,43 @@
+name=Skeleton Mage Elite
+generation=23
+categories=skeleton_mage_elite,ground,battlefield,battlefield_mage
+soul=3300
+
+sfx_attack=swing,soundfx/enemies/skeleton_phys.ogg
+sfx_attack=cast,soundfx/enemies/skeleton_ment.ogg
+sfx_hit=soundfx/enemies/skeleton_hit.ogg
+sfx_die=soundfx/enemies/skeleton_die.ogg
+sfx_critdie=soundfx/enemies/skeleton_critdie.ogg
+
+animations=animations/enemies/skeleton_mage_high.txt
+
+# combat stats
+stat=hull,2200
+stat=hull_regen,50
+speed=5.0
+melee_range=1.1875
+threat_range=8.0
+turn_delay=400ms
+chance_pursue=20
+power=melee,1
+power=ranged,1114
+
+stat=accuracy,85
+stat=avoidance,25
+stat=absorb_min,10
+stat=absorb_max,20
+
+stat=dmg_ment_min,280
+stat=dmg_ment_max,380
+stat=dmg_melee_min,250
+stat=dmg_melee_max,385
+cooldown=333ms
+
+chance_flee=25
+
+loot=loot/leveled_top.txt
+
+#stat rings
+loot=260,1
+loot=261,1
+loot=262,1

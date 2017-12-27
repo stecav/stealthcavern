@@ -1,0 +1,41 @@
+name=Skeleton
+humanoid=true
+generation=1
+categories=skeleton_normal,skeleton,undead,dungeon
+soul=1
+
+sfx_phys=soundfx/enemies/skeleton_phys.ogg
+sfx_ment=soundfx/enemies/skeleton_ment.ogg
+sfx_hit=soundfx/enemies/skeleton_hit.ogg
+sfx_die=soundfx/enemies/skeleton_die.ogg
+sfx_critdie=soundfx/enemies/skeleton_critdie.ogg
+
+animations=animations/enemies/skeleton_weak.txt
+
+
+
+# combat stats
+stat=hull,70
+speed=1.5
+melee_range=1.125
+threat_range=8.0
+turn_delay=233ms
+chance_pursue=10
+power=melee,1
+
+stat=accuracy,65
+stat=avoidance,7
+
+stat=dmg_melee_min,2
+stat=dmg_melee_max,15
+cooldown=833ms
+stat=absorb_min,3
+stat=absorb_max,3
+
+# loot
+loot=loot/leveled_bottom.txt
+
+# dagger, wood buckler
+loot=32,5
+loot=56,5
+

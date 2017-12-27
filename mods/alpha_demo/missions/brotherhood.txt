@@ -1,0 +1,11 @@
+[mission]
+requires_status=brotherhood_search
+requires_not_status=brotherhood_found
+mission_text=Find the lost brotherhood member.
+
+[mission]
+requires_status=brotherhood_search
+requires_status=brotherhood_found
+requires_not_status=brotherhood_reward
+mission_text=Return to Otis, and decide what to tell him.
+

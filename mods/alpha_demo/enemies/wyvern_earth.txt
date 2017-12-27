@@ -1,0 +1,40 @@
+name=Earth Wyvern
+generation=4
+categories=wyvern_earth,wyvern
+rarity=common
+soul=25
+
+sfx_attack=swing,soundfx/enemies/wyvern_phys.ogg
+sfx_attack=cast,soundfx/enemies/wyvern_ment.ogg
+sfx_hit=soundfx/enemies/wyvern_hit.ogg
+sfx_die=soundfx/enemies/wyvern_die.ogg
+sfx_critdie=soundfx/enemies/wyvern_critdie.ogg
+animations=animations/enemies/wyvern.txt
+
+
+# combat stats
+stat=hull,100
+speed=2
+flying=1
+melee_range=1.125
+threat_range=8.0
+turn_delay=200ms
+chance_pursue=35
+
+# bleed sting
+power=melee,5
+power=ranged,31
+
+stat=accuracy,67
+stat=avoidance,15
+
+stat=dmg_melee_min,2
+stat=dmg_melee_max,25
+stat=dmg_ment_min,8
+stat=dmg_ment_max,23
+
+cooldown=1s
+
+# loot
+loot=currency,33,3,12
+

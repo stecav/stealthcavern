@@ -1,0 +1,28 @@
+name=Training Dummy
+generation=20
+categories=dummy
+rarity=rare
+soul=0
+
+animations=animations/enemies/training_dummy.txt
+
+# combat stats
+stat=hull,75000
+stat=hull_regen,20
+speed=0
+melee_range=2.0
+threat_range=8.0
+turn_delay=400ms
+chance_pursue=0
+
+stat=accuracy,0
+stat=avoidance,10
+stat=absorb_min,50
+stat=absorb_max,60
+
+stat=dmg_melee_min,0
+stat=dmg_melee_max,0
+cooldown=50ms
+
+stat=poise,100
+

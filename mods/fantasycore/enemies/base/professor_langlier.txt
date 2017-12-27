@@ -1,0 +1,54 @@
+name=Professor Langlier
+generation=6
+categories=professor_langlier,ground
+soul=70
+
+sfx_phys=soundfx/enemies/skeleton_phys.ogg
+sfx_ment=soundfx/enemies/skeleton_ment.ogg
+sfx_hit=soundfx/enemies/skeleton_hit.ogg
+sfx_die=soundfx/enemies/skeleton_die.ogg
+sfx_critdie=soundfx/enemies/skeleton_critdie.ogg
+
+animations=animations/enemies/skeleton_mage.txt
+
+
+# langlier's talisman
+mission_loot=ak_tome_reward,ak_talisman_found,9002
+
+# combat stats
+stat=hull,400
+speed=3.5
+melee_range=1.1875
+threat_range=8.0
+turn_delay=200ms
+chance_pursue=15
+
+power=melee,1
+power=ranged,30
+
+stat=accuracy,73
+stat=avoidance,18
+
+stat=dmg_melee_min,15
+stat=dmg_melee_max,33
+stat=dmg_ment_min,20
+stat=dmg_ment_max,55
+stat=absorb_min,5
+stat=absorb_max,10
+vulnerable_heat=200
+vulnerable_subzero=50
+cooldown=1s
+
+# loot
+loot=loot/leveled_low.txt
+
+# rod
+loot=41,5
+
+# mage set
+loot=72,1
+loot=73,1
+loot=74,1
+loot=75,1
+loot=76,1
+

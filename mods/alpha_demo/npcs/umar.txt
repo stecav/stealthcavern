@@ -1,0 +1,60 @@
+# mining overseer
+name=Umar, Trickster
+
+portrait=images/portraits/male20.png
+
+talker=true
+
+# animation info
+gfx=animations/npcs/peasant_man2.txt
+
+[dialog]
+requires_not_status=umar_init
+him=Hello stranger. I'm Otis. You look like a person with great skill and luck. 
+you=Thats right, I can even...
+him=Let me interrupt and offer you a chance to obtain what you deserve. Just a low bet will secure your chance. What do you say?
+set_status=umar_init
+
+[dialog]
+topic=Axe dodging[nimble] - 3 credits
+requires_status=umar_init
+him=Willing to put your life on the line for a few credits? Show me how to dance!! Stay alive and you'll earn 8 credits.
+requires_currency=3
+gamble_currency=3
+
+[dialog]
+topic=Card game[luck] - 4 credits
+requires_status=umar_init
+him=Cards it is. I just so happen to have my card deck already...shuffled{grinning}. Win, and I'll pay you 9 credits.
+requires_currency=4
+gamble_currency=4
+
+[dialog]
+topic=Dice roll[luck] - 6 credits
+requires_status=umar_init
+him=Ahh, yes. My favorite. I'll hand you 15 credits to best me.
+requires_currency=6
+gamble_currency=6
+
+[dialog]
+topic=Pledge
+requires_status=umar_init
+requires_status=pledge_owe
+requires_not_status=pledge_paid
+requires_not_status=pledge_reward
+you=A fellow by the name of Otis sends his payment here.
+him=Oh my! Without this money laundering operation, there will be no business. Here is the receipt voucher.
+set_status=pledge_paid
+
+[dialog]
+topic=Pledge - Thief(influence)
+requires_status=umar_init
+requires_status=pledge_owe
+requires_not_status=pledge_paid
+requires_not_status=pledge_reward
+him=Yes? did you have a package for me? 
+you=I'm not kidding when I say I was attacked by a wild bunch on my way here, and nearly lost the package contents.
+him=A delivery is a delivery none-the-less. Next time don't be so foolish.
+set_status=pledge_reward
+reward_currency=100
+reward_soul=40

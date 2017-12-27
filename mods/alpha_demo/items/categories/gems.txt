@@ -1,0 +1,217 @@
+# Gems ################################
+
+[item]
+id=89
+name=Scandium
+INCLUDE items/base/gems/scandium.txt
+price=28
+price_sell=28
+max_quantity=100
+
+[item]
+id=90
+name=Yttrium
+INCLUDE items/base/gems/yttrium.txt
+price=38
+price_sell=38
+max_quantity=100
+
+[item]
+id=91
+name=Lanthanum
+INCLUDE items/base/gems/lanthanum.txt
+price=36
+price_sell=36
+max_quantity=100
+
+[item]
+id=92
+name=Cerium
+INCLUDE items/base/gems/cerium.txt
+price=31
+price_sell=31
+max_quantity=100
+
+[item]
+id=93
+name=Praseodymium
+INCLUDE items/base/gems/praseodymium.txt
+price=25
+price_sell=25
+max_quantity=100
+
+[item]
+id=94
+name=Neodymium
+INCLUDE items/base/gems/neodymium.txt
+price=43
+price_sell=43
+max_quantity=100
+
+[item]
+id=95
+name=Promethium
+INCLUDE items/base/gems/promethium.txt
+price=47
+price_sell=47
+max_quantity=100
+
+[item]
+id=96
+name=Samarium
+INCLUDE items/base/gems/samarium.txt
+price=26
+price_sell=26
+max_quantity=100
+
+[item]
+id=97
+name=Europium
+INCLUDE items/base/gems/europium.txt
+price=21
+price_sell=21
+max_quantity=100
+
+[item]
+id=98
+name=Gadolinium
+INCLUDE items/base/gems/gadolinium.txt
+price=29
+price_sell=29
+max_quantity=100
+
+[item]
+id=99
+name=Terbium
+INCLUDE items/base/gems/terbium.txt
+price=28
+price_sell=28
+max_quantity=100
+
+[item]
+id=100
+name=Dysprosium
+INCLUDE items/base/gems/dysprosium.txt
+price=26
+price_sell=26
+max_quantity=100
+
+[item]
+id=101
+name=Holmium
+INCLUDE items/base/gems/holmium.txt
+price=27
+price_sell=27
+max_quantity=100
+
+[item]
+id=102
+name=Erbium
+INCLUDE items/base/gems/erbium.txt
+price=22
+price_sell=22
+max_quantity=100
+
+[item]
+id=103
+name=Thulium
+INCLUDE items/base/gems/thulium.txt
+price=30
+price_sell=30
+max_quantity=100
+
+[item]
+id=104
+name=Ytterbium
+INCLUDE items/base/gems/ytterbium.txt
+price=24
+price_sell=24
+max_quantity=100
+
+[item]
+id=105
+name=Lutetium
+INCLUDE items/base/gems/lutetium.txt
+price=25
+price_sell=25
+max_quantity=100
+
+[item]
+id=106
+name=Sapphire
+INCLUDE items/base/gems/sapphire.txt
+price=33
+price_sell=33
+max_quantity=100
+
+[item]
+id=107
+name=Emerald
+INCLUDE items/base/gems/emerald.txt
+price=42
+price_sell=42
+max_quantity=100
+
+[item]
+id=108
+name=Ruby
+INCLUDE items/base/gems/ruby.txt
+price=45
+price_sell=45
+max_quantity=100
+
+[item]
+id=109
+name=Diamond
+INCLUDE items/base/gems/diamond.txt
+price=100
+price_sell=100
+max_quantity=100
+
+[item]
+id=110
+name=Opal
+INCLUDE items/base/gems/opal.txt
+price=27
+price_sell=27
+max_quantity=100
+
+[item]
+id=111
+name=Topaz
+INCLUDE items/base/gems/topaz.txt
+price=26
+price_sell=26
+max_quantity=100
+
+[item]
+id=112
+name=Amethyst
+INCLUDE items/base/gems/amethyst.txt
+price=24
+price_sell=24
+max_quantity=100
+
+[item]
+id=113
+name=Malachite
+INCLUDE items/base/gems/malachite.txt
+price=19
+price_sell=19
+max_quantity=100
+
+[item]
+id=114
+name=Moonstone
+INCLUDE items/base/gems/moonstone.txt
+price=17
+price_sell=17
+max_quantity=100
+
+[item]
+id=115
+name=Andalusite
+INCLUDE items/base/gems/andalusite.txt
+price=15
+price_sell=15
+max_quantity=100

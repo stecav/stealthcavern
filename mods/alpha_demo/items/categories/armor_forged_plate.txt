@@ -1,0 +1,83 @@
+# Forged Plate Armor #########################
+
+[item]
+id=549
+name=Forged Plate Helmet
+INCLUDE items/base/armor/plate/head.txt
+requires_talent=prowess_armor,1
+abs=17
+requires_stat=brawn,4
+price=220
+
+[item]
+id=550
+name=Forged Plate Pauldron
+INCLUDE items/base/armor/plate/chest.txt
+requires_talent=prowess_armor,1
+abs=17
+requires_stat=brawn,4
+price=220
+
+[item]
+id=551
+name=Forged Plate Greave
+INCLUDE items/base/armor/plate/chest.txt
+requires_talent=prowess_armor,1
+abs=17
+requires_stat=brawn,4
+price=220
+
+[item]
+id=552
+name=Forged Plate Belt
+INCLUDE items/base/armor/plate/chest.txt
+requires_talent=prowess_armor,1
+abs=17
+requires_stat=brawn,4
+price=220
+
+[item]
+id=553
+name=Forged Plate Bracer
+INCLUDE items/base/armor/plate/chest.txt
+requires_talent=prowess_armor,1
+abs=17
+requires_stat=brawn,4
+price=220
+
+[item]
+id=554
+name=Forged Plate Cuirass
+INCLUDE items/base/armor/plate/chest.txt
+requires_talent=prowess_armor,1
+abs=19
+requires_stat=brawn,4
+price=350
+
+[item]
+id=555
+name=Forged Plate Gauntlets
+INCLUDE items/base/armor/plate/hands.txt
+requires_talent=prowess_armor,1
+abs=17
+requires_stat=brawn,4
+price=255
+
+[item]
+id=556
+name=Forged Plate Leggings
+INCLUDE items/base/armor/plate/legs.txt
+requires_talent=prowess_armor,1
+abs=19
+requires_stat=brawn,4
+price=315
+
+[item]
+id=557
+name=Forged Plate Solleret
+INCLUDE items/base/armor/plate/chest.txt
+requires_talent=prowess_armor,1
+abs=17
+requires_stat=brawn,4
+price=300
+stepfx=metal

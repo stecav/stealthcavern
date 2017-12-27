@@ -1,0 +1,19 @@
+[title]
+primary_stat=brawn
+title=Close Combat Violator
+
+[title]
+primary_stat=concentration
+title=Ranged Combat Terrorizer
+
+[title]
+primary_stat=conjure
+title=Arcane Elementalist Perveyor
+
+[title]
+primary_stat=nimble
+title=Constituent Survivalist Guerrilla
+
+[title]
+primary_stat=influence
+title=Intelligent Convincing Pursuader

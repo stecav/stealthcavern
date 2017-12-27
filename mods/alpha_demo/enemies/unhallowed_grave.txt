@@ -1,0 +1,26 @@
+name=Unhallowed Grave
+generation=2
+soul=6
+categories=unhallowed_grave
+
+animations=animations/enemies/cursed_grave.txt
+defeat_status=grave_keepsake
+
+# combat stats
+stat=hull,300
+speed=0
+facing=0
+melee_range=2.375
+threat_range=8.0
+
+chance_pursue=0
+power=melee,137
+
+stat=avoidance,0
+
+cooldown=3s
+
+# loot
+loot=loot/leveled_low.txt
+loot=loot/base_gear.txt
+loot=594,100

@@ -1,0 +1,66 @@
+name=Rabid Skeleton
+humanoid=true
+generation=11
+categories=rabidskeleton,undead,dungeon
+soul=200
+
+sfx_phys=soundfx/enemies/skeleton_phys.ogg
+sfx_ment=soundfx/enemies/skeleton_ment.ogg
+sfx_hit=soundfx/enemies/skeleton_hit.ogg
+sfx_die=soundfx/enemies/skeleton_die.ogg
+sfx_critdie=soundfx/enemies/skeleton_critdie.ogg
+
+animations=animations/enemies/rabidskeleton.txt
+
+
+waypoint_pause=30
+
+# combat stats
+stat=hull,670
+speed=2.7
+melee_range=1.1875
+threat_range=8.0
+turn_delay=6ms
+
+stat=chance_pursue,25
+stat=chance_melee_phys,10
+stat=chance_melee_ment,10
+
+# blood strike
+power=melee,5
+# piercing strike
+power=melee,39
+
+stat=accuracy=73
+stat=avoidance=26
+
+stat=dmg_melee_min,9
+stat=dmg_melee_max,30
+stat=dmg_ment_min,25
+stat=dmg_ment_max,60
+
+stat=absorb_min,3
+stat=absorb_max,5
+
+vulnerable_heat=150
+vulnerable_subzero=75
+cooldown=20ms
+
+# loot
+loot=loot/leveled_mid.txt
+
+# shortsword, chain armor, iron buckler, health pot
+loot=123,5
+loot=237,5
+loot=238,5
+loot=239,5
+loot=240,5
+loot=288,5
+loot=2,5
+
+# blood gear, long sword, crest shield, duelist guants
+loot=339,1
+loot=342,1
+loot=364,1
+loot=199,1
+loot=43,1

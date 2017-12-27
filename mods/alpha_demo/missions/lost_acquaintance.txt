@@ -1,0 +1,15 @@
+
+[mission]
+requires_status=wa_search
+requires_not_status=wa_found
+mission_text=Search for the woman coming from White Wind.
+
+[mission]
+requires_status=wa_found
+requires_not_status=wa_proof
+mission_text=Find something from the body to provide proof.
+
+[mission]
+requires_status=wa_proof
+requires_not_status=wa_complete
+mission_text=Show Wayne the brooch to have him confirm identity.

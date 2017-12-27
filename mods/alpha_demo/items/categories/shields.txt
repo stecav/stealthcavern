@@ -1,0 +1,228 @@
+# Basic Shields #######################
+
+[item]
+id=197
+name=Wood Buckler
+INCLUDE items/base/shields/wood.txt
+abs=0,2
+price=30
+
+[item]
+id=419
+name=Tin Buckler
+INCLUDE items/base/shields/wood.txt
+abs=0,4
+price=50
+
+[item]
+id=420
+name=Composite shield
+INCLUDE items/base/shields/wood.txt
+abs=1,5
+requires_stat=brawn,2
+price=70
+
+[item]
+id=198
+name=Iron Buckler
+INCLUDE items/base/shields/iron.txt
+requires_stat=brawn,3
+requires_talent=prowess_shields,1
+abs=2,7
+price=140
+
+[item]
+id=199
+name=Crest shield
+INCLUDE items/base/shields/steel.txt
+requires_stat=brawn,4
+requires_talent=prowess_shields,1
+abs=5,12
+price=260
+
+[item]
+id=200
+name=Plated shield
+INCLUDE items/base/shields/steel.txt
+requires_stat=brawn,4
+requires_talent=prowess_shields,1
+abs=7,16
+price=360
+
+[item]
+id=201
+name=Tower shield
+INCLUDE items/base/shields/steel.txt
+requires_stat=brawn,5
+requires_talent=prowess_shields,1
+abs=9,18
+price=390
+
+[item]
+id=202
+name=Fortified shield
+INCLUDE items/base/shields/steel.txt
+requires_stat=brawn,5
+requires_talent=prowess_shields,1
+abs=11,20
+price=440
+
+[item]
+id=203
+name=Storm shield
+INCLUDE items/base/shields/steel.txt
+requires_stat=brawn,5
+requires_talent=prowess_shields,1
+abs=14,20
+price=509
+
+[item]
+id=204
+name=Thermal shield
+INCLUDE items/base/shields/steel.txt
+requires_stat=brawn,5
+requires_talent=prowess_shields,1
+abs=15,22
+price=660
+
+[item]
+id=205
+name=Eletrostatic shield
+INCLUDE items/base/shields/steel.txt
+requires_stat=brawn,5
+requires_talent=prowess_shields,1
+abs=17,26
+price=720
+
+[item]
+id=206
+name=Ballistic shield
+INCLUDE items/base/shields/steel.txt
+requires_stat=brawn,5
+requires_talent=prowess_shields,1
+abs=19,30
+price=850
+
+[item]
+id=207
+name=Diamond shield
+INCLUDE items/base/shields/steel.txt
+requires_stat=brawn,5
+requires_talent=prowess_shields,1
+abs=25,33
+price=1500
+
+[item]
+id=501
+name=Wood Buckler of Protection
+INCLUDE items/base/shields/wood.txt
+requires_talent=prowess_shields,1
+abs=0,3
+price=50
+
+[item]
+id=502
+name=Tin Buckler of the Clasher
+INCLUDE items/base/shields/wood.txt
+requires_talent=prowess_shields,1
+abs=0,6
+price=75
+
+[item]
+id=503
+name=Superior Composite shield
+INCLUDE items/base/shields/wood.txt
+requires_stat=brawn,3
+requires_talent=prowess_shields,1
+abs=1,7
+price=120
+
+[item]
+id=504
+name=Iron Warrior Buckler
+INCLUDE items/base/shields/iron.txt
+requires_stat=brawn,4
+requires_talent=prowess_shields,1
+abs=3,12
+price=200
+
+[item]
+id=505
+name=Smith's Crest shield
+INCLUDE items/base/shields/steel.txt
+requires_stat=brawn,5
+requires_talent=prowess_shields,1
+abs=8,19
+price=460
+
+[item]
+id=506
+name=Plated Survival shield
+INCLUDE items/base/shields/steel.txt
+requires_stat=brawn,5
+requires_talent=prowess_shields,1
+abs=12,28
+price=660
+
+[item]
+id=507
+name=Forged Tower shield
+INCLUDE items/base/shields/steel.txt
+requires_stat=brawn,6
+requires_talent=prowess_shields,1
+abs=15,33
+price=730
+
+[item]
+id=508
+name=Fortified industrial shield
+INCLUDE items/base/shields/steel.txt
+requires_stat=brawn,6
+requires_talent=prowess_shields,1
+abs=14,30
+price=640
+
+[item]
+id=509
+name=Storm aegis shield
+INCLUDE items/base/shields/steel.txt
+requires_stat=brawn,6
+requires_talent=prowess_shields,1
+abs=16,30
+price=759
+
+[item]
+id=510
+name=Reinforced Thermal shield
+INCLUDE items/base/shields/steel.txt
+requires_stat=brawn,6
+requires_talent=prowess_shields,1
+abs=24,34
+price=1060
+
+[item]
+id=511
+name=Overcharged Eletrostatic shield
+INCLUDE items/base/shields/steel.txt
+requires_stat=brawn,6
+requires_talent=prowess_shields,1
+abs=28,44
+price=1220
+
+[item]
+id=512
+name=Savior Ballistic shield
+INCLUDE items/base/shields/steel.txt
+requires_stat=brawn,6
+requires_talent=prowess_shields,1
+abs=27,50
+price=1450
+
+[item]
+id=513
+name=Crystalized Diamond shield
+INCLUDE items/base/shields/steel.txt
+requires_stat=brawn,6
+requires_talent=prowess_shields,1
+abs=41,55
+price=2700

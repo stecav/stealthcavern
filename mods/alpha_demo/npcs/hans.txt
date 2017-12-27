@@ -1,0 +1,84 @@
+# mining overseer
+name=Hans, Trickster
+
+portrait=images/portraits/male20.png
+
+talker=true
+
+# animation info
+gfx=animations/npcs/peasant_man2.txt
+
+[dialog]
+requires_not_status=graffe_init
+him=Hello stranger. I'm Graffe. You look like a person with great skill and luck. 
+you=Thats right, I can even...
+him=Let me interrupt and offer you a chance to obtain what you deserve. Just a low bet will secure your chance. What do you say?
+set_status=graffe_init
+
+[dialog]
+topic=Checkers[luck] - 8 credits
+requires_status=graffe_init
+him=Alllrrrrighty then! Win, and I'll pay you 17 credits.
+requires_currency=8
+gamble_currency=8
+
+[dialog]
+topic=Jacks[luck] - 10 credits
+requires_status=graffe_init
+him=Ahh, yes. My favorite. I'll hand you 25 credits to best me.
+requires_currency=10
+gamble_currency=10
+
+[dialog]
+topic=Dark arts[conjure] - 14 credits
+requires_status=graffe_init
+him='Tis not wise to fool 'round with the dark arts. But if you can impress me, you'll earn 34 credits.
+requires_currency=14
+gamble_currency=14
+
+[dialog]
+topic=Disagreement
+requires_status=graffe_init
+requires_not_status=disagreement_start
+you=You look like you're about to strangle me. If there is bad air between us, you best let me know so I can check my blade.
+him=You are not the wise one to spit such disdain on my face traveler, and besides, its not you I wish to quarrel with. 
+you=If you need a body to do the quarreling, I can use some credits.
+him=I dont expect it will get that far, but since you like to poke into other peoples affairs, I have a disagreement that needs settling. Go seek out an acquaintance of long ago. A man that goes by the name of Ragoul. He owes me heafty sums of credits.
+set_status=disagreement_start
+
+[dialog]
+topic=Disagreement - The rebuttal
+requires_status=disagreement_rebuttal
+requires_not_status=disagreement_offer
+requires_not_status=disagreement_counter
+requires_not_status=disagreement_settle
+requires_not_status=disagreement_accepted
+requires_not_status=disagreement_reward
+you=He said he won't back down. He plans to fight this time, and I beleive him.
+him=Troubleing indeed. I want you to show him you have NO mercy, and be convincing. 
+you=What do you suggest? A broken arm, leg?
+him=You barbaric imbecile, the art of information and disinformation will suffice! Tell him I have his landings on hold. 
+set_status=disagreement_counter
+
+[dialog]
+topic=Disagreement - The offer
+requires_status=disagreement_offer
+requires_not_status=disagreement_settle
+requires_not_status=disagreement_accepted
+requires_not_status=disagreement_reward
+you=This is getting confusing. Ragoul said there is a predicament with the corridor.
+him=THE corridor(looks to the east.) Damnit! Why does this have to happen!? 
+you=Is there something I can do to help? Tell me more.
+him=He dares to threaten me! I'll give him one last offer. Tell him the spookes will visit him if he continues this path. 
+set_status=disagreement_deal
+
+[dialog]
+topic=Disagreement - The settle
+requires_status=disagreement_settle
+requires_not_status=disagreement_accepted
+requires_not_status=disagreement_reward
+you=This is getting confusing. Ragoul said there is a threat ten times that of the spooks.
+him=How can you say such blasphemy? Only a myth could hold such status. 
+you=This is becomming nuts. Is this world doomed?
+him=Unless you're a one man army, you best forget about that. Tell Ragoul the disagreement is finished. 
+set_status=disagreement_accepted

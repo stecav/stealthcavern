@@ -1,0 +1,6 @@
+quality=high
+item_type=bracelet
+icon=372
+soundfx=soundfx/inventory/inventory_gem.ogg
+loot_animation=animations/loot/gem.txt
+

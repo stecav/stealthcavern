@@ -1,0 +1,161 @@
+# Junk ################################
+
+[item]
+id=22
+name=Broken Cell
+INCLUDE items/base/junk/broken cell.txt
+price=2
+price_sell=1
+max_quantity=100
+
+[item]
+id=23
+name=Damaged Chestplate
+INCLUDE items/base/junk/damaged chestplate.txt
+price=2
+price_sell=1
+max_quantity=100
+
+[item]
+id=24
+name=Ripped Tassets
+INCLUDE items/base/junk/ripped tassets.txt
+price=2
+price_sell=1
+max_quantity=100
+
+[item]
+id=25
+name=Sliced Pants
+INCLUDE items/base/junk/sliced pants.txt
+price=2
+price_sell=1
+max_quantity=100
+
+[item]
+id=26
+name=Bent Arrows
+INCLUDE items/base/junk/bent arrows.txt
+price=2
+price_sell=1
+max_quantity=100
+
+[item]
+id=27
+name=Wet Ammunition
+INCLUDE items/base/junk/wet ammunition.txt
+price=2
+price_sell=1
+max_quantity=100
+
+[item]
+id=28
+name=Empty Shells
+INCLUDE items/base/junk/empty shells.txt
+price=2
+price_sell=1
+max_quantity=100
+
+[item]
+id=29
+name=Powerless PDU
+INCLUDE items/base/junk/powerless pdu.txt
+price=2
+price_sell=1
+max_quantity=100
+
+[item]
+id=30
+name=Bent Rifle
+INCLUDE items/base/junk/bent rifle.txt
+price=2
+price_sell=1
+max_quantity=100
+
+[item]
+id=31
+name=Dirty Circuit Board
+INCLUDE items/base/junk/dirty circuit board.txt
+price=2
+price_sell=1
+max_quantity=100
+
+[item]
+id=32
+name=Part of Firearm
+INCLUDE items/base/junk/part of firearm.txt
+price=2
+price_sell=1
+max_quantity=100
+
+[item]
+id=33
+name=Half-used detonator
+INCLUDE items/base/junk/half-used detonator.txt
+price=2
+price_sell=1
+max_quantity=100
+
+[item]
+id=34
+name=Corrupted Laptop
+INCLUDE items/base/junk/corrupted laptop.txt
+price=2
+price_sell=1
+max_quantity=100
+
+[item]
+id=35
+name=Salvaged Parts
+INCLUDE items/base/junk/salvaged parts.txt
+price=2
+price_sell=1
+max_quantity=100
+
+[item]
+id=36
+name=Salvage Metals
+INCLUDE items/base/junk/salvage metals.txt
+price=2
+price_sell=1
+max_quantity=100
+
+[item]
+id=37
+name=Torn Fibers
+INCLUDE items/base/junk/torn fibers.txt
+price=2
+price_sell=1
+max_quantity=100
+
+[item]
+id=38
+name=Splintered Wood
+INCLUDE items/base/junk/splintered wood.txt
+price=2
+price_sell=1
+max_quantity=100
+
+[item]
+id=39
+name=Burnt Weapon
+INCLUDE items/base/junk/burnt weapon.txt
+price=2
+price_sell=1
+max_quantity=100
+
+[item]
+id=40
+name=Smashed Weapon
+INCLUDE items/base/junk/smashed weapon.txt
+price=2
+price_sell=1
+max_quantity=100
+
+[item]
+id=41
+name=Twisted Wires
+INCLUDE items/base/junk/twisted wires.txt
+price=2
+price_sell=1
+max_quantity=100

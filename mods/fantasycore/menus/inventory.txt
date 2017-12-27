@@ -1,0 +1,38 @@
+# Settings for the Inventory menu
+# the first two values are x,y positions
+# some items have two more values, width and height
+
+pos=0,0,320,416
+align=right
+soundfx_open=soundfx/inventory/inventory_page.ogg
+soundfx_close=soundfx/inventory/inventory_book.ogg
+
+close=294,2
+help=2,2,24,24
+
+# define x,y position, slot type
+equipment_slot=144,32,head
+equipment_slot=144,70,chest
+equipment_slot=144,146,feet
+equipment_slot=144,108,abdomen
+equipment_slot=96,108,uleg
+equipment_slot=96,146,lleg
+equipment_slot=96,184,off
+equipment_slot=96,70,neck
+equipment_slot=96,32,implant
+equipment_slot=192,70,arm
+equipment_slot=192,32,shoulder
+equipment_slot=192,108,hands
+equipment_slot=48,32,visor
+equipment_slot=48,70,artifact
+equipment_slot=48,146,bracelet
+equipment_slot=48,108,ring
+equipment_slot=48,184,main
+
+carried_area=12,244
+carried_cols=9
+carried_rows=5
+
+label_title=160,8,center,top
+currency=295,235,right,center
+

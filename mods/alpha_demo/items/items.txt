@@ -1,0 +1,216 @@
+####################
+# Item Definitions #
+####################
+
+# Currency
+[item]
+id=116
+name=Credits
+quality=normal
+icon=88
+price=1
+price_sell=1
+max_quantity=5000
+soundfx=soundfx/inventory/inventory_credits.ogg
+loot_animation=animations/loot/credits5.txt,0,9
+loot_animation=animations/loot/credits25.txt,10,24
+loot_animation=animations/loot/credits100.txt,25,0
+quality=currency
+
+
+# Potions: 1-15,386-391
+INCLUDE items/categories/potions.txt
+
+# Junk: 22-41
+INCLUDE items/categories/junk.txt
+
+# Gems: 89-115
+INCLUDE items/categories/gems.txt
+
+# Melee Weapons: 117-148,421-452
+INCLUDE items/categories/weapons_melee.txt
+
+# Magic Weapons: 149-162,453-466
+INCLUDE items/categories/weapons_magic.txt
+
+# Ranged Weapons: 163-196,467-500
+INCLUDE items/categories/weapons_ranged.txt
+
+# Psychic Weapons: 408-417
+INCLUDE items/categories/weapons_psychic.txt
+
+# Shields: 197-207,419-420,501-513
+INCLUDE items/categories/shields.txt
+
+# Cloth Armor: 208-217
+INCLUDE items/categories/armor_cloth.txt
+
+# Mage Robe Armor: 218-226
+INCLUDE items/categories/armor_mage.txt
+
+# Studded Leather Armor: 531-539
+INCLUDE items/categories/armor_studded.txt
+
+# Leather Armor: 227-236
+INCLUDE items/categories/armor_leather.txt
+
+# Chain Armor: 237-240,242-246
+INCLUDE items/categories/armor_chain.txt
+
+# Alloy Chain Armor: 540-548
+INCLUDE items/categories/armor_alloy_chain.txt
+
+# Plate Armor: 247-256
+INCLUDE items/categories/armor_plate.txt
+
+# Forged Silk Weave: 522-530
+INCLUDE items/categories/armor_silk.txt
+
+# Forged Plate Armor: 549-557
+INCLUDE items/categories/armor_forged_plate.txt
+
+# Kevlar Armor: 267-276
+INCLUDE items/categories/armor_kevlar.txt
+
+# Tin Armor: 397-405
+INCLUDE items/categories/armor_tin.txt
+
+# Titanate Armor: 558-566
+INCLUDE items/categories/armor_titanate.txt
+
+# Ceramic Armor: 257-266
+INCLUDE items/categories/armor_ceramic.txt
+
+# Fluid Polymer Armor: 576-584
+INCLUDE items/categories/armor_polymer.txt
+
+# Carbon Nanotube Armor: 585-593
+INCLUDE items/categories/armor_carbon.txt
+
+# Cellulose Armor: 277-286
+INCLUDE items/categories/armor_cellulose.txt
+
+# Rings: 314-337,380
+INCLUDE items/categories/rings.txt
+
+# Resource: 42-56
+INCLUDE items/categories/resource.txt
+
+# Tools: 16-21
+INCLUDE items/categories/tools.txt
+
+# Collectable: 81-88
+INCLUDE items/categories/collectable.txt
+
+# Scrap: 57-80
+INCLUDE items/categories/scrap.txt
+
+# Amulets: 354-366
+INCLUDE items/categories/amulets.txt
+
+# Bracelets: 367-379
+INCLUDE items/categories/bracelets.txt
+
+# Implants: 298-304
+INCLUDE items/categories/implants.txt
+
+# Artifacts: 305-311
+INCLUDE items/categories/artifacts.txt
+
+# Visors: 287-297
+INCLUDE items/categories/visors.txt
+
+# Figurines: 343-346,392-396
+INCLUDE items/categories/figurines.txt
+
+# Magic items: 312-313,338-342,347-353,380
+INCLUDE items/categories/magic.txt
+
+
+
+# Mission Items
+
+[item]
+id=9000
+name=Averguard Tome
+INCLUDE items/base/misc/book.txt
+mission_item=true
+power_desc=This tome bears the seal of the Averguard
+item_type=book
+pickup_status=ak_tome_found
+
+[item]
+id=9001
+name=Averguard Key
+INCLUDE items/base/misc/key.txt
+mission_item=true
+power_desc=Opens special doors in Averguard Keep
+item_type=key
+pickup_status=ak_key_found
+
+[item]
+id=9002
+name=Langlier's Talisman
+INCLUDE items/base/gems/diamond.txt
+mission_item=true
+power_desc=Etched runes surround this talisman
+item_type=Book
+pickup_status=ak_talisman_found
+
+# Mission Items
+
+[item]
+id=9100
+name=Scathelocke's Spellbook
+INCLUDE items/base/misc/book.txt
+#mission_item=true
+quality=epic
+item_type=artifact
+bonus=conjure,1
+pickup_status=lb_spellbook_found
+price=3000
+
+[item]
+id=9101
+name=Scathelocke's Key
+INCLUDE items/base/misc/key.txt
+mission_item=true
+power_desc=Opens Scathelocke's Runed Chest
+item_type=key
+pickup_status=lb_ice_key
+
+[item]
+id=9102
+name=Vesuvvio's Key
+INCLUDE items/base/misc/key.txt
+mission_item=true
+power_desc=Opens Vesuvvio's Runed Chest
+item_type=key
+pickup_status=lb_fire_key
+
+[item]
+id=9103
+name=Grisbon's Key
+INCLUDE items/base/misc/key.txt
+mission_item=true
+power_desc=Opens Grisbon's Runed Chest
+item_type=key
+pickup_status=lb_wind_key
+
+[item]
+id=9104
+name=Wayne's strap
+INCLUDE items/base/misc/key.txt
+mission_item=true
+power_desc=Wayne's personal strap
+item_type=key
+pickup_status=ws_found
+
+[item]
+id=9105
+name=Elaborate tree trunk
+INCLUDE items/base/misc/key.txt
+mission_item=true
+power_desc=Wayne's prized tree trunk
+item_type=key
+pickup_status=wt_found

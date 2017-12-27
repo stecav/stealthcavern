@@ -1,0 +1,42 @@
+name=Antlion Burster
+generation=8
+categories=antlion_burster,antlion,dungeon,cave,fire
+soul=115
+
+sfx_phys=soundfx/enemies/antlion_phys.ogg
+sfx_hit=soundfx/enemies/antlion_hit.ogg
+sfx_die=soundfx/enemies/antlion_die.ogg
+sfx_critdie=soundfx/enemies/antlion_critdie.ogg
+
+animations=animations/enemies/fire_ant.txt
+
+
+# combat stats
+# antlions have low HP and high armor for their level
+stat=hull,130
+speed=4
+melee_range=1.1875
+threat_range=8.0
+turn_delay=133ms
+chance_pursue=50
+chance_melee_ment=100
+power=melee,40
+
+stat=accuracy,70
+stat=avoidance,25
+
+stat=dmg_ment_min,22
+stat=dmg_ment_max,48
+stat=absorb_min,24
+stat=absorb_max,24
+vulnerable=heat,100
+vulnerable=subzero,200
+
+cooldown=833ms
+
+# loot
+loot=loot/leveled_low.txt
+
+# ring of fire, ruby
+loot=109,1
+loot=5,1

@@ -1,0 +1,1113 @@
+# tab 0
+[tab]
+title=Warrior
+
+# tab 1
+[tab]
+title=Ranger
+
+# tab 2
+[tab]
+title=Magician
+
+# tab 3
+[tab]
+title=Psychic
+
+### Warrior Tab ###############################################################
+# swing
+[power]
+id=1
+tab=0
+position=48,80
+upgrades=20
+
+# heroic swing
+[upgrade]
+id=20
+requires_primary=brawn,2
+requires_point=true
+
+# special
+[power]
+id=144
+tab=0
+position=96,80
+
+# block
+[power]
+id=3
+tab=0
+position=240,80
+requires_primary=nimble,1
+
+# Fear swing
+[power]
+id=190
+tab=0
+position=144,80
+requires_primary=brawn,2
+requires_point=true
+
+# Conversion swing
+[power]
+id=211
+tab=0
+position=144,128
+requires_primary=brawn,2
+requires_point=true
+
+# Executor swing
+[power]
+id=214
+tab=0
+position=144,176
+requires_primary=brawn,2
+requires_point=true
+
+# Giant swing
+[power]
+id=215
+tab=0
+position=144,224
+requires_primary=brawn,2
+requires_point=true
+
+# Omni swing
+[power]
+id=219
+tab=0
+position=144,352
+requires_primary=brawn,2
+requires_point=true
+
+# Vampire cut
+[power]
+id=220
+tab=0
+position=48,272
+requires_primary=brawn,2
+requires_point=true
+
+# Beast slash
+[power]
+id=221
+tab=0
+position=96,272
+requires_primary=brawn,2
+requires_point=true
+
+# Counter-roll
+[power]
+id=222
+tab=0
+position=144,272
+requires_primary=brawn,2
+requires_point=true
+
+# Distractor
+[power]
+id=223
+tab=0
+position=192,272
+requires_primary=brawn,2
+requires_point=true
+
+# Hallower
+[power]
+id=224
+tab=0
+position=240,272
+requires_primary=brawn,2
+requires_point=true
+
+# Racker
+[power]
+id=225
+tab=0
+position=48,310
+requires_primary=brawn,2
+requires_point=true
+
+# Fluid dynamics
+[power]
+id=226
+tab=0
+position=96,310
+requires_primary=brawn,2
+requires_point=true
+
+# fulcrum swing
+[power]
+id=189
+tab=0
+position=144,310
+requires_primary=brawn,3
+requires_point=true
+
+# Venom strike
+[power]
+id=258
+tab=0
+position=192,310
+requires_primary=brawn,2
+requires_point=true
+
+# mantis strike
+[power]
+id=259
+tab=0
+position=240,310
+requires_primary=brawn,2
+requires_point=true
+
+# blood strike
+[power]
+id=5
+tab=0
+position=96,128
+requires_primary=brawn,2
+requires_point=true
+
+# thrust
+[power]
+id=77
+tab=0
+position=48,128
+requires_primary=brawn,2
+requires_point=true
+
+# deliverance
+[power]
+id=76
+tab=0
+position=48,176
+requires_primary=brawn,2
+requires_point=true
+
+# impale
+[power]
+id=75
+tab=0
+position=48,224
+requires_primary=brawn,2
+requires_point=true
+
+# skewer
+[power]
+id=74
+tab=0
+position=48,352
+requires_primary=brawn,2
+requires_point=true
+
+# entise
+[power]
+id=73
+tab=0
+position=96,352
+requires_point=true
+
+# leverager
+[power]
+id=72
+tab=0
+position=96,224
+requires_primary=nimble,3
+requires_point=true
+
+# overpower
+[power]
+id=71
+tab=0
+position=192,224
+requires_primary=brawn,4
+requires_point=true
+
+# vicious slash
+[power]
+id=70
+tab=0
+position=192,352
+requires_primary=brawn,2
+requires_point=true
+
+# fury 
+[power]
+id=69
+tab=0
+position=240,352
+requires_primary=brawn,3
+requires_point=true
+
+# crippler 
+[power]
+id=68
+tab=0
+position=240,224
+requires_primary=brawn,2
+requires_point=true
+
+# foiler 
+[power]
+id=67
+tab=0
+position=240,128
+requires_primary=brawn,2
+requires_point=true
+
+# throw knife
+[power]
+id=43
+tab=0
+position=192,128
+requires_primary=nimble,2
+requires_point=true
+
+# cleave
+[power]
+id=13
+tab=0
+position=96,176
+requires_primary=brawn,3
+requires_point=true
+
+# throw axe
+[power]
+id=44
+tab=0
+position=192,176
+requires_primary=brawn,2
+requires_power=43
+requires_point=true
+
+# war cry
+[power]
+id=9
+tab=0
+position=240,176
+requires_primary=nimble,2
+requires_primary=brawn,2
+requires_point=true
+
+
+
+
+
+
+### Ranger Tab ################################################################
+# shoot
+[power]
+id=22
+tab=1
+position=48,80
+
+# special
+[power]
+id=144
+tab=1
+position=96,80
+
+# stealth
+[power]
+id=141
+tab=1
+position=48,128
+requires_primary=nimble,2
+requires_point=true
+
+# ember shot
+[power]
+id=24
+tab=1
+position=96,128
+requires_primary=concentration,2
+requires_point=true
+
+# multi-shot
+[power]
+id=16
+tab=1
+position=192,128
+requires_primary=concentration,2
+requires_point=true
+upgrades=192
+
+# hail shot
+[upgrade]
+id=192
+requires_primary=nimble,2
+requires_point=true
+
+# werewolf
+[power]
+id=208
+tab=1
+position=144,128
+requires_primary=nimble,2
+requires_point=true
+
+# werewyvern
+[power]
+id=209
+tab=1
+position=144,176
+requires_primary=nimble,2
+requires_point=true
+
+# transform ghost
+[power]
+id=210
+tab=1
+position=144,224
+requires_primary=nimble,2
+requires_point=true
+
+# Uninvited guest
+[power]
+id=227
+tab=1
+position=144,352
+requires_primary=nimble,2
+requires_point=true
+
+# Sharp shower
+[power]
+id=228
+tab=1
+position=48,272
+requires_primary=nimble,2
+requires_point=true
+
+# Overwhelming fire
+[power]
+id=229
+tab=1
+position=96,272
+requires_primary=nimble,2
+requires_point=true
+
+# Acidic shot
+[power]
+id=230
+tab=1
+position=144,272
+requires_primary=nimble,2
+requires_point=true
+
+# Tag-n-bag
+[power]
+id=231
+tab=1
+position=192,272
+requires_primary=nimble,2
+requires_point=true
+
+# Sprayer
+[power]
+id=232
+tab=1
+position=240,272
+requires_primary=nimble,2
+requires_point=true
+
+# Evasive shots
+[power]
+id=233
+tab=1
+position=48,310
+requires_primary=concentration,2
+requires_point=true
+
+# Concusion blanks
+[power]
+id=234
+tab=1
+position=96,310
+requires_primary=concentration,2
+requires_point=true
+
+# Show of force
+[power]
+id=235
+tab=1
+position=144,310
+requires_primary=concentration,2
+requires_point=true
+
+# Pop shots
+[power]
+id=236
+tab=1
+position=192,310
+requires_primary=concentration,2
+requires_point=true
+
+# Obscurer
+[power]
+id=237
+tab=1
+position=240,310
+requires_primary=concentration,2
+requires_point=true
+
+# crater
+[power]
+id=64
+tab=1
+position=48,176
+requires_primary=nimble,2
+requires_primary=concentration,4
+requires_point=true
+
+# shredder
+[power]
+id=63
+tab=1
+position=48,224
+requires_primary=nimble,2
+requires_point=true
+
+# slinger
+[power]
+id=62
+tab=1
+position=48,352
+requires_primary=nimble,2
+requires_point=true
+
+# severing shot
+[power]
+id=61
+tab=1
+position=96,352
+requires_primary=nimble,2
+requires_point=true
+
+# targeted shot
+[power]
+id=60
+tab=1
+position=192,224
+requires_primary=nimble,2
+requires_point=true
+
+# spread shot
+[power]
+id=59
+tab=1
+position=192,176
+requires_primary=nimble,2
+requires_point=true
+
+# poisoned projectile
+[power]
+id=58
+tab=1
+position=192,352
+requires_primary=nimble,2
+requires_point=true
+
+# landmine
+[power]
+id=57
+tab=1
+position=240,224
+requires_primary=nimble,3
+requires_primary=concentration,4
+requires_point=true
+
+# smoker
+[power]
+id=56
+tab=1
+position=240,352
+requires_primary=nimble,2
+requires_primary=concentration,2
+requires_point=true
+
+# caltrops
+[power]
+id=45
+tab=1
+position=240,128
+requires_primary=nimble,2
+requires_point=true
+
+# piercing shot
+[power]
+id=8
+tab=1
+position=96,176
+requires_primary=concentration,3
+requires_point=true
+
+# bear trap
+[power]
+id=46
+tab=1
+position=240,176
+requires_primary=concentration,2
+requires_primary=nimble,3
+requires_point=true
+requires_power=45
+
+# rapid fire
+[power]
+id=23
+tab=1
+position=96,224
+requires_primary=concentration,4
+requires_point=true
+upgrades=271
+
+# Unload
+[upgrade]
+id=271
+requires_primary=nimble,2
+requires_point=true
+
+### Magician Tab ################################################################
+# channel
+[power]
+id=2
+tab=2
+position=48,80
+requires_primary=conjure,2
+upgrades=21
+
+# greater channel
+[upgrade]
+id=21
+requires_primary=conjure,2
+requires_point=true
+
+# special
+[power]
+id=144
+tab=2
+position=96,80
+
+# Summon Ghost Ally
+[power]
+id=216
+tab=2
+position=144,80
+requires_primary=conjure,6
+requires_point=true
+
+# Summon Horseman
+[power]
+id=196
+tab=2
+position=144,128
+requires_primary=conjure,6
+requires_point=true
+
+# Replentish
+[power]
+id=195
+tab=2
+position=144,176
+requires_primary=conjure,4
+requires_point=true
+
+# Summon Skeleton
+[power]
+id=194
+tab=2
+position=144,224
+requires_primary=conjure,4
+requires_point=true
+
+# Summon Zombie
+[power]
+id=193
+tab=2
+position=144,352
+requires_primary=conjure,4
+requires_point=true
+
+# Lightning Tower
+[power]
+id=218
+tab=2
+position=48,272
+requires_primary=conjure,2
+requires_point=true
+
+# Explosion fireballs
+[power]
+id=201
+tab=2
+position=96,272
+requires_primary=conjure,2
+requires_point=true
+
+# Flame Tower
+[power]
+id=202
+tab=2
+position=144,272
+requires_primary=conjure,2
+requires_point=true
+
+# Radiant Force
+[power]
+id=213
+tab=2
+position=192,272
+requires_primary=conjure,4
+requires_point=true
+
+# summon barricade
+[power]
+id=197
+tab=2
+position=240,272
+requires_primary=conjure,3
+requires_point=true
+
+# Shard
+[power]
+id=238
+tab=2
+position=48,310
+requires_primary=conjure,2
+requires_point=true
+
+# Swarm dust
+[power]
+id=239
+tab=2
+position=96,310
+requires_primary=conjure,2
+requires_point=true
+
+# Cooker
+[power]
+id=240
+tab=2
+position=144,310
+requires_primary=conjure,2
+requires_point=true
+
+# Zapper
+[power]
+id=241
+tab=2
+position=192,310
+requires_primary=conjure,2
+requires_point=true
+
+# Unimizer
+[power]
+id=242
+tab=2
+position=240,310
+requires_primary=conjure,2
+requires_point=true
+
+# shock
+[power]
+id=6
+tab=2
+position=96,128
+requires_primary=conjure,2
+requires_point=true
+
+# thunderstrike
+[power]
+id=25
+tab=2
+position=192,128
+requires_primary=conjure,2
+requires_point=true
+
+# cyclone
+[power]
+id=55
+tab=2
+position=48,128
+requires_primary=conjure,2
+requires_point=true
+
+# harm
+[power]
+id=54
+tab=2
+position=48,176
+requires_primary=conjure,2
+requires_point=true
+
+# extract
+[power]
+id=53
+tab=2
+position=48,224
+requires_primary=conjure,2
+requires_point=true
+
+# void
+[power]
+id=52
+tab=2
+position=48,352
+requires_primary=conjure,2
+requires_point=true
+
+# twister
+[power]
+id=51
+tab=2
+position=96,352
+requires_primary=conjure,2
+requires_point=true
+
+# Summon Minotaur Guardian
+[power]
+id=50
+tab=2
+position=192,352
+requires_primary=conjure,9
+requires_point=true
+
+# rift
+[power]
+id=49
+tab=2
+position=240,352
+requires_primary=conjure,2
+requires_point=true
+
+# encase
+[power]
+id=48
+tab=2
+position=192,224
+requires_primary=conjure,2
+requires_point=true
+
+# heal
+[power]
+id=7
+tab=2
+position=240,128
+requires_primary=conjure,2
+requires_point=true
+
+# freeze
+[power]
+id=14
+tab=2
+position=96,176
+requires_primary=conjure,4
+requires_point=true
+
+# quake
+[power]
+id=10
+tab=2
+position=192,176
+requires_primary=conjure,3
+requires_point=true
+
+# shield
+[power]
+id=11
+tab=2
+position=240,176
+requires_primary=conjure,2
+requires_point=true
+
+# burn
+[power]
+id=18
+tab=2
+position=96,224
+requires_primary=conjure,4
+requires_point=true
+
+# teleport
+[power]
+id=15
+tab=2
+position=240,224
+requires_primary=conjure,3
+requires_point=true
+
+
+### Psychic Tab ################################################################
+# sublimate
+[power]
+id=88
+tab=3
+position=48,80
+requires_primary=influence,2
+upgrades=89
+
+# greater sublimate
+[upgrade]
+id=89
+requires_primary=influence,2
+requires_point=true
+
+# special
+[power]
+id=144
+tab=3
+position=96,80
+
+# HP boost
+[power]
+id=198
+tab=3
+position=144,80
+requires_primary=influence,2
+requires_point=true
+
+# Fearmonger
+[power]
+id=203
+tab=3
+position=144,128
+requires_primary=influence,2
+requires_point=true
+
+# Protection
+[power]
+id=204
+tab=3
+position=144,176
+requires_primary=influence,2
+requires_point=true
+
+# Hardened
+[power]
+id=205
+tab=3
+position=144,224
+requires_primary=influence,2
+requires_point=true
+
+# Ordinance
+[power]
+id=206
+tab=3
+position=144,352
+requires_primary=influence,2
+requires_point=true
+
+# Casement
+[power]
+id=207
+tab=3
+position=48,272
+requires_primary=influence,2
+requires_point=true
+
+# Strangle
+[power]
+id=243
+tab=3
+position=96,272
+requires_primary=influence,2
+requires_point=true
+
+# Throwback
+[power]
+id=244
+tab=3
+position=144,272
+requires_primary=influence,2
+requires_point=true
+
+# Collision force
+[power]
+id=245
+tab=3
+position=192,272
+requires_primary=influence,2
+requires_point=true
+
+# Drop force
+[power]
+id=246
+tab=3
+position=240,272
+requires_primary=influence,2
+requires_point=true
+
+# Phase field
+[power]
+id=247
+tab=3
+position=48,310
+requires_primary=influence,2
+requires_point=true
+
+# Swirl of force
+[power]
+id=248
+tab=3
+position=96,310
+requires_primary=influence,2
+requires_point=true
+
+# Weight of worlds
+[power]
+id=249
+tab=3
+position=144,310
+requires_primary=influence,2
+requires_point=true
+
+# Phase facade
+[power]
+id=250
+tab=3
+position=192,310
+requires_primary=influence,2
+requires_point=true
+
+# Meditation
+[power]
+id=251
+tab=3
+position=240,310
+requires_primary=influence,2
+requires_point=true
+
+# reconstruct
+[power]
+id=151
+tab=3
+position=240,80
+
+# bolster
+[power]
+id=90
+tab=3
+position=48,128
+requires_primary=influence,2
+requires_point=true
+
+# hamper
+[power]
+id=91
+tab=3
+position=48,176
+requires_primary=influence,3
+requires_point=true
+
+# overthrow
+[power]
+id=92
+tab=3
+position=48,224
+requires_primary=influence,3
+requires_point=true
+
+# catalyst
+[power]
+id=93
+tab=3
+position=96,128
+requires_primary=influence,3
+requires_point=true
+
+# psi to hull
+[power]
+id=94
+tab=3
+position=96,176
+requires_primary=influence,3
+requires_point=true
+
+# hull to capacitor
+[power]
+id=95
+tab=3
+position=192,224
+requires_primary=influence,3
+requires_point=true
+
+# imagination
+[power]
+id=96
+tab=3
+position=192,128
+requires_primary=influence,3
+requires_point=true
+
+# trick
+[power]
+id=97
+tab=3
+position=192,176
+requires_primary=influence,3
+requires_point=true
+
+# traveler
+[power]
+id=98
+tab=3
+position=240,128
+requires_primary=nimble,3
+requires_point=true
+
+# cleanse
+[power]
+id=99
+tab=3
+position=240,176
+requires_primary=influence,3
+requires_point=true
+
+# envision
+[power]
+id=145
+tab=3
+position=240,224
+requires_primary=influence,3
+requires_point=true
+
+# telekenesis
+[power]
+id=146
+tab=3
+position=192,352
+requires_primary=influence,3
+requires_point=true
+
+# hijack
+[power]
+id=147
+tab=3
+position=96,224
+requires_primary=influence,3
+requires_point=true
+
+# brainstorm
+[power]
+id=150
+tab=3
+position=48,352
+requires_primary=influence,3
+requires_point=true
+
+# entrap
+[power]
+id=148
+tab=3
+position=96,352
+requires_primary=influence,3
+requires_point=true
+
+# extort
+[power]
+id=149
+tab=3
+position=240,352
+requires_primary=influence,3
+requires_point=true

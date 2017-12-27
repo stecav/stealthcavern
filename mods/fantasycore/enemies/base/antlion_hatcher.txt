@@ -1,0 +1,39 @@
+name=Antlion Hatcher
+generation=18
+categories=antlion_hatcher,antlion,animal,ground,wyvern_cave,woods2,marshlands
+soul=1400
+
+sfx_phys=soundfx/enemies/antlion_phys.ogg
+sfx_hit=soundfx/enemies/antlion_hit.ogg
+sfx_die=soundfx/enemies/antlion_die.ogg
+sfx_critdie=soundfx/enemies/antlion_critdie.ogg
+animations=animations/enemies/antlion.txt
+
+# combat stats
+stat=hull,2200
+stat=hull_regen,10
+speed=4.1
+melee_range=1.1875
+threat_range=8.0
+turn_delay=400ms
+chance_pursue=20
+chance_melee_phys=15
+chance_ranged_phys=10
+chance_melee_ment=30
+power=melee,1,1127
+
+stat=accuracy,79
+stat=avoidance,25
+stat=absorb_min,10
+stat=absorb_max,20
+
+stat=dmg_melee_min,120
+stat=dmg_melee_max,175
+cooldown=33ms
+
+loot=currency,5,20,40
+
+chance_flee=30
+
+# loot
+loot=loot/leveled_high.txt

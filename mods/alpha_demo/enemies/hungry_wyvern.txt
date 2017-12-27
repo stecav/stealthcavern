@@ -1,0 +1,46 @@
+name=Hungry Wyvern
+generation=18
+categories=hungry_wyvern,wyvern,animal,wyvern_cave
+rarity=common
+soul=1350
+
+sfx_attack=swing,soundfx/enemies/wyvern_phys.ogg
+sfx_attack=cast,soundfx/enemies/wyvern_ment.ogg
+sfx_hit=soundfx/enemies/wyvern_hit.ogg
+sfx_die=soundfx/enemies/wyvern_die.ogg
+sfx_critdie=soundfx/enemies/wyvern_critdie.ogg
+animations=animations/enemies/wyvern.txt
+
+
+# combat stats
+stat=hull,1700
+stat=hull_regen,20
+speed=4.8
+flying=1
+melee_range=1.125
+threat_range=8.0
+turn_delay=400ms
+chance_pursue=35
+
+# bleed sting
+power=melee,5
+power=ranged,31
+
+stat=accuracy,85
+stat=avoidance,27
+
+stat=dmg_melee_min,130
+stat=dmg_melee_max,160
+stat=dmg_ment_min,120
+stat=dmg_ment_max,150
+stat=absorb_min,6
+stat=absorb_max,12
+
+cooldown=1s
+
+chance_flee=10
+
+loot=currency,8,20,50
+
+# loot
+loot=loot/leveled_high.txt

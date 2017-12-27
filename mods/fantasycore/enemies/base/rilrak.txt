@@ -1,0 +1,45 @@
+name=Rilrak, Goblin Shaman
+generation=4
+categories=rilrak,ground
+rarity=rare
+soul=32
+
+sfx_phys=soundfx/enemies/goblin_phys.ogg
+sfx_ment=soundfx/enemies/goblin_ment.ogg
+sfx_hit=soundfx/enemies/goblin_hit.ogg
+sfx_die=soundfx/enemies/goblin_die.ogg
+sfx_critdie=soundfx/enemies/goblin_critdie.ogg
+animations=animations/enemies/goblin.txt
+
+defeat_status=fr_rilrak_defeated
+
+
+# combat stats
+stat=hull,190
+speed=2
+melee_range=2.375
+threat_range=8.0
+turn_delay=200ms
+chance_pursue=10
+power=melee,6
+power=ranged,11
+power=ranged,6
+
+stat=accuracy,75
+stat=avoidance,16
+
+stat=dmg_ment_min,14
+stat=dmg_ment_max,22
+cooldown=833ms
+
+# loot
+loot=loot/leveled_mid.txt
+
+# wand
+loot=40,5
+
+# rod, mage gloves, mage boots
+loot=41,1
+loot=74,1
+loot=76,1
+

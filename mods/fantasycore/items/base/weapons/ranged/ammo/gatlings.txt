@@ -1,0 +1,3 @@
+# Replace ranged powers with "rock" variants
+replace_power=22,305
+

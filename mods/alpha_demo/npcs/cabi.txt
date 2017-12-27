@@ -1,0 +1,21 @@
+# mining overseer
+name=Cabi, Brewer
+
+portrait=images/portraits/female05.png
+
+talker=true
+
+# animation info
+gfx=animations/npcs/guild_man1.txt
+
+[dialog]
+requires_status=wc_counter
+you=I have a carapace trophy for you
+him=What is that? Get that stinky piece of garbage out of my face!
+you=Listen lady, I've been romping around leagues of trails just to off this on someone willing to buy it, and all I've got is this run-around!
+him=Well, you're the stupid one to take such trash from an ersatz fellow.
+you=I don't like you and your game tactics [brandish weapon]
+him=Don't hurt me! All I know is Kelig imparted it on Wayne, and Wayne has never been able to rid himself of it. It curses anyone who takes it! But I do know a man, Roheat who lives in a tunnel by the Fern Valley takes collections for witchcraft purposes.
+set_status=ws_refusal
+
+

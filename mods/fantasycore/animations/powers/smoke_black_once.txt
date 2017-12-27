@@ -1,0 +1,11 @@
+
+image=images/powers/fx10_smoke_black.png
+
+render_size=50,47
+render_offset=25,40
+
+[power]
+position=0
+frames=19
+duration=570ms
+type=play_once

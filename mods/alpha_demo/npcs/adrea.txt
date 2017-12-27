@@ -1,0 +1,23 @@
+# mining overseer
+name=Adrea
+
+portrait=images/portraits/female09.png
+
+talker=true
+
+# animation info
+gfx=animations/npcs/peasant_woman1.txt
+
+[dialog]
+him=You look like you're just starting out.
+you=Thats right. I'm still trying to remember everything.
+him=You mean you don't recall anything that happened prior to arriving here?
+you=Not much.
+him=Well, I'm a collector. I collect items that are junk and turn them into valueble scrap. Theres a scrapper in town that trades in scrap items. I can tell you how to get started.
+you=Interesting. I'd like to try that out.
+him=OK, the first thing you need is a tool to break down items. It just so happens that the alchemist in town sells a mortar. That will suffice for now at least.
+you=Alright, so I got to get a mortar from the alchemist. I got it.
+him=The next thing you're going to need is items, and a lot of them. It doesn't matter what items either, virtually any item can be salvaged. You can find items around the world, or by defeating enemies. 
+you=That sounds like the harder part.
+him=I've been doing this for years, and its very lucrative.
+

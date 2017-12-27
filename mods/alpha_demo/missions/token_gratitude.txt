@@ -1,0 +1,26 @@
+
+[mission]
+requires_status=wt_search
+requires_not_status=wt_found
+mission_text=Wayne needs the trunk hauled out from Sandy Basin.
+
+[mission]
+requires_status=wt_found
+requires_not_status=wp_found
+mission_text=Wayne needs the pole hauled out from White Wind.
+
+[mission]
+requires_status=wp_found
+requires_not_status=wr_done
+mission_text=Bring Wayne some rope.
+
+[mission]
+requires_status=wr_done
+requires_not_status=wx_done
+mission_text=Trade the pinion for the hammer.
+
+[mission]
+requires_status=wx_done
+requires_not_status=wt_complete
+mission_text=Use the hammer to constuct the token.
+

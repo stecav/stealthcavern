@@ -1,0 +1,23 @@
+# wandering trader
+name=Abwa, Trade Guild
+
+# shop info
+vendor=true
+constant_stock=99,105,106,107,108,109,111,112,148,162,170,177,201,254,266,271,280,287,289,298,300,302,312,313,315,316,329,334,339,340,341,342,349,355,356,361,362,367,369,370,374
+#
+
+# animation info
+gfx=animations/npcs/wandering_trader1.txt
+
+# voiceover files
+vox_intro=soundfx/npcs/male_merchant_01.ogg
+vox_intro=soundfx/npcs/male_merchant_02.ogg
+vox_intro=soundfx/npcs/male_merchant_03.ogg
+vox_intro=soundfx/npcs/male_merchant_04.ogg
+
+# chat info
+#talker=true
+#portrait=images/portraits/male11.png
+
+#[dialog]
+#him=Looking to buy something?

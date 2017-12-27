@@ -1,0 +1,70 @@
+# portal researcher
+name=Murrey
+
+portrait=images/portraits/male08.png
+
+talker=true
+
+# animation info
+gfx=animations/npcs/peasant_man2.txt
+
+[dialog]
+requires_not_status=murrey_init
+him=Howd'ya do? I'm Murrey.
+you=Why are you looking at that circle-stone so curiously?
+him=What are you talking about, that stone there is an ancient technology that transports things to a warp zone hub, essentially connecting far distant places.
+you=You mean I can travel around the world in half the time?
+him=Not even that, but fractions of time. This is so intriguing, I've been trying to study it and create my own version of it.
+you=So how can I use it?
+him=You just step into the center and it will activate. For some reason it remembers your essence and stays activated, but it only activates if you are going into the warp zone.
+you=Hmm, so I have to manually activate the stones from around the world?
+him=You are learning fast. I've been working on a way to activate the stones from within the warpzone going out, but have had no luck. 
+you=Seems like some dark energy restriction is in place.
+him=Well I plan on cracking into that and rewiring it. I'll need you to step into it and let me know how your experience fares.
+set_status=portal_search
+set_status=murrey_init
+
+[dialog]
+requires_status=portal_found
+requires_not_status=another_portal_search
+you=I'm back, and in one piece!
+him=As expected. But what did you see, hear, smell? I need all the information you experienced.
+you=One thing I remeber was the loud buzzing noise. It started as a faint hum, then ramped up to a giant beehive buzz.
+him=Hmm...Try finding another portal and see if you experince those same effects. The closest one I know about is Mountain Retreat, westerly then three leagues south.
+set_status=another_portal_search
+
+[dialog]
+requires_status=another_portal_found
+requires_not_status=portal_inconsistancies
+you=I found that portal and was able to compare the experience.
+him=I would be more than willing to hear what you have to say.
+you=This time it wasn't like the beehive buzz, but like an ocean wave breaking over a sandy beach.
+him=How could that be!? The links should be consistant through out the network! I've got nothing to go on when I compare these data points! Here, take this collector and find another portal. It will automatically capture my missing data points. Please return it in once piece when you complete the objective.
+set_status=portal_inconsistancies
+reward_item=595,1
+
+[dialog]
+requires_status=portal_data
+requires_not_status=portal_analyzer
+you=Alright, I've got your data points, and all in once piece like you mentioned.
+him=Now if I could just map these...woa..woa...that is not...arrgghh!
+you=What's going on? the device is still in tact? Don't tell me I have to find another portal.
+him=I'm afraid you said it yourself. This is just not going to cut it. Here, take this analyzer and find another. This should be more than adequate to measure these data points.
+remove_item=595
+set_status=portal_analyzer
+reward_item=596,1
+
+[dialog]
+requires_status=portal_compilation
+requires_not_status=portal_reward
+you=This is the last time I'll be running around for your data point nonsense. Here take it and find another monkey to do your business.
+him=Splendid! This is mapping out perfectly. Everything is meshing together.
+you=Well, well isn't that just a coincidence.
+him=I can see all networks and paths.
+you=Hand it over to me then so I can get access.
+him=It doesn't work like that. But I give my thanks for your dedication!
+remove_item=596
+set_status=portal_reward
+reward_soul=30
+reward_currency=20
+reward_stat=faction_horgan,5

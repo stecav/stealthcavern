@@ -1,0 +1,10 @@
+[mission]
+requires_status=ml_troll_search
+requires_not_status=ml_troll_defeated
+mission_text=Find and defeat the Troll in Troll Valley.
+
+[mission]
+requires_status=ml_troll_search
+requires_status=ml_troll_defeated
+requires_not_status=ml_troll_reward
+mission_text=Report the defeat of the Troll to Sven.

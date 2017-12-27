@@ -1,0 +1,97 @@
+# Figurines
+
+[item]
+id=343
+name=Bear Figurine
+INCLUDE items/base/figurines/bear.txt
+bonus=brawn,1
+price=2500
+
+[item]
+id=344
+name=Owl Figurine
+quality=epic
+item_type=artifact
+icon=217
+soundfx=soundfx/inventory/inventory_gem.ogg
+loot_animation=animations/loot/gem.txt
+bonus=conjure,1
+price=2500
+
+[item]
+id=345
+name=Cat Figurine
+quality=epic
+item_type=artifact
+icon=218
+soundfx=soundfx/inventory/inventory_gem.ogg
+loot_animation=animations/loot/gem.txt
+bonus=nimble,1
+price=2500
+
+[item]
+id=346
+name=Turtle Figurine
+quality=epic
+item_type=artifact
+icon=219
+soundfx=soundfx/inventory/inventory_gem.ogg
+loot_animation=animations/loot/gem.txt
+bonus=resilience,1
+price=2500
+
+
+[item]
+id=392
+name=Penguin Figurine
+quality=epic
+item_type=artifact
+icon=269
+soundfx=soundfx/inventory/inventory_gem.ogg
+loot_animation=animations/loot/gem.txt
+bonus=influence,1
+price=2500
+
+[item]
+id=393
+name=Toad Figurine
+quality=epic
+item_type=artifact
+icon=268
+soundfx=soundfx/inventory/inventory_gem.ogg
+loot_animation=animations/loot/gem.txt
+bonus=concentration,1
+price=2500
+
+[item]
+id=394
+name=Armadillo Figurine
+quality=epic
+item_type=artifact
+icon=267
+soundfx=soundfx/inventory/inventory_gem.ogg
+loot_animation=animations/loot/gem.txt
+bonus=luck,1
+price=2500
+
+[item]
+id=395
+name=Snake Figurine
+quality=epic
+item_type=artifact
+icon=266
+soundfx=soundfx/inventory/inventory_gem.ogg
+loot_animation=animations/loot/gem.txt
+bonus=influence,1
+price=2500
+
+[item]
+id=396
+name=Alligator Figurine
+quality=epic
+item_type=artifact
+icon=265
+soundfx=soundfx/inventory/inventory_gem.ogg
+loot_animation=animations/loot/gem.txt
+bonus=resolve,1
+price=2500

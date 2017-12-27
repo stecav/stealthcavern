@@ -1,0 +1,11 @@
+[mission]
+requires_status=renegade_soldier_search
+requires_not_status=renegade_soldier_defeated
+mission_text=Defeat the soldier at the Deep Underground Rift.
+
+[mission]
+requires_status=renegade_soldier_search
+requires_status=renegade_soldier_defeated
+requires_not_status=renegade_soldier_reward
+mission_text=Deep Underground Rift cleared. Update Elvin with the news.
+

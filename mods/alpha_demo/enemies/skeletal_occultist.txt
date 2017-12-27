@@ -1,0 +1,56 @@
+name=Skeletal Occultist
+humanoid=true
+generation=14
+categories=skeletal_occultist,skeleton,undead,dungeon,ice
+soul=600
+
+sfx_attack=swing,soundfx/enemies/skeleton_phys.ogg
+sfx_attack=cast,soundfx/enemies/skeleton_ment.ogg
+sfx_hit=soundfx/enemies/skeleton_hit.ogg
+sfx_die=soundfx/enemies/skeleton_die.ogg
+sfx_critdie=soundfx/enemies/skeleton_critdie.ogg
+
+animations=animations/enemies/skeleton_mage.txt
+
+
+# combat stats
+stat=hull,990
+speed=3
+melee_range=1.1875
+threat_range=8.0
+turn_delay=200ms
+
+chance_pursue=15
+
+# channel
+power=melee,2
+# freeze
+power=ranged,14
+
+stat=accuracy,81
+stat=avoidance,30
+
+stat=dmg_melee_min,75
+stat=dmg_melee_max,115
+stat=dmg_ment_min,80
+stat=dmg_ment_max,120
+stat=absorb_min,18
+stat=absorb_max,18
+
+vulnerable=heat,200
+vulnerable=subzero,50
+cooldown=500ms
+
+# loot
+loot=loot/leveled_mid.txt
+
+# staff
+loot=42,5
+
+# ring of concentration, owl figurine, sapphire, sage mantle, sage frock
+loot=108,1
+loot=120,1
+loot=3,1
+loot=123,1
+loot=124,1
+

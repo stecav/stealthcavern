@@ -1,0 +1,8 @@
+name=Magie, Bowyer
+
+# shop info
+vendor=true
+constant_stock=164,166,167,177,178,179,180,181,182,183,184,185,186,187,188,189,190,191,192,193,194,195,196,585,586,587,588,589,590,591,592,593
+
+# animation info
+gfx=animations/npcs/peasant_woman1.txt

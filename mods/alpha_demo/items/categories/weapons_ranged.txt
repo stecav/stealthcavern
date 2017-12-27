@@ -1,0 +1,851 @@
+# Basic Ranged Weapons ################
+
+[item]
+id=163
+name=Slingshot
+INCLUDE items/base/weapons/ranged/slingshot.txt
+dmg=ranged,1,6
+price=27
+
+[item]
+id=164
+name=Glaive
+INCLUDE items/base/weapons/ranged/slingshot.txt
+dmg=ranged,6,12
+price=50
+
+[item]
+id=165
+name=Dart
+INCLUDE items/base/weapons/ranged/dart.txt
+dmg=ranged,1,3
+price=16
+
+[item]
+id=166
+name=Spear
+INCLUDE items/base/weapons/ranged/slingshot.txt
+requires_stat=concentration,2
+dmg=ranged,5,15
+price=65
+
+[item]
+id=167
+name=Crossbow
+INCLUDE items/base/weapons/ranged/crossbow.txt
+requires_stat=concentration,2
+dmg=ranged,8,21
+price=84
+
+[item]
+id=168
+name=Shortbow
+INCLUDE items/base/weapons/ranged/shortbow.txt
+requires_stat=concentration,2
+requires_talent=prowess_ranged,1
+dmg=ranged,3,12
+price=45
+
+[item]
+id=169
+name=Longbow
+INCLUDE items/base/weapons/ranged/longbow.txt
+requires_stat=concentration,3
+dmg=ranged,6,18
+price=100
+
+[item]
+id=170
+name=Greatbow
+INCLUDE items/base/weapons/ranged/greatbow.txt
+requires_stat=concentration,3
+dmg=ranged,12,18
+price=105
+
+[item]
+id=171
+name=Throwing disk
+INCLUDE items/base/weapons/ranged/throwing disk.txt
+requires_talent=prowess_ranged,1
+dmg=ranged,2,10
+price=35
+
+[item]
+id=172
+name=Throwing axe
+INCLUDE items/base/weapons/ranged/greatbow.txt
+requires_talent=prowess_ranged,1
+dmg=ranged,8,18
+requires_stat=concentration,2
+price=110
+
+[item]
+id=173
+name=Razor bolas
+INCLUDE items/base/weapons/ranged/bolas.txt
+requires_talent=prowess_ranged,1
+dmg=ranged,5,11
+requires_stat=concentration,2
+price=88
+
+[item]
+id=174
+name=Throwing spike
+INCLUDE items/base/weapons/ranged/throwing spike.txt
+requires_talent=prowess_ranged,1
+dmg=ranged,3,15
+requires_stat=concentration,2
+price=80
+
+[item]
+id=175
+name=Razor edged boomerang
+INCLUDE items/base/weapons/ranged/boomerang.txt
+requires_talent=prowess_ranged,1
+dmg=ranged,7,16
+requires_stat=concentration,3
+price=94
+
+[item]
+id=176
+name=Atlatl
+INCLUDE items/base/weapons/ranged/atlatl.txt
+requires_talent=prowess_ranged,1
+dmg=ranged,12,22
+requires_stat=concentration,3
+price=140
+
+[item]
+id=177
+name=Pistol
+INCLUDE items/base/weapons/ranged/pistol.txt
+requires_talent=prowess_ranged,1
+dmg=ranged,25,35
+requires_stat=concentration,4
+price=450
+
+[item]
+id=178
+name=Dual 9mm SMG
+INCLUDE items/base/weapons/ranged/smg.txt
+requires_talent=prowess_ranged,1
+dmg=ranged,28,44
+requires_stat=concentration,4
+price=650
+
+[item]
+id=179
+name=Wolf SMG
+INCLUDE items/base/weapons/ranged/smg.txt
+requires_talent=prowess_ranged,1
+dmg=ranged,12,60
+requires_stat=concentration,4
+price=780
+
+[item]
+id=180
+name=Long barrel shotgun
+INCLUDE items/base/weapons/ranged/shotgun.txt
+requires_talent=prowess_ranged,1
+dmg=ranged,33,48
+requires_stat=concentration,5
+price=820
+
+[item]
+id=181
+name=Hand-cannon
+INCLUDE items/base/weapons/ranged/cannon.txt
+requires_talent=prowess_ranged,1
+dmg=ranged,38,52
+requires_stat=concentration,5
+price=950
+
+[item]
+id=182
+name=Mid-caliber rifle
+INCLUDE items/base/weapons/ranged/mrifle.txt
+requires_talent=prowess_ranged,1
+dmg=ranged,44,60
+requires_stat=concentration,5
+price=1150
+
+[item]
+id=183
+name=High-caliber rifle
+INCLUDE items/base/weapons/ranged/hrifle.txt
+requires_talent=prowess_ranged,1
+dmg=ranged,50,70
+requires_stat=concentration,5
+price=1350
+
+[item]
+id=520
+name=Small assault rifle
+INCLUDE items/base/weapons/ranged/hrifle.txt
+requires_talent=prowess_ranged,1
+dmg=ranged,35,55
+requires_stat=concentration,5
+price=1050
+
+[item]
+id=521
+name=Large assault rifle
+INCLUDE items/base/weapons/ranged/hrifle.txt
+requires_talent=prowess_ranged,1
+dmg=ranged,45,75
+requires_stat=concentration,5
+price=1450
+
+[item]
+id=184
+name=Fragmentation RPG
+INCLUDE items/base/weapons/ranged/rpg.txt
+requires_talent=prowess_ranged,1
+dmg=ranged,75,90
+requires_stat=concentration,5
+price=1750
+
+[item]
+id=185
+name=Thermobaric RPG
+INCLUDE items/base/weapons/ranged/rpg.txt
+requires_talent=prowess_ranged,1
+dmg=ranged,88,110
+requires_stat=concentration,5
+price=1950
+
+[item]
+id=186
+name=AP RPG
+INCLUDE items/base/weapons/ranged/rpg.txt
+requires_talent=prowess_ranged,1
+dmg=ranged,130,170
+requires_stat=concentration,5
+price=2350
+
+[item]
+id=187
+name=Phosphorus grenade
+INCLUDE items/base/weapons/ranged/pgrenade.txt
+requires_talent=prowess_ranged,1
+dmg=ranged,70,90
+requires_stat=concentration,3
+price=850
+
+[item]
+id=188
+name=Shrapnel grenade
+INCLUDE items/base/weapons/ranged/sgrenade.txt
+requires_talent=prowess_ranged,1
+dmg=ranged,55,65
+requires_stat=concentration,3
+price=750
+
+[item]
+id=189
+name=Gatling gun
+INCLUDE items/base/weapons/ranged/gatling.txt
+requires_talent=prowess_ranged,1
+dmg=ranged,18,60
+requires_stat=concentration,5
+price=1050
+
+[item]
+id=190
+name=Grenade launcher
+INCLUDE items/base/weapons/ranged/glauncher.txt
+requires_talent=prowess_ranged,1
+dmg=ranged,60,80
+requires_stat=concentration,5
+price=1250
+
+[item]
+id=191
+name=Flamethrower
+INCLUDE items/base/weapons/ranged/flamethrower.txt
+requires_talent=prowess_ranged,1
+dmg=ranged,25,60
+requires_stat=concentration,5
+price=1350
+
+[item]
+id=192
+name=Electro-proton gun
+quality=normal
+item_type=main
+equip_flags=ranged
+requires_talent=prowess_ranged,1
+icon=109
+dmg=ranged,77,90
+requires_stat=concentration,5
+soundfx=soundfx/inventory/inventory_wood.ogg
+gfx=greatbow
+loot_animation=animations/loot/greatbow.txt
+price=2950
+
+[item]
+id=193
+name=Ion accelerator
+quality=normal
+item_type=main
+equip_flags=ranged
+requires_talent=prowess_ranged,1
+icon=108
+dmg=ranged,95,121
+requires_stat=concentration,5
+soundfx=soundfx/inventory/inventory_wood.ogg
+gfx=greatbow
+loot_animation=animations/loot/greatbow.txt
+price=3550
+
+[item]
+id=194
+name=Laser gatling gun
+quality=normal
+item_type=main
+equip_flags=ranged
+requires_talent=prowess_ranged,1
+icon=405
+dmg=ranged,25,160
+requires_stat=concentration,5
+soundfx=soundfx/inventory/inventory_wood.ogg
+gfx=greatbow
+loot_animation=animations/loot/greatbow.txt
+price=3950
+
+[item]
+id=195
+name=Railgun
+quality=normal
+item_type=main
+equip_flags=ranged
+requires_talent=prowess_ranged,1
+icon=108
+dmg=ranged,180,190
+requires_stat=concentration,5
+soundfx=soundfx/inventory/inventory_wood.ogg
+gfx=greatbow
+loot_animation=animations/loot/greatbow.txt
+price=4550
+
+[item]
+id=196
+name=Partical-beam emitter
+quality=normal
+item_type=main
+equip_flags=ranged
+requires_talent=prowess_ranged,1
+icon=387
+dmg=ranged,205,230
+requires_stat=concentration,5
+soundfx=soundfx/inventory/inventory_wood.ogg
+gfx=greatbow
+loot_animation=animations/loot/greatbow.txt
+price=5900
+
+[item]
+id=467
+name=Improved Slingshot
+quality=normal
+item_type=main
+equip_flags=ranged
+requires_talent=prowess_ranged,1
+icon=398
+dmg=ranged,2,10
+soundfx=soundfx/inventory/inventory_wood.ogg
+gfx=slingshot
+loot_animation=animations/loot/slingshot.txt
+price=50
+
+[item]
+id=468
+name=Superior Glaive
+quality=normal
+item_type=main
+equip_flags=ranged
+requires_talent=prowess_ranged,1
+icon=159
+dmg=ranged,9,20
+requires_stat=concentration,3
+soundfx=soundfx/inventory/inventory_wood.ogg
+gfx=slingshot
+loot_animation=animations/loot/slingshot.txt
+price=75
+
+[item]
+id=469
+name=Deadly Dart
+quality=normal
+item_type=main
+equip_flags=ranged
+requires_talent=prowess_ranged,1
+icon=166
+dmg=ranged,2,6
+soundfx=soundfx/inventory/inventory_wood.ogg
+gfx=slingshot
+loot_animation=animations/loot/slingshot.txt
+price=30
+
+[item]
+id=470
+name=Spear of Heroes
+quality=normal
+item_type=main
+equip_flags=ranged
+requires_talent=prowess_ranged,1
+icon=158
+dmg=ranged,7,26
+requires_stat=concentration,3
+soundfx=soundfx/inventory/inventory_wood.ogg
+gfx=slingshot
+loot_animation=animations/loot/slingshot.txt
+price=100
+
+[item]
+id=471
+name=Hunter Crossbow
+quality=normal
+item_type=main
+equip_flags=ranged
+requires_talent=prowess_ranged,1
+icon=386
+dmg=ranged,13,37
+requires_stat=concentration,3
+soundfx=soundfx/inventory/inventory_wood.ogg
+gfx=slingshot
+loot_animation=animations/loot/slingshot.txt
+price=140
+
+[item]
+id=472
+name=Compound Shortbow
+quality=normal
+item_type=main
+equip_flags=ranged
+requires_talent=prowess_ranged,1
+icon=113
+dmg=ranged,5,19
+requires_stat=concentration,3
+soundfx=soundfx/inventory/inventory_wood.ogg
+gfx=shortbow
+loot_animation=animations/loot/shortbow.txt
+price=75
+
+[item]
+id=473
+name=Compound Longbow
+quality=normal
+item_type=main
+equip_flags=ranged
+requires_talent=prowess_ranged,1
+icon=114
+dmg=ranged,9,35
+requires_stat=concentration,3
+soundfx=soundfx/inventory/inventory_wood.ogg
+gfx=longbow
+loot_animation=animations/loot/longbow.txt
+price=150
+
+[item]
+id=474
+name=Giant Greatbow
+quality=normal
+item_type=main
+equip_flags=ranged
+requires_talent=prowess_ranged,1
+icon=115
+dmg=ranged,20,36
+requires_stat=concentration,4
+soundfx=soundfx/inventory/inventory_wood.ogg
+gfx=greatbow
+loot_animation=animations/loot/greatbow.txt
+price=155
+
+[item]
+id=475
+name=Balanced Throwing disk
+quality=normal
+item_type=main
+equip_flags=ranged
+requires_talent=prowess_ranged,1
+icon=165
+dmg=ranged,4,16
+soundfx=soundfx/inventory/inventory_wood.ogg
+gfx=greatbow
+loot_animation=animations/loot/greatbow.txt
+price=57
+
+[item]
+id=476
+name=Harbingers Throwing axe
+quality=normal
+item_type=main
+equip_flags=ranged
+requires_talent=prowess_ranged,1
+icon=191
+dmg=ranged,12,37
+requires_stat=concentration,3
+soundfx=soundfx/inventory/inventory_wood.ogg
+gfx=greatbow
+loot_animation=animations/loot/greatbow.txt
+price=160
+
+[item]
+id=477
+name=Trapper bolas
+quality=normal
+item_type=main
+equip_flags=ranged
+requires_talent=prowess_ranged,1
+icon=315
+dmg=ranged,7,19
+requires_stat=concentration,3
+soundfx=soundfx/inventory/inventory_wood.ogg
+gfx=greatbow
+loot_animation=animations/loot/greatbow.txt
+price=142
+
+[item]
+id=478
+name=Heafty Throwing spike
+quality=normal
+item_type=main
+equip_flags=ranged
+requires_talent=prowess_ranged,1
+icon=320
+dmg=ranged,5,25
+requires_stat=concentration,3
+soundfx=soundfx/inventory/inventory_wood.ogg
+gfx=slingshot
+loot_animation=animations/loot/slingshot.txt
+price=140
+
+[item]
+id=479
+name=Red Moon boomerang
+quality=normal
+item_type=main
+equip_flags=ranged
+requires_talent=prowess_ranged,1
+icon=157
+dmg=ranged,11,28
+requires_stat=concentration,3
+soundfx=soundfx/inventory/inventory_wood.ogg
+gfx=greatbow
+loot_animation=animations/loot/greatbow.txt
+price=164
+
+[item]
+id=480
+name=Composite Atlatl
+quality=normal
+item_type=main
+equip_flags=ranged
+requires_talent=prowess_ranged,1
+icon=321
+dmg=ranged,19,38
+requires_stat=concentration,4
+soundfx=soundfx/inventory/inventory_wood.ogg
+gfx=greatbow
+loot_animation=animations/loot/greatbow.txt
+price=210
+
+[item]
+id=481
+name=.38 Special Pistol
+quality=normal
+item_type=main
+equip_flags=ranged
+requires_talent=prowess_ranged,1
+icon=403
+dmg=ranged,44,62
+requires_stat=concentration,5
+soundfx=soundfx/inventory/inventory_wood.ogg
+gfx=greatbow
+loot_animation=animations/loot/greatbow.txt
+price=780
+
+[item]
+id=482
+name=Modified Dual 9mm SMG
+quality=normal
+item_type=main
+equip_flags=ranged
+requires_talent=prowess_ranged,1
+icon=406
+dmg=ranged,51,78
+requires_stat=concentration,5
+soundfx=soundfx/inventory/inventory_wood.ogg
+gfx=greatbow
+loot_animation=animations/loot/greatbow.txt
+price=1150
+
+[item]
+id=483
+name=Trophy Hunter SMG
+quality=normal
+item_type=main
+equip_flags=ranged
+requires_talent=prowess_ranged,1
+icon=102
+dmg=ranged,19,108
+requires_stat=concentration,5
+soundfx=soundfx/inventory/inventory_wood.ogg
+gfx=greatbow
+loot_animation=animations/loot/greatbow.txt
+price=1280
+
+[item]
+id=484
+name=Smooth Long barrel shotgun
+quality=normal
+item_type=main
+equip_flags=ranged
+requires_talent=prowess_ranged,1
+icon=246
+dmg=ranged,57,93
+requires_stat=concentration,6
+soundfx=soundfx/inventory/inventory_wood.ogg
+gfx=greatbow
+loot_animation=animations/loot/greatbow.txt
+price=1520
+
+[item]
+id=485
+name=Engineers Hand-cannon
+quality=normal
+item_type=main
+equip_flags=ranged
+requires_talent=prowess_ranged,1
+icon=111
+dmg=ranged,72,89
+requires_stat=concentration,6
+soundfx=soundfx/inventory/inventory_wood.ogg
+gfx=greatbow
+loot_animation=animations/loot/greatbow.txt
+price=1750
+
+[item]
+id=486
+name=Smooth Mid-caliber rifle
+quality=normal
+item_type=main
+equip_flags=ranged
+requires_talent=prowess_ranged,1
+icon=94
+dmg=ranged,68,100
+requires_stat=concentration,6
+soundfx=soundfx/inventory/inventory_wood.ogg
+gfx=greatbow
+loot_animation=animations/loot/greatbow.txt
+price=1950
+
+[item]
+id=487
+name=Modified High-caliber rifle
+quality=normal
+item_type=main
+equip_flags=ranged
+requires_talent=prowess_ranged,1
+icon=108
+dmg=ranged,90,125
+requires_stat=concentration,6
+soundfx=soundfx/inventory/inventory_wood.ogg
+gfx=greatbow
+loot_animation=animations/loot/greatbow.txt
+price=2150
+
+[item]
+id=488
+name=Overloaded Fragmentation RPG
+quality=normal
+item_type=main
+equip_flags=ranged
+requires_talent=prowess_ranged,1
+icon=401
+dmg=ranged,122,170
+requires_stat=concentration,6
+soundfx=soundfx/inventory/inventory_wood.ogg
+gfx=greatbow
+loot_animation=animations/loot/greatbow.txt
+price=2550
+
+[item]
+id=489
+name=Overloaded Thermobaric RPG
+quality=normal
+item_type=main
+equip_flags=ranged
+requires_talent=prowess_ranged,1
+icon=401
+dmg=ranged,144,210
+requires_stat=concentration,6
+soundfx=soundfx/inventory/inventory_wood.ogg
+gfx=greatbow
+loot_animation=animations/loot/greatbow.txt
+price=2990
+
+[item]
+id=490
+name=Overloaded AP RPG
+quality=normal
+item_type=main
+equip_flags=ranged
+requires_talent=prowess_ranged,1
+icon=401
+dmg=ranged,200,300
+requires_stat=concentration,6
+soundfx=soundfx/inventory/inventory_wood.ogg
+gfx=greatbow
+loot_animation=animations/loot/greatbow.txt
+price=3450
+
+[item]
+id=491
+name=Mil-spec Phosphorus grenade
+quality=normal
+item_type=main
+equip_flags=ranged
+requires_talent=prowess_ranged,1
+icon=257
+dmg=ranged,120,160
+requires_stat=concentration,4
+soundfx=soundfx/inventory/inventory_wood.ogg
+gfx=greatbow
+loot_animation=animations/loot/greatbow.txt
+price=1550
+
+[item]
+id=492
+name=Mil-spec Shrapnel grenade
+quality=normal
+item_type=main
+equip_flags=ranged
+requires_talent=prowess_ranged,1
+icon=256
+dmg=ranged,82,110
+requires_stat=concentration,4
+soundfx=soundfx/inventory/inventory_wood.ogg
+gfx=greatbow
+loot_animation=animations/loot/greatbow.txt
+price=1250
+
+[item]
+id=493
+name=Modified Gatling gun
+quality=normal
+item_type=main
+equip_flags=ranged
+requires_talent=prowess_ranged,1
+icon=400
+dmg=ranged,33,106
+requires_stat=concentration,6
+soundfx=soundfx/inventory/inventory_wood.ogg
+gfx=greatbow
+loot_animation=animations/loot/greatbow.txt
+price=1550
+
+[item]
+id=494
+name=Modified Grenade launcher
+quality=normal
+item_type=main
+equip_flags=ranged
+requires_talent=prowess_ranged,1
+icon=95
+dmg=ranged,100,142
+requires_stat=concentration,6
+soundfx=soundfx/inventory/inventory_wood.ogg
+gfx=greatbow
+loot_animation=animations/loot/greatbow.txt
+price=1850
+
+[item]
+id=495
+name=Modified Flamethrower
+quality=normal
+item_type=main
+equip_flags=ranged
+requires_talent=prowess_ranged,1
+icon=110
+dmg=ranged,44,111
+requires_stat=concentration,6
+soundfx=soundfx/inventory/inventory_wood.ogg
+gfx=greatbow
+loot_animation=animations/loot/greatbow.txt
+price=1950
+
+[item]
+id=496
+name=AM Electro-proton gun
+quality=normal
+item_type=main
+equip_flags=ranged
+requires_talent=prowess_ranged,1
+icon=109
+dmg=ranged,122,165
+requires_stat=concentration,6
+soundfx=soundfx/inventory/inventory_wood.ogg
+gfx=greatbow
+loot_animation=animations/loot/greatbow.txt
+price=4750
+
+[item]
+id=497
+name=AM Ion accelerator
+quality=normal
+item_type=main
+equip_flags=ranged
+requires_talent=prowess_ranged,1
+icon=108
+dmg=ranged,162,201
+requires_stat=concentration,6
+soundfx=soundfx/inventory/inventory_wood.ogg
+gfx=greatbow
+loot_animation=animations/loot/greatbow.txt
+price=5550
+
+[item]
+id=498
+name=Cyclic Laser gatling gun
+quality=normal
+item_type=main
+equip_flags=ranged
+requires_talent=prowess_ranged,1
+icon=405
+dmg=ranged,42,288
+requires_stat=concentration,6
+soundfx=soundfx/inventory/inventory_wood.ogg
+gfx=greatbow
+loot_animation=animations/loot/greatbow.txt
+price=6950
+
+[item]
+id=499
+name=Scientist Railgun
+quality=normal
+item_type=main
+equip_flags=ranged
+requires_talent=prowess_ranged,1
+icon=108
+dmg=ranged,278,330
+requires_stat=concentration,6
+soundfx=soundfx/inventory/inventory_wood.ogg
+gfx=greatbow
+loot_animation=animations/loot/greatbow.txt
+price=7250
+
+[item]
+id=500
+name=Mad Marvs Partical-beam emitter
+quality=normal
+item_type=main
+equip_flags=ranged
+requires_talent=prowess_ranged,1
+icon=109
+dmg=ranged,205,230
+requires_stat=concentration,6
+soundfx=soundfx/inventory/inventory_wood.ogg
+gfx=greatbow
+loot_animation=animations/loot/greatbow.txt
+price=10200

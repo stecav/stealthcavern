@@ -1,0 +1,49 @@
+# Tools ################################
+
+[item]
+id=16
+name=Mortar
+INCLUDE items/base/tools/mortar.txt
+price=70
+price_sell=30
+max_quantity=1
+
+[item]
+id=17
+name=Salvage Tool
+INCLUDE items/base/tools/salvage tool.txt
+price=200
+price_sell=120
+max_quantity=1
+
+[item]
+id=18
+name=Whittling Knife
+INCLUDE items/base/tools/whittling knife.txt
+price=50
+price_sell=10
+max_quantity=1
+
+[item]
+id=19
+name=Grinding Stone
+INCLUDE items/base/tools/grinding stone.txt
+price=200
+price_sell=100
+max_quantity=1
+
+[item]
+id=20
+name=Extractor
+INCLUDE items/base/tools/extractor.txt
+price=300
+price_sell=100
+max_quantity=1
+
+[item]
+id=21
+name=Crack-pad
+INCLUDE items/base/tools/crackpad.txt
+price=500
+price_sell=200
+max_quantity=1

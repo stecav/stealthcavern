@@ -1,0 +1,37 @@
+name=Goblin Spearman
+humanoid=true
+generation=3
+categories=ally_goblin
+rarity=uncommon
+soul=5
+
+sfx_phys=soundfx/enemies/goblin_phys.ogg
+sfx_ment=soundfx/enemies/goblin_ment.ogg
+sfx_hit=soundfx/enemies/goblin_hit.ogg
+sfx_die=soundfx/enemies/goblin_die.ogg
+sfx_critdie=soundfx/enemies/goblin_critdie.ogg
+animations=animations/enemies/goblin.txt
+
+
+# combat stats
+stat=hull,150
+speed=4.5
+melee_range=1.1875
+threat_range=8.0
+turn_delay=400ms
+chance_pursue=15
+power=melee,1
+power=ranged,32
+
+stat=accuracy,80
+stat=avoidance,25
+
+stat=dmg_melee_min,20
+stat=dmg_melee_max,30
+stat=dmg_ranged_min,10
+stat=dmg_ranged_max,55
+stat=absorb_min,6
+stat=absorb_max,6
+cooldown=83ms
+
+stat=hull_regen,20

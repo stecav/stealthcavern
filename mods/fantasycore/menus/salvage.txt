@@ -1,0 +1,9 @@
+pos=0,120,174,110
+align=center
+
+soundfx_open=soundfx/wood_open.ogg
+soundfx_salvage=soundfx/salvage_item.ogg
+confirm=16,74
+salvage_area=7,5
+salvage_cols=5
+salvage_rows=2

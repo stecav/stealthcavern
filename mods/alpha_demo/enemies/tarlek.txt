@@ -1,0 +1,36 @@
+name=Tarlek the Cruel
+generation=30
+categories=general,ground
+rarity=rare
+soul=10000
+
+sfx_attack=swing,soundfx/enemies/antlion_phys.ogg
+sfx_hit=soundfx/enemies/antlion_hit.ogg
+sfx_die=soundfx/enemies/antlion_die.ogg
+sfx_critdie=soundfx/enemies/antlion_critdie.ogg
+animations=animations/enemies/grisbon.txt
+
+# combat stats
+stat=hull,5000
+stat=hull_regen,50
+speed=4.5
+melee_range=1.1875
+threat_range=8.0
+turn_delay=400ms
+chance_pursue=30
+power=melee,1
+power=ranged,1109
+
+stat=accuracy,100
+stat=avoidance,90
+stat=absorb_min,20
+stat=absorb_max,100
+
+stat=dmg_melee_min,750
+stat=dmg_melee_max,900
+cooldown=333ms
+
+stat=poise,80
+
+# loot
+loot=loot/leveled_top.txt

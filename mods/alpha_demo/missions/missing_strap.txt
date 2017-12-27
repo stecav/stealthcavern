@@ -1,0 +1,11 @@
+
+[mission]
+requires_status=ws_search
+requires_not_status=ws_found
+mission_text=Wayne's strap is missing somewhere in Frontier Plains.
+
+[mission]
+requires_status=ws_found
+requires_not_status=ws_complete
+mission_text=Show Wayne you found his strap.
+

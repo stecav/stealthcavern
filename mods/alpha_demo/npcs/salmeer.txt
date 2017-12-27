@@ -1,0 +1,8 @@
+name=Salmeer, Bowyer
+
+# shop info
+vendor=true
+constant_stock=170,173,175,176,478,479,558,559,560,561,562,563,564,565,566
+
+# animation info
+gfx=animations/npcs/peasant_woman1.txt

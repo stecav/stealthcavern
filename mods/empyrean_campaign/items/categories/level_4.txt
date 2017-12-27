@@ -1,0 +1,386 @@
+# equipment intended for players level 4
+
+[item]
+id=64
+name=Warlord Cloth Shirt
+INCLUDE items/base/armor/cloth/chest.txt
+level=4
+quality=rare
+price=300
+abs=2,3
+requires_stat=concentration,4
+requires_stat=brawn,2
+bonus=hull,75
+
+[item]
+id=65
+name=Sniper Cloth Shirt
+INCLUDE items/base/armor/cloth/chest.txt
+level=4
+quality=rare
+price=300
+abs=2
+requires_stat=concentration,3
+requires_stat=brawn,3
+bonus=accuracy,9
+
+[item]
+id=66
+name=Archwizard Cloth Shirt
+INCLUDE items/base/armor/cloth/chest.txt
+level=4
+quality=rare
+price=300
+abs=1,2
+requires_stat=concentration,2
+requires_stat=conjure,4
+bonus=capacitor,9
+
+[item]
+id=67
+name=Warlord Cloth Pants
+INCLUDE items/base/armor/cloth/legs.txt
+level=4
+quality=rare
+price=200
+abs=2
+requires_stat=concentration,4
+requires_stat=brawn,2
+bonus=poise,9
+
+[item]
+id=68
+name=Sniper Cloth Pants
+INCLUDE items/base/armor/cloth/legs.txt
+level=4
+quality=rare
+price=200
+abs=1,2
+requires_stat=concentration,3
+requires_stat=concentration,3
+bonus=avoidance,9
+
+[item]
+id=69
+name=Archwizard Cloth Pants
+INCLUDE items/base/armor/cloth/legs.txt
+level=4
+quality=rare
+price=200
+abs=1
+requires_stat=concentration,2
+requires_stat=conjure,4
+bonus=capacitor,6
+
+[item]
+id=70
+name=Warlord Cloth Sandals
+INCLUDE items/base/armor/cloth/feet.txt
+level=4
+quality=rare
+price=120
+abs=1,2
+requires_stat=concentration,4
+requires_stat=brawn,2
+bonus=poise,6
+
+[item]
+id=71
+name=Sniper Cloth Sandals
+INCLUDE items/base/armor/cloth/feet.txt
+level=4
+quality=rare
+price=120
+abs=1
+requires_stat=concentration,3
+requires_stat=concentration,3
+bonus=avoidance,12
+
+[item]
+id=72
+name=Archwizard Cloth Sandals
+INCLUDE items/base/armor/cloth/feet.txt
+level=4
+quality=rare
+price=120
+abs=0,1
+requires_stat=concentration,2
+requires_stat=conjure,4
+bonus=capacitor_regen,3
+
+[item]
+id=73
+name=Warlord Cloth Gloves
+INCLUDE items/base/armor/cloth/hands.txt
+level=4
+quality=rare
+price=100
+abs=1,2
+requires_stat=concentration,4
+requires_stat=brawn,2
+bonus=crit,3
+
+[item]
+id=74
+name=Sniper Cloth Gloves
+INCLUDE items/base/armor/cloth/hands.txt
+level=4
+quality=rare
+price=100
+abs=1
+requires_stat=concentration,3
+requires_stat=concentration,3
+bonus=accuracy,6
+
+[item]
+id=75
+name=Archwizard Cloth Gloves
+INCLUDE items/base/armor/cloth/hands.txt
+level=4
+quality=rare
+price=100
+abs=0,1
+requires_stat=concentration,2
+requires_stat=conjure,4
+bonus=capacitor_regen,6
+
+[item]
+id=76
+name=Warlord Cloth Sash
+INCLUDE items/base/armor/belt.txt
+level=4
+quality=rare
+price=200
+requires_stat=concentration,4
+requires_stat=brawn,2
+bonus=hull_regen,75
+
+[item]
+id=77
+name=Sniper Cloth Sash
+INCLUDE items/base/armor/belt.txt
+level=4
+quality=rare
+price=200
+requires_stat=concentration,3
+requires_stat=concentration,3
+bonus=avoidance,9
+
+[item]
+id=78
+name=Archwizard Cloth Sash
+INCLUDE items/base/armor/belt.txt
+level=4
+quality=rare
+price=200
+requires_stat=concentration,2
+requires_stat=conjure,4
+bonus=capacitor_regen,6
+
+[item]
+id=79
+name=Warlord Dagger
+INCLUDE items/base/weapons/melee/dagger.txt
+level=4
+quality=rare
+price=400
+dmg=melee,25,30
+requires_stat=brawn,8
+bonus=dmg_melee_min,15
+bonus=dmg_melee_max,15
+
+[item]
+id=80
+name=Sniper Slingshot
+INCLUDE items/base/weapons/ranged/slingshot.txt
+level=4
+quality=rare
+price=400
+dmg=ranged,25,30
+requires_stat=concentration,8
+bonus=dmg_ranged_min,15
+bonus=dmg_ranged_max,15
+
+[item]
+id=81
+name=Archwizard Wand
+INCLUDE items/base/weapons/magic/wand.txt
+level=4
+quality=rare
+price=400
+dmg=ment,25,30
+requires_stat=conjure,8
+bonus=dmg_ment_min,15
+bonus=dmg_ment_max,15
+
+[item]
+id=82
+name=Templar Wood Buckler
+INCLUDE items/base/shields/wood.txt
+level=4
+quality=rare
+price=300
+abs=2
+requires_stat=concentration,6
+bonus=absorb_max,3
+
+[item]
+id=83
+name=Master Fire Ring
+INCLUDE items/base/rings/gold_5.txt
+level=4
+quality=rare
+price=400
+requires_generation=2
+bonus=heat_resist,6
+
+[item]
+id=84
+name=Master Ice Ring
+INCLUDE items/base/rings/silver_4.txt
+level=4
+quality=rare
+price=400
+requires_generation=2
+bonus=subzero_resist,6
+
+[item]
+id=85
+name=Master Lightning Ring
+INCLUDE items/base/rings/silver_5.txt
+level=4
+quality=rare
+price=400
+requires_generation=2
+bonus=conductive_resist,6
+
+[item]
+id=86
+name=Master Dark Ring
+INCLUDE items/base/rings/gold_3.txt
+level=4
+quality=rare
+price=400
+requires_generation=2
+bonus=radiation_resist,6
+
+[item]
+id=87
+name=Master Experience Ring
+INCLUDE items/base/rings/silver_2.txt
+level=4
+quality=rare
+price=400
+requires_generation=2
+bonus=soul_gain,3
+
+[item]
+id=88
+name=Master Wealth Ring
+INCLUDE items/base/rings/gold_2.txt
+level=4
+quality=rare
+price=400
+requires_generation=2
+bonus=credit_find,6
+
+[item]
+id=89
+name=Master Treasure Ring
+INCLUDE items/base/rings/gold_4.txt
+level=4
+quality=rare
+price=400
+requires_generation=2
+bonus=item_find,15
+
+# unique items
+[item]
+id=90
+name=Krolan's Hammer
+flavor=An essential tool for any blacksmith.
+INCLUDE items/base/weapons/melee/smith_hammer.txt
+level=4
+quality=unique
+price=500
+dmg=melee,25,30
+requires_stat=brawn,8
+bonus=dmg_melee_min,20
+bonus=dmg_melee_max,20
+bonus=crit,1
+bonus=credit_find,10
+
+[item]
+id=91
+name=Goblin Branch
+flavor=Mana flows inside its primitive exterior.
+INCLUDE items/base/weapons/melee/club.txt
+level=4
+quality=unique
+price=500
+dmg=ment,25,30
+requires_stat=conjure,8
+bonus=dmg_ment_min,20
+bonus=dmg_ment_max,20
+bonus=capacitor_regen,10
+bonus=conductive_resist,10
+
+[item]
+id=92
+name=Ardwen's Gloves
+flavor=These hands built a village.
+INCLUDE items/base/armor/cloth/hands.txt
+level=4
+quality=unique
+price=125
+abs=1,2
+requires_stat=concentration,3
+requires_stat=concentration,3
+bonus=absorb_min,2
+bonus=accuracy,5
+bonus=poise,10
+bonus=soul_gain,5
+
+[item]
+id=93
+name=Blood Tunic
+flavor=When worn, this shirt heats the wearers veins.
+INCLUDE items/base/armor/cloth/chest.txt
+level=4
+quality=unique
+price=375
+abs=3,4
+requires_stat=concentration,4
+requires_stat=brawn,2
+bonus=hull,100
+bonus=hull_regen,100
+
+[item]
+id=94
+name=Dark Steppers
+flavor=Dancing through the shadows.
+INCLUDE items/base/armor/cloth/feet.txt
+level=4
+quality=unique
+price=150
+abs=2
+requires_stat=concentration,3
+requires_stat=concentration,3
+bonus=avoidance,15
+bonus=radiation_resist,25
+
+[item]
+id=95
+name=Seagate's Tri-pants
+flavor=These ragged trousers are covered in scorch marks, yet are cold to the touch.
+INCLUDE items/base/armor/cloth/legs.txt
+level=4
+quality=unique
+price=250
+abs=2
+requires_stat=concentration,2
+requires_stat=conjure,4
+bonus=heat_resist,25
+bonus=subzero_resist,25
+bonus=conductive_resist,25
+

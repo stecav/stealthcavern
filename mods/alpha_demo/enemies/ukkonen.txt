@@ -1,0 +1,40 @@
+name=Ukkonen, Goblin Chieftain
+generation=6
+categories=ukkonen,ground
+soul=55
+
+sfx_attack=swing,soundfx/enemies/goblin_phys.ogg
+sfx_attack=cast,soundfx/enemies/goblin_ment.ogg
+sfx_hit=soundfx/enemies/goblin_hit.ogg
+sfx_die=soundfx/enemies/goblin_die.ogg
+sfx_critdie=soundfx/enemies/goblin_critdie.ogg
+
+animations=animations/enemies/goblin_elite_runner.txt
+
+defeat_status=ak_ukkonen_defeated
+
+
+# combat stats
+stat=hull,380
+speed=3.6
+melee_range=1.1875
+threat_range=8.0
+turn_delay=133ms
+chance_pursue=30
+power=melee,1
+
+stat=accuracy,72
+stat=avoidance,22
+
+stat=dmg_melee_min,10
+stat=dmg_melee_max,30
+cooldown=133ms
+
+# loot
+loot=loot/leveled_low.txt
+
+# dagger, leather gloves, leather boots
+loot=32,5
+loot=82,5
+loot=84,5
+

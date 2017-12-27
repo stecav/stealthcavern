@@ -1,0 +1,14 @@
+name=Phil, Alchemist
+
+# shop info
+vendor=true
+constant_stock=5,5,5,10,10,10,15,15,15,16,149,151,152,154,155,212,214,213,522,523,524,525,526,527,528,529,530,388
+
+# animation info
+gfx=animations/npcs/peasant_woman2.txt
+
+# voiceover files
+vox_intro=soundfx/npcs/female_merchant_05.ogg
+vox_intro=soundfx/npcs/female_merchant_06.ogg
+vox_intro=soundfx/npcs/female_merchant_07.ogg
+vox_intro=soundfx/npcs/female_merchant_08.ogg

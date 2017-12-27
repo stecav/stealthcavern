@@ -1,0 +1,10 @@
+name=Branwen
+
+# shop info
+vendor=true
+constant_stock=1,2,32,48,56,80,81,82,83,84
+
+
+# animation info
+gfx=animations/npcs/raider.txt
+

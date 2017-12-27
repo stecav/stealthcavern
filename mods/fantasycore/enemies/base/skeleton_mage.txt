@@ -1,0 +1,38 @@
+name=Skeleton Mage
+generation=13
+categories=skeleton_mage,ground,skeleton,skeleton_mage,undead
+soul=490
+
+sfx_phys=soundfx/enemies/skeleton_phys.ogg
+sfx_ment=soundfx/enemies/skeleton_ment.ogg
+sfx_hit=soundfx/enemies/skeleton_hit.ogg
+sfx_die=soundfx/enemies/skeleton_die.ogg
+sfx_critdie=soundfx/enemies/skeleton_critdie.ogg
+
+animations=animations/enemies/skeleton_mage.txt
+
+# combat stats
+stat=hull,850
+stat=hull_regen,10
+speed=3.5
+melee_range=1.1875
+threat_range=8.0
+turn_delay=400ms
+chance_pursue=20
+power=melee,1
+power=ranged,1118
+
+stat=accuracy,72
+stat=avoidance,20
+stat=absorb_min,1
+stat=absorb_max,10
+
+stat=dmg_ment_min,60
+stat=dmg_ment_max,80
+stat=dmg_melee_min,70
+stat=dmg_melee_max,95
+cooldown=333ms
+
+chance_flee=20
+# loot
+loot=loot/leveled_mid.txt

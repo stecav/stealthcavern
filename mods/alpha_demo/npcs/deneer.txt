@@ -1,0 +1,8 @@
+name=Deneer, Alchemist
+
+# shop info
+vendor=true
+constant_stock=4,4,4,9,9,9,14,14,14,16,149,151,152,154,155,212,214,213,387,531,532,533,534,535,536,537,538,539
+
+# animation info
+gfx=animations/npcs/peasant_woman2.txt

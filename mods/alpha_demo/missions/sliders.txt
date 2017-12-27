@@ -1,0 +1,45 @@
+
+[mission]
+requires_status=portal_search
+requires_not_status=portal_found
+mission_text=Activate the portal and travel to the warp zone.
+
+[mission]
+requires_status=portal_found
+requires_not_status=another_portal_search
+mission_text=Tell Murrey what you experienced during the warp.
+
+[mission]
+requires_status=another_portal_search
+requires_not_status=another_portal_found
+mission_text=Find and use the warp portal at Mountain Retreat.
+
+[mission]
+requires_status=another_portal_found
+requires_not_status=portal_inconsistancies
+mission_text=Elaborate the inconsistencies to Murrey.
+
+[mission]
+requires_status=portal_inconsistancies
+requires_not_status=portal_data
+mission_text=Use the warp at Desolation Fort while equipped with the collector.
+
+[mission]
+requires_status=portal_data
+requires_not_status=portal_analyzer
+mission_text=Return the data to Murrey.
+
+[mission]
+requires_status=portal_analyzer
+requires_not_status=another_portal_analyzer
+mission_text=Collect a different warp portal signature while equipped with the analyzer.
+
+[mission]
+requires_status=another_portal_analyzer
+requires_not_status=portal_compilation
+mission_text=Collect one more different warp portal signature while equipped with the analyzer.
+
+[mission]
+requires_status=portal_compilation
+requires_not_status=portal_reward
+mission_text=Return the data to Murrey.

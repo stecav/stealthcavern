@@ -1,0 +1,41 @@
+name=Reanimated Skeleton
+humanoid=true
+generation=2
+categories=reanimated_skeleton,ground
+soul=10
+sfx_attack=swing,soundfx/enemies/skeleton_phys.ogg
+sfx_attack=cast,soundfx/enemies/skeleton_ment.ogg
+sfx_hit=soundfx/enemies/skeleton_hit.ogg
+sfx_die=soundfx/enemies/skeleton_die.ogg
+sfx_critdie=soundfx/enemies/skeleton_critdie.ogg
+
+animations=animations/enemies/skeleton_weak.txt
+
+defeat_status=ml_skeleton_defeated
+
+
+# combat stats
+stat=hull,100
+speed=2
+melee_range=1.125
+threat_range=8.0
+turn_delay=233ms
+chance_pursue=25
+power=melee,1
+
+stat=accuracy,68
+stat=avoidance,11
+
+stat=dmg_melee_min,4
+stat=dmg_melee_max,18
+cooldown=833ms
+
+stat=absorb_min,5
+stat=absorb_max,15
+
+# loot
+loot=loot/leveled_bottom.txt
+
+# Miner's gloves
+loot=129,fixed
+

@@ -1,0 +1,7 @@
+quality=normal
+item_type=chest
+icon=241
+soundfx=soundfx/inventory/inventory_maille.ogg
+gfx=ceramic_cuirass
+loot_animation=animations/loot/ceramic_cuirass.txt
+
